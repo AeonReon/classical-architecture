@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Orders — A Classical Architecture Study Guide</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">☉</span>
+    <span class="brand-name">The Orders</span>
+    <span class="brand-sub">a classical architecture study guide</span>
+  </div>
+  <nav class="top-nav">
+    <a href="#/" class="nav-link">Paths</a>
+    <a href="#/notebook" class="nav-link">Field Notebook</a>
+    <a href="#/daily" class="nav-link">Daily Review</a>
+    <a href="#/about" class="nav-link">About</a>
+  </nav>
+  <div class="hud">
+    <span class="hud-item" title="Experience earned">
+      <span class="hud-label">XP</span>
+      <span class="hud-value" id="hud-xp">0</span>
+    </span>
+    <span class="hud-item" title="Current streak">
+      <span class="hud-label">Streak</span>
+      <span class="hud-value" id="hud-streak">0</span>
+    </span>
+    <button id="btn-audio" class="audio-toggle" title="Toggle narration">♪</button>
+  </div>
+</header>
+
+<main id="view" class="view"></main>
+
+<footer class="bottombar">
+  <span>— Firmitas · Utilitas · Venustas —</span>
+</footer>
+
+<script src="js/content.js"></script>
+<script src="js/svg.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

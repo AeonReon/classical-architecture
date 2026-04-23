@@ -1,0 +1,39 @@
+# Project Config — Classical Architecture Study Guide
+# Created: 2026-04-23
+# Last updated: 2026-04-23
+
+## App Details
+- App Name: Classical Architecture Study Guide (working title: "The Orders")
+- Description: Standalone web app that teaches classical architecture — the five orders, temple anatomy, proportion, Vitruvian principles, styles across time, great buildings, and the architect's mind. Progressive lessons, flashcards, labeling games, and a Field Notebook of terms you have learned. Browser speech synthesis for narration. No paid APIs, no external dependencies at runtime.
+- Target Audience: Hobbyist / enthusiast adult learner who wants to recognise and discuss classical buildings (US state capitols, European pre-WWI civic architecture).
+
+## Accounts & Keys
+- GitHub Repo: (not yet created — AeonReon)
+- Vercel Project: (not yet deployed — aeonreon team)
+- Live URL: (TBD)
+- API Keys needed: NONE — fully client-side, static site. Browser SpeechSynthesis for audio.
+
+## Technical Notes
+- Vanilla HTML/CSS/JS — no framework, no build step, no npm.
+- SVG line drawings generated in code (authentic teaching medium — classical treatises have always used engraved line art).
+- LocalStorage for progress and Field Notebook.
+- Hash-based routing (#/path/orders etc.)
+- Can be opened directly from file:// OR deployed as static to Vercel — works both ways.
+
+## Content Sources (all public domain / own summary)
+- Vitruvius, "Ten Books on Architecture" (public domain, Morgan 1914 translation)
+- Andrea Palladio, "Four Books of Architecture" (public domain)
+- Summarised and re-written content — no copyrighted text reproduced.
+
+## Status
+- [x] Initial build
+- [ ] Testing in browser
+- [ ] Deployed to Vercel
+- [ ] Environment variables set (N/A — no keys needed)
+- [ ] Live and working
+
+## Future Enhancements
+- Drop real building photos into /images/ (public domain sources like Wikimedia Commons)
+- Integrate local LM Studio for a "Socratic tutor" mode (optional, off by default)
+- Add more state capitols and European buildings
+- Export Field Notebook as PDF
