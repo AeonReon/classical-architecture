@@ -15,68 +15,82 @@ window.ARTS.push(
     group: 'The Styles',
     color: '#3F72B8', colorDeep: '#294E85', colorSoft: '#DCE6F5',
     icon: 'temple',
-    blurb: 'Greek architecture is the source. Over three centuries the builders of Greece perfected a single form — the columned temple — with such care for proportion, refinement and restraint that it became the standard of the whole Western tradition. The Doric and Ionic orders, the pediment, the fluted column and the marble frieze all begin here, on the hills of Athens and the coasts of the Greek world.',
+    blurb: 'Greek architecture is the source. Over three centuries the builders of Greece perfected a single form — the columned temple — with such care for proportion, refinement and restraint that it became the standard of the whole Western tradition. The Doric and Ionic orders, the pediment, the fluted column and the marble frieze all begin here, on the hills of Athens and the coasts of the Greek world. And they began not in cool white marble but in bright paint, tuned by the eye of builders who treated a building as a living thing.',
     sections: {
       'what-it-is': {
         title: 'What Greek architecture is',
-        intro: 'Greek architecture is an architecture of the perfected type rather than the new invention. Working almost entirely in post-and-lintel stone, the Greeks refined the temple endlessly — its plan, its orders, its proportions and its optical subtleties — seeking not variety but the ideal version of a single, well-understood form.',
+        intro: 'Greek architecture is an architecture of the perfected type rather than the endless new invention. Working almost entirely in post-and-lintel stone, and over some three centuries (roughly 700 to 300 BC), the Greeks refined one form — the temple — again and again: its plan, its orders, its proportions and its optical subtleties, seeking not variety but the ideal version of a single, well-understood thing. Everything the later tradition would build with was first worked out here.',
         principles: [
-          { name: 'The temple as the whole art', body: 'Greek architecture concentrates on one building type — the temple — raised on a stepped platform, ringed or fronted by columns, sheltering the god\'s image within. Almost everything the Greeks discovered about beauty in building, they discovered by perfecting this one form.', why: 'It shows a different idea of progress: not endless novelty, but the patient refinement of a single type toward its ideal. The Parthenon is the result of centuries spent improving one thing.' },
-          { name: 'The orders are born here', body: 'The Doric and Ionic orders are Greek inventions, and the Corinthian too. Each is a complete system of column and entablature with fixed proportions and ornament — the alphabet that the entire later tradition would write in.', why: 'It is why Greece is the foundation. To learn the orders is to learn Greek architecture, and to learn the orders is to hold the key to two thousand years of building.' },
-          { name: 'Proportion and refinement', body: 'The Greeks tuned their temples with extraordinary precision, and then corrected them for the eye: columns swell (entasis) and lean inward, platforms curve upward, corner columns thicken. The "perfect" temple is full of deliberate, invisible distortions.', why: 'It reveals that classical perfection is not rigid geometry but a subtle answer to how humans actually see. The beauty is in the corrections you are not meant to notice.' },
-          { name: 'Restraint and clarity', body: 'Greek building is severe. Ornament is concentrated where structure needs explaining — capitals, friezes, cornices — and the rest is left as clear, load-bearing stone. Nothing is hidden; the structure is the architecture.', why: 'It sets the tradition\'s conscience. Ever after, the Greek example stood for honesty and restraint against the temptation to merely decorate.' },
-          { name: 'Colour and life', body: 'The white marble we admire was once painted in strong colours — reds, blues, gold — on friezes, mouldings and figures. The serene white temple is an accident of time; the Greeks built in vivid polychromy.', why: 'It corrects a deep misunderstanding. The "cool white classicism" later ages imitated never existed — the originals were bright, and the tradition began in colour.' }
+          { name: 'A house for the god, read from the outside', body: 'A Greek temple was built as the dwelling of the deity and the shelter for the cult statue — not as a hall for a congregation. Worship and sacrifice happened outdoors, at an altar in front of the temple, where the crowd gathered. So the Greeks poured their whole design intelligence into the exterior: the colonnade, the sculpture, the proportions and the refinements.', why: 'It is the reverse of a Gothic cathedral, which is made to be entered. The Greek temple is made to be walked around and seen against the sky — which is why Greek architecture is really a sculpture-of-a-building, and why all its genius is on the outside.' },
+          { name: 'The kit of parts', body: 'From the ground up: the stepped base (the crepidoma), whose top step — the stylobate — the columns stand on; the columns themselves; the walled inner room, the cella or naos, that housed the statue, with a front porch (pronaos) and often a matching false porch behind (opisthodomos); the colonnade wrapping the whole (the peristyle); the entablature the columns carry, in three bands — architrave, frieze, cornice; and the low triangular gable at each end, the pediment, its sculpted face the tympanum.', why: 'This fixed set of parts is the grammar of the whole tradition. Learn to name these and you can read almost any classical or classical-revival building in the world — a bank, a museum, a courthouse — because they are all assembled from this same kit.' },
+          { name: 'The orders — told apart at the capital', body: 'An order is the whole coordinated system of column, entablature and proportion. The Doric is oldest and heaviest: no base, a plain cushion capital, and a frieze of alternating triglyphs and metopes. The Ionic is slimmer and elegant: it stands on a base and is crowned by the scrolled volute capital, over a continuous carved frieze. The Corinthian, slenderest of all, wears a capital of acanthus leaves — and the Greeks used it only sparingly.', why: 'The orders are the reason classical architecture reads as a language rather than a pile of shapes. The fastest tell is always the capital: a plain cushion means Doric, scrolls mean Ionic, leaves mean Corinthian. Name the order and the rest of the design opens up.' },
+          { name: 'Built of beams, not arches', body: 'The Greek temple is pure post-and-lintel: uprights (columns and walls) carry horizontal beams (lintels and architraves). There is no true arch or vault. And stone, though immensely strong when pressed, is weak in bending — a stone beam cracks under its own weight if it spans too far. So the beams had to be short, and the columns close together.', why: 'The dense, measured rhythm of a Greek colonnade — that forest of closely-set columns — is not a style choice but a material fact made beautiful. The Greeks perfected refinement within a narrow structural system, rather than chasing wide open space; that leap would wait for the Roman arch.' },
+          { name: 'Ornament that remembers timber', body: 'The earliest temples were built of timber and mud-brick, and when the Greeks turned to stone they kept the memory of the old woodwork in the new material. Vitruvius reads the Doric triglyphs as the stylised ends of ceiling beams, the metopes as the gaps once left open between them, and the little guttae beneath as petrified wooden pegs.', why: 'It explains the otherwise puzzling Doric frieze as fossilised carpentry — a beautiful teaching key. Hold it lightly, though: this is the traditional account handed down from Vitruvius, and scholars still argue over how neatly wood really became stone.' },
+          { name: 'The temple that curves to look straight', body: 'Almost nothing in the Parthenon is truly straight. The column shafts swell very slightly in the middle (entasis); the great stone platform is not flat but rises gently toward the centre; and the columns lean a little inward, the corner ones thickened and set closer. Everything is tuned by eye to a fraction.', why: 'The traditional explanation, from Vitruvius and measured by Penrose in 1851, is optical correction: dead-straight lines and a flat platform would appear to sag or bulge, so the Greeks curved them so they look perfect. Scholars still debate the real reason — correction, or a wish to give the stone "life", or plain rain-drainage — but either way it is the summit of their craft: a building tuned like an instrument.' },
+          { name: 'Beauty as measured proportion', body: 'Greek design worked from whole-number ratios and a repeated module — often the diameter of the column — so that every dimension answers to every other and the whole holds together. The Parthenon is famously governed by a recurring 4:9 relationship, and Iktinos is said to have written a (now lost) treatise on its proportions.', why: 'Beauty understood as measurable harmony is the philosophical core the entire later tradition inherited. (One caution: the popular claim that the Parthenon was set out on the "golden ratio" is not supported — the Greeks left no evidence of using it, and it was first described, by Euclid, only after the Parthenon was built.)' },
+          { name: 'It was painted, not white', body: 'The marble we picture as serene and white was once brightly coloured — reds, blues, ochres and gilding laid over the friezes, mouldings and sculpture. Modern imaging recovers the traces: ultraviolet and raking light, a luminescence that makes ancient Egyptian blue glow, and X-ray fingerprints of the pigments.', why: 'This one correction changes how you imagine every Greek building. The pristine-white ideal is an accident of two thousand years of weathering plus the eighteenth-century taste of Winckelmann, who prized bare marble as "noble simplicity". Picture the paint back on, and the cool, austere temple becomes something vivid and strange — as it truly was.' }
         ]
       },
       'the-path': {
         title: 'Learning Greek architecture',
-        intro: 'Greece is best learned from the temple outward — one great building understood deeply teaches more than a survey.',
+        intro: 'Greece is best learned from the temple outward — one great building understood deeply teaches more than a broad survey skimmed. Take it in three passes: the vocabulary, then the reasons, then the sources and the eye.',
         levels: [
-          { stage: 'Beginner', items: [
-            'Learn the parts of a temple: stylobate, column, capital, entablature, pediment, cella.',
-            'Study the Parthenon in good photographs and identify each part.',
-            'Learn to tell Doric from Ionic by the capital.'
+          { stage: 'Beginner — the vocabulary and the reveal', items: [
+            'Learn the kit of parts cold: stylobate, column and capital, cella, pronaos, peristyle, entablature, pediment.',
+            'Learn the three orders by their capitals — plain cushion (Doric), scrolls (Ionic), acanthus leaves (Corinthian).',
+            'Take in the two great mind-shifts: the temple is a house for the god, seen from outside; and it was painted, not white.',
+            'Get to know a few buildings by name: the Parthenon (the Doric icon), the heavy early Doric of Paestum and Olympia, and the elegant Ionic of the Erechtheion and the Temple of Athena Nike.'
           ] },
-          { stage: 'Intermediate', items: [
-            'Learn the optical refinements — entasis, the curved stylobate, the inclined columns.',
-            'Compare early, heavy Doric (Paestum) with mature Doric (the Parthenon).',
-            'Read about the Acropolis as a planned group, not single buildings.'
+          { stage: 'Intermediate — the "why"', items: [
+            'Understand post-and-lintel building and its span limit, and petrification — why the Doric frieze looks like fossilised carpentry.',
+            'Study the optical refinements on the Parthenon and the module-and-ratio system of proportion (including why the golden-ratio story is a myth).',
+            'Learn the Periklean Acropolis as a single programme — Parthenon, Propylaia, Erechtheion, Athena Nike — and who built each.',
+            'Begin a modern survey: Mary Beard\'s The Parthenon first, then Lawrence and Tomlinson\'s Greek Architecture.'
           ] },
-          { stage: 'Advanced', items: [
-            'Study the polychromy debate and how the temples were coloured.',
-            'Trace the Greek influence through Rome and into the Greek Revival.',
-            'Read Vitruvius on the Greek orders and test him against the surviving temples.'
+          { stage: 'Advanced — the sources, the debates, the eye', items: [
+            'Go to the primary sources: Vitruvius, Book IV, on the orders (free online); Pausanias on the sites; the plates of Stuart & Revett.',
+            'Engage the real arguments — the true purpose of the refinements, and the disputed origin of the Doric frieze.',
+            'Read Coulton on how the buildings were actually set out, and Korres on how the marble was quarried and moved.',
+            'Train the eye on Greek Revival buildings near you, and — if you can — on the sites themselves and the Acropolis Museum in Athens.'
           ] }
         ]
       },
       'practice': {
         title: 'Things to look for and do',
-        intro: 'Even far from Greece, the Greek temple is all around you in revival form. A few things to do.',
+        intro: 'Even far from Greece, the Greek temple is all around you in revival form — banks, courthouses, museums, memorials. Northern Ireland and Britain are rich in Greek Revival stone. A few things to actually do.',
         items: [
-          { name: 'Find a temple front near you', body: 'Almost every town has one — a bank, church, museum or memorial with columns and a pediment. Find it and identify the order.' },
-          { name: 'Hunt for entasis', body: 'On any columned building, sight up the shaft. Can you see the slight swelling? Once you can, you cannot stop seeing it.' },
-          { name: 'Separate Doric from Ionic', body: 'Photograph two columned buildings and sort them by their capitals — plain cushion (Doric) or scrolls (Ionic).' },
-          { name: 'Imagine the colour', body: 'Stand before a "white" classical frieze and picture it painted red, blue and gold, as the Greeks left it. It changes the building.' }
+          { name: 'Name the order by its capital', body: 'On any columned building near you, look only at the top of the column: plain cushion = Doric, scrolls = Ionic, acanthus leaves = Corinthian. Say it aloud — naming fixes it in the eye.' },
+          { name: 'Hunt for entasis', body: 'Stand at the base of a large column and sight up the shaft against a plain background. Look for the gentle swelling in the middle. Once you can see it, you cannot un-see it — and cheap modern columns, which are dead-straight cylinders, will start to look wrong.' },
+          { name: 'Read a Doric frieze as carpentry', body: 'Find the triglyphs (the grooved blocks — beam-ends) and the metopes (the panels between), and the little guttae "pegs" beneath. Tell yourself the petrification story as you look: this stone remembers wood.' },
+          { name: 'Put the colour back', body: 'Photograph a "white" classical front, then in your mind\'s eye — or an image editor — paint the triglyphs, mouldings and sculpture in red, blue and gold. This is closer to what the Greeks actually saw.' },
+          { name: 'Test the "no straight lines" idea', body: 'On a long colonnade, crouch and sight along the stylobate to sense any curve, and check whether the end columns lean inward. You are looking for the tuning the builders hid.' },
+          { name: 'Sketch the kit from memory', body: 'Draw a labelled temple section from stylobate to pediment, and a Doric and an Ionic capital, without reference — until you can. Drawing teaches the eye faster than looking.' }
         ]
       },
       'reading': {
         title: 'Where to read',
-        intro: 'Start with a clear modern account of Greek building, then read Vitruvius and go to the temples through good photographs.',
+        intro: 'The primary sources are old and uneven, but they are the tradition in its own voice — begin with a clear modern guide, then go to them. Honest notes on difficulty below.',
         books: [
-          { title: 'The Antiquities of Athens', author: 'James Stuart & Nicholas Revett, 1762', note: 'PRIMARY (modern). The measured drawings that revealed true Greek architecture to Europe and launched the Greek Revival.' },
-          { title: 'De Architectura', author: 'Vitruvius', note: 'PRIMARY. A Roman on the Greek orders — the nearest thing to an ancient theory of the temple. Free online.' },
-          { title: 'Greek Architecture', author: 'A. W. Lawrence (rev. R. A. Tomlinson)', note: 'ON-RAMP. The standard scholarly survey — thorough and reliable.' },
-          { title: 'The Parthenon', author: 'Mary Beard', note: 'ON-RAMP. A short, brilliant book on the single greatest Greek building and its afterlife.' }
+          { title: 'The Ten Books on Architecture (De Architectura)', author: 'Vitruvius, c. 30–20 BC (Morgan translation, Harvard 1914)', note: 'PRIMARY. A Roman writing after the Greeks, but our main surviving ancient source on the orders — Book IV is the one for their origins. A genuine technical treatise: dip in for reference, don\'t read cover to cover. Free at Project Gutenberg.' },
+          { title: 'The Antiquities of Athens', author: 'James Stuart & Nicholas Revett, 1762–1816', note: 'PRIMARY. The first accurate measured survey of the Greek monuments, and the book that launched the whole Greek Revival. A historical folio — its value is in the superb measured plates rather than the prose.' },
+          { title: 'Description of Greece', author: 'Pausanias, 2nd c. AD', note: 'PRIMARY. An ancient traveller\'s eyewitness guide to the temples and sanctuaries, site by site. Readable but long — use it selectively. Free on the Perseus digital library.' },
+          { title: 'The Parthenon', author: 'Mary Beard, 2002 (rev. 2010)', note: 'ON-RAMP. Witty, scholarly and short — the best general-reader way into Greek architecture and its afterlife. Start here.' },
+          { title: 'Greek Architecture', author: 'A. W. Lawrence, rev. R. A. Tomlinson (Yale, 1996)', note: 'ON-RAMP. The standard authoritative survey — university-level but clear and well-ordered.' },
+          { title: 'Ancient Greek Architects at Work', author: 'J. J. Coulton, 1977', note: 'ON-RAMP (deeper). On how the temples were actually designed and set out — the problems of structure and proportion, solved on the ground.' },
+          { title: 'The Earth, the Temple, and the Gods', author: 'Vincent Scully, 1962', note: 'ON-RAMP. The famous, readable essay on how Greek temples were placed in dialogue with their landscape and site.' }
         ]
       },
       'masters': {
         title: 'The names',
-        intro: 'Greek architects are often anonymous, but the greatest works have names attached.',
+        intro: 'Greek architects are often anonymous, and even for the famous ones only rough working dates survive. But the greatest works carry names — and it is worth knowing exactly what each did.',
         figures: [
-          { name: 'Iktinos & Kallikrates', what: 'Architects of the Parthenon (447–432 BC), the supreme Doric temple.' },
-          { name: 'Mnesikles', what: 'Architect of the Propylaia, the monumental gateway to the Acropolis.' },
-          { name: 'Kallimachos', what: 'Sculptor credited by Vitruvius with inventing the Corinthian capital.' },
-          { name: 'Stuart & Revett', what: 'The 18th-century Englishmen whose accurate surveys resurrected Greek architecture for the modern age.' }
+          { name: 'Iktinos (active c. 450–420 BC)', what: 'Architect of the Parthenon (447–432 BC) with Kallikrates, under Pheidias\'s oversight. Pausanias also credits him with the Temple of Apollo at Bassae, home of the earliest known Corinthian column.' },
+          { name: 'Kallikrates (active c. 470–420 BC)', what: 'Co-architect of the Parthenon, and by the usual reading of an Athenian decree the architect of the small, exquisite Temple of Athena Nike on the Acropolis.' },
+          { name: 'Mnesikles (active c. 437–432 BC)', what: 'Architect of the Propylaia, the monumental columned gateway to the Acropolis — left unfinished when the Peloponnesian War broke out.' },
+          { name: 'Pheidias (c. 480 – c. 430 BC)', what: 'The great sculptor and overall director of the Periklean building programme — not its architect. He made the colossal gold-and-ivory Athena inside the Parthenon and the Zeus at Olympia, one of the Seven Wonders.' },
+          { name: 'Kallimachos (later 5th c. BC)', what: 'The sculptor to whom Vitruvius credits the invention of the Corinthian capital, inspired by acanthus growing round a basket on a girl\'s grave at Corinth. A lovely legend more than settled history — the order really grew up gradually.' },
+          { name: 'Hermogenes (Hellenistic, prob. 2nd c. BC)', what: 'The great theorist and systematiser of the Ionic order, whose rules Vitruvius preserved. His exact dates are genuinely uncertain, but his influence on later Ionic is not.' },
+          { name: 'Stuart & Revett (1713–1788; 1720–1804)', what: 'The two Englishmen whose accurate surveys of Athens (fieldwork 1751–54) resurrected Greek architecture for the modern world and set the Greek Revival in motion.' }
         ]
       }
     }
