@@ -231,67 +231,76 @@ window.ARTS.push(
     group: 'The Styles',
     color: '#2F9E77', colorDeep: '#1F6B52', colorSoft: '#DDF1E8',
     icon: 'temple',
-    blurb: 'Palladianism is the style built on the work of one man — Andrea Palladio, the sixteenth-century architect of the Veneto whose villas, churches and treatise became the most imitated model in architectural history. Calm, symmetrical, temple-fronted and governed by strict proportion, his manner spread through England, Ireland and America to become the classic form of the country house and the grand estate.',
+    blurb: 'Palladianism is the style built on the work of one man — Andrea Palladio, the sixteenth-century architect of the Veneto whose villas, churches and treatise became the most imitated model in architectural history. Calm, symmetrical, temple-fronted and governed by proportion, his manner spread through England, Ireland and America to become the classic form of the country house and the grand estate. Its great engine was not travel but a book: the Four Books of Architecture, a printed pattern any gentleman could copy without ever seeing Italy.',
     sections: {
       'what-it-is': {
         title: 'What Palladian architecture is',
-        intro: 'Palladian architecture applies the harmony and orders of Rome to the ordinary business of living — above all the country villa. Its hallmarks are strict symmetry about a central axis, harmonic room proportions, a temple-front portico, and a plain, serene surface where nothing is arbitrary.',
+        intro: 'Palladian architecture applies the harmony and orders of Rome to the ordinary business of living — above all the country villa. Its hallmarks are strict symmetry about a central axis, harmonic room proportions, a temple-front portico, and a plain, serene surface where nothing is arbitrary. It began on the working farms of the Venetian mainland and, through Palladio\'s book, became a language spoken across the world.',
         principles: [
-          { name: 'The temple front on a house', body: 'Palladio gave the domestic villa the dignity of a temple, fronting houses with columned, pedimented porticoes. The gods\' architecture was lent to family and farm.', why: 'It is the birth of the country house as we know it. When you climb the columned steps of a grand estate, you are entering Palladio\'s idea — noble form given to private life.' },
-          { name: 'Symmetry and the central axis', body: 'A Palladian building is organised around a strong central axis with matching wings, so the whole is balanced and still. Service ranges are often swept out symmetrically on colonnades to frame the main block.', why: 'It creates the calm, resolved quality of these houses. The eye finds the centre at once and everything else falls into balance around it.' },
-          { name: 'Harmonic proportion', body: 'Palladio set out preferred ratios for rooms — the square, the double square, ratios of 3:4, 2:3 — so that a house is a set of harmonies, its rooms related like musical intervals.', why: 'It is why Palladian rooms feel so composed. Their dimensions are not free choices but a tuned system, and the harmony is felt even when it is not understood.' },
-          { name: 'A book that built the world', body: 'Palladio\'s Four Books of Architecture (1570), with its clear plates of his own designs, could be carried anywhere and copied. Through it his manner travelled to England (Inigo Jones, Lord Burlington) and to America (Jefferson).', why: 'It shows how a style spreads: not by travel alone but by a great pattern-book. Palladianism is the first architecture designed to be reproduced from print.' }
+          { name: 'Symmetry and the central axis', body: 'A Palladian building is organised around one dominant central axis: a taller main block in the middle — usually crowned by a pediment or a dome — with matching wings extending symmetrically on either side, so the left half mirrors the right. Service ranges are often swept out on colonnades to frame the whole.', why: 'This "central block and balanced wings" massing is the DNA of the grand country house, and of the banks, museums and capitols that borrowed from it. Symmetry reads instantly as order, calm and authority.' },
+          { name: 'The temple front on a house', body: 'Palladio put the columned, pedimented front of a Greek or Roman temple onto the entrance of a private house, lending a home the gravity of a sacred building. It became his signature and the single most-copied classical motif.', why: 'It is the birth of the country house as we know it. There is a lovely twist, though: Palladio wrongly believed ancient Roman houses had temple porticoes — the pedimented front was really a temple form. The whole fashion for columned house-fronts grew from that productive mistake.' },
+          { name: 'The villa as a working farm', body: 'The Veneto villas were not idle pleasure-houses but the residential and administrative centres of working agricultural estates. The owner\'s block stood in the middle; long arcaded farm wings, the barchesse, held the stables, barns, granaries and wine-rooms, often with a dovecote at the end.', why: 'It corrects the usual myth — and explains the shape. The wide, symmetrical layout of the great estate, dignified centre and working wings, comes directly from the logic of a farm, not from decoration.' },
+          { name: 'Harmonic proportion', body: 'In the Four Books Palladio names his most beautiful room shapes — the circle, the square, the square-and-a-half, and whole-number rectangles like 4:3, 3:2, 5:3 and the double square — and sets a room\'s height by proportional means, so every dimension answers to the others.', why: 'It is why Palladian rooms feel so composed — a tuned system rather than free choice. (One honest caution: the famous idea, argued by Wittkower, that these are literally musical harmonies frozen in stone is much debated; Palladio favoured small whole-number ratios that overlap with musical ones, but the strict "buildings as music" reading is contested.)' },
+          { name: 'The Villa Rotonda', body: 'His purest statement: the Villa Almerico Capra, "La Rotonda", outside Vicenza — a square block with four identical temple-fronted porticoes, one on each face, around a central domed hall, so it shows the same serene face in every direction. Begun 1567, it was finished after his death by Scamozzi, who built a lower dome than Palladio had drawn.', why: 'It is the ideal Palladian building — symmetry, centrality, temple front and geometry perfected — and the single most imitated house in the world, copied directly at Mereworth and Chiswick and echoed at Jefferson\'s Monticello.' },
+          { name: 'The Palladian window', body: 'A three-part opening: a round-arched central light flanked by two shorter, flat-topped side lights, the arch springing from small columns. Palladio used it so famously — above all in the arcades of the Basilica at Vicenza — that it took his name.', why: 'It is one of the highest-value things to learn to spot; once you know it you will see it on Georgian houses everywhere. And it carries a lesson: the motif is older than Palladio — Roman arches used it, Bramante used it, Serlio published it (the "Serliana") — a reminder that the famous name is not always the inventor.' },
+          { name: 'A temple front for a church', body: 'In his Venetian churches — San Giorgio Maggiore and Il Redentore — Palladio solved a hard problem: a Roman temple front is one triangle, but a church has a tall central nave and lower side aisles. His answer was to interlock two temple fronts, a tall narrow one over the nave and a lower, split one behind for the aisles, so a stepped church reads as a single unified temple.', why: 'It shows Palladio as a problem-solver, not a copyist, and it became the standard model for classical church façades for centuries afterward.' },
+          { name: 'The book that built a style', body: 'The Four Books of Architecture (Venice, 1570), illustrated with woodcuts from his own measured drawings, was a printed pattern-book: materials and the orders, then his houses with their plans, then public works, then the ancient temples. Any literate builder could copy it.', why: 'This is why Palladianism became a world style while other Renaissance masters stayed local. The book, as much as the buildings, is the engine — the first architecture designed to be reproduced from print.' }
         ]
       },
       'the-path': {
         title: 'Learning the Palladian',
-        intro: 'Palladio is best learned from his own book and his villas, then traced into the country houses near you.',
+        intro: 'Palladio is best learned from three shapes, then his logic, then his own book and the churches — and finally by tracing the style out into the country houses near you.',
         levels: [
-          { stage: 'Beginner', items: [
-            'Look at the Villa Rotonda and learn its symmetrical, four-fronted plan.',
-            'Learn to spot a temple-front portico on a house.',
-            'Find a Palladian country house in your region and identify the central block and wings.'
+          { stage: 'Beginner — see the composition', items: [
+            'Learn three shapes only: the central block with balanced wings; the temple-front portico; the Palladian (Venetian) window.',
+            'Anchor on the Villa Rotonda — four identical temple fronts, one dome, total symmetry. Everything else is a variation.',
+            'Find a grand country house near you and pick out the central axis and the pediment.'
           ] },
-          { stage: 'Intermediate', items: [
-            'Read Palladio\'s recommended room proportions in Book I.',
-            'Study the "Palladian window" (a central arch flanked by two flat-topped lights).',
-            'Compare Palladio\'s Venetian churches (San Giorgio, the Redentore) with his villas.'
+          { stage: 'Intermediate — the logic', items: [
+            'Learn the villa-farm idea (the barchesse) — that the wide symmetrical layout came from a working estate.',
+            'Learn the seven room shapes and the musical-ratio claim — and that its strict form is disputed.',
+            'Trace the spread: Palladio to Inigo Jones, to Burlington\'s Chiswick and Campbell\'s Mereworth, to Jefferson\'s Monticello.'
           ] },
-          { stage: 'Advanced', items: [
-            'Trace the English Palladian revival: Inigo Jones, Lord Burlington, Colen Campbell.',
-            'Study Jefferson\'s Monticello and the American reception.',
-            'Read how Palladio measured Roman remains and adapted them to the villa.'
+          { stage: 'Advanced — the treatise and the debates', items: [
+            'Read the Four Books themselves (Ware\'s 1738 English text is free online) — the plans and the orders in his own words.',
+            'Study the Venetian churches and the interlocking-pediments solution.',
+            'Engage the disputes: the Wittkower proportion controversy, and how accurate Palladio\'s measurements of Roman ruins really were.'
           ] }
         ]
       },
       'practice': {
         title: 'Things to look for and do',
-        intro: 'The Palladian is the style you are most likely to be able to visit. A few things to do.',
+        intro: 'The Palladian is the style you are most likely to be able to visit in person. A few things to do.',
         items: [
-          { name: 'Visit a country house', body: 'Most grand estates open to the public are Palladian or Palladian-descended. Walk the central axis and see how the plan balances left and right.' },
-          { name: 'Find a Palladian window', body: 'Look for the distinctive three-part window — tall arched centre, flat sides. Once you know it, you will spot it on houses everywhere.' },
-          { name: 'Read the portico', body: 'Stand before a temple-fronted house and identify the order, count the columns, and find the pediment. Note how it marks the important entrance.' },
-          { name: 'Test the symmetry', body: 'Photograph a Palladian façade and fold it down the middle in your mind. How closely do the two halves match? That balance is the whole point.' }
+          { name: 'Visit a country house', body: 'Most grand estates open to the public are Palladian or Palladian-descended. Go, and consciously read it: walk the central axis and watch the plan balance left and right.' },
+          { name: 'Find the central axis', body: 'Stand square-on to the front, locate the middle (usually the door or portico), and check that the left half mirrors the right — same windows, same spacing. Note where later additions break the symmetry.' },
+          { name: 'Read the portico', body: 'Before a temple-fronted house, name the order, count the columns, and find the pediment — and remember you are looking at a temple front on a home.' },
+          { name: 'Spot a Palladian window', body: 'Hunt for the three-part window: arched centre, two flat-topped sides. Georgian houses, libraries and country churches are full of them. Once you know it, you cannot stop seeing it.' },
+          { name: 'Trace the wings', body: 'Pick out the central block and its flanking wings, and ask what the wings were for — stables, service, a farm origin. The estate\'s working past is written in its shape.' },
+          { name: 'Compare a copy to the Rotonda', body: 'Photograph a domed, porticoed house and line it up against the Villa Rotonda to see exactly what was borrowed.' }
         ]
       },
       'reading': {
         title: 'Where to read',
-        intro: 'Go straight to Palladio\'s own book — few primary sources are so readable — then follow the revival.',
+        intro: 'Go to Palladio\'s own book — few primary sources are so usable — then a warm modern guide, then the revival and the theory. Honest notes below.',
         books: [
-          { title: 'The Four Books of Architecture', author: 'Andrea Palladio, 1570', note: 'PRIMARY. The most influential architecture book ever printed, illustrated with his own designs. Readable and free in scans.' },
-          { title: 'Vitruvius Britannicus', author: 'Colen Campbell, 1715–25', note: 'PRIMARY (revival). The engraved survey that launched the English Palladian movement.' },
-          { title: 'Palladio', author: 'James S. Ackerman', note: 'ON-RAMP. The best short life-and-work — clear, authoritative, and a pleasure to read.' },
-          { title: 'The Villas of Palladio', author: 'various photographic editions', note: 'ON-RAMP. To see the buildings whole; the villas photograph as beautifully as they draw.' }
+          { title: 'The Four Books of Architecture', author: 'Andrea Palladio, Venice 1570', note: 'PRIMARY. The most influential architecture book ever printed, illustrated with his own designs. Dip into the plans and the room-proportion passages. Isaac Ware\'s 1738 English edition is free online; the modern Tavernor & Schofield translation (MIT, 1997) is the most accurate.' },
+          { title: 'Vitruvius Britannicus', author: 'Colen Campbell, 1715–1725', note: 'PRIMARY (revival). The engraved survey of British classical houses that launched the English Palladian revival. A plate-book to browse, free in scans.' },
+          { title: 'The Perfect House', author: 'Witold Rybczynski, 2002', note: 'ON-RAMP. A warm travel-narrative through the villas — the easiest and most enjoyable way in for a non-specialist. Start here.' },
+          { title: 'Palladio', author: 'James S. Ackerman, 1966', note: 'ON-RAMP. The classic short scholarly introduction — clear, authoritative, the standard first serious book.' },
+          { title: 'Palladio and Palladianism', author: 'Robert Tavernor, 1991', note: 'ON-RAMP. A concise survey of both Palladio and the later movement — good on the spread to England and America.' },
+          { title: 'Architectural Principles in the Age of Humanism', author: 'Rudolf Wittkower, 1949', note: 'ON-RAMP (hardest). The source of the musical-proportion thesis. Read it for the argument — and read the modern critiques alongside, since the thesis is contested.' }
         ]
       },
       'masters': {
         title: 'The names',
-        intro: 'The one master and the men who carried him across the world.',
+        intro: 'The one master, his patron, and the men who carried him across the world.',
         figures: [
-          { name: 'Andrea Palladio (1508–1580)', what: 'The stonemason turned architect whose villas and Four Books founded the style and reshaped Western domestic architecture.' },
-          { name: 'Inigo Jones (1573–1652)', what: 'Who brought true Palladianism to England with the Queen\'s House and the Banqueting House.' },
-          { name: 'Richard Boyle, Lord Burlington (1694–1753)', what: 'The aristocrat-architect who led the 18th-century English Palladian revival; built Chiswick House.' },
-          { name: 'Thomas Jefferson (1743–1826)', what: 'Who made Palladio the architecture of the young American republic at Monticello and beyond.' }
+          { name: 'Andrea Palladio (1508–1580)', what: 'Born Andrea di Pietro della Gondola, a stonemason from Padua, and renamed "Palladio" — after Pallas Athene, goddess of wisdom — by his patron, the humanist Trissino. His Veneto villas, his Vicenza buildings, his Venetian churches and his Four Books founded the style and reshaped Western domestic architecture.' },
+          { name: 'Daniele Barbaro (1514–1570)', what: 'Venetian aristocrat and scholar, Palladio\'s mentor and patron, whose great edition of Vitruvius Palladio illustrated — and who, with his brother, built the Villa Barbaro at Maser.' },
+          { name: 'Inigo Jones (1573–1652)', what: 'Who brought true Palladianism to England after studying the buildings in Italy — the Queen\'s House at Greenwich and the Banqueting House in Whitehall.' },
+          { name: 'Lord Burlington & Colen Campbell', what: 'The leaders of the 18th-century English revival: Burlington (1694–1753), the "Architect Earl", built Chiswick House on the Rotonda\'s model; Campbell (1676–1729) produced Vitruvius Britannicus and copied the Rotonda at Mereworth.' },
+          { name: 'Thomas Jefferson (1743–1826)', what: 'Who made Palladio the architecture of the young American republic at Monticello and the Virginia State Capitol. He is often said to have treated the Four Books as his architectural "bible" — a nice line, though not traceable to a documented quotation.' }
         ]
       }
     }

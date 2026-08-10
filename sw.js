@@ -1,4 +1,4 @@
-const CACHE = 'classical-architecture-v5';
+const CACHE = 'classical-architecture-v6';
 const ASSETS = [
   './',
   './index.html',
@@ -26,6 +26,11 @@ const ASSETS = [
   './assets/styles/neoclassical.jpg',
   './assets/styles/greek-revival.jpg',
   './assets/styles/gothic-revival.jpg',
+  './assets/orders/tuscan.jpg',
+  './assets/orders/doric.jpg',
+  './assets/orders/ionic.jpg',
+  './assets/orders/corinthian.jpg',
+  './assets/orders/composite.jpg',
   './assets/elements/foundation.jpg',
   './assets/elements/orders.jpg',
   './assets/elements/proportion.jpg',

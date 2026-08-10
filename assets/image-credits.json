@@ -138,5 +138,40 @@
     "artist": "Christian David",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster_seen_from_the_north_bank_of_the_Thames,_London.jpg"
+  },
+  {
+    "path": "assets/orders/tuscan.jpg",
+    "title": "Vitruvian Tuscan Order MET DP827637.jpg",
+    "artist": "{{Creator:Alfred Henry Forrester [Alfred Crowquill]}}",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vitruvian_Tuscan_Order_MET_DP827637.jpg"
+  },
+  {
+    "path": "assets/orders/doric.jpg",
+    "title": "Incorpora, Giuseppe (1834-1914) - n. 0334 - Agrigento - The temple of Concordia (SM stf42).png",
+    "artist": "Giuseppe Incorpora",
+    "license": "PDM-owner",
+    "source": "https://commons.wikimedia.org/wiki/File:Incorpora,_Giuseppe_(1834-1914)_-_n._0334_-_Agrigento_-_The_temple_of_Concordia_(SM_stf42).png"
+  },
+  {
+    "path": "assets/orders/ionic.jpg",
+    "title": "Ionic capital1.JPG",
+    "artist": "Ad Meskens",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ionic_capital1.JPG"
+  },
+  {
+    "path": "assets/orders/corinthian.jpg",
+    "title": "Colonnade of the Temple of Caelestis - isawnyu.jpg",
+    "artist": "Institute for the Study of the Ancient World",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Colonnade_of_the_Temple_of_Caelestis_-_isawnyu.jpg"
+  },
+  {
+    "path": "assets/orders/composite.jpg",
+    "title": "Speculum Romanae Magnificentiae- Capital of Composite Order MET DP870284.jpg",
+    "artist": "Léon Davent / Francesco Primaticcio",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Speculum_Romanae_Magnificentiae-_Capital_of_Composite_Order_MET_DP870284.jpg"
   }
 ]
