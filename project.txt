@@ -1,0 +1,30 @@
+Project: Classical Architecture
+Type: Self-learning PWA — learn to read classical buildings
+Target: Curious adults who admire buildings and want to understand them
+Stack: Plain HTML/CSS/JS PWA, localStorage, no build step
+Account: AeonReon (GitHub), aeonreon team (Vercel)
+Created: 2026-08-10 (cloned from the Classical Mind shell)
+
+API keys: none required
+Contact: n/a
+
+Structure:
+- Foundation (Start here)
+- The Elements: The Orders (Tuscan/Doric/Ionic/Corinthian/Composite),
+  Proportion & Harmony, Ornament & Detail, Building Types, Materials & Construction
+- The Styles: Greek, Roman, Renaissance, Palladian, Baroque,
+  Neoclassical & Georgian, Greek Revival, Gothic Revival
+- Daily "For today" feed: quote / thought / one thing to notice /
+  a rule of good building / passage / word of the day
+- Tools: Surprise me (random)
+
+Each topic has up to 5 sub-tiles: What it is · The path · Practice · Reading · Masters
+Reading lists put primary sources first, then modern on-ramps.
+Reads aloud via system voice (Daniel on iOS).
+
+Images: NOT yet sourced. Per section, pull the best real photo via the
+browser engine (image-engine/google-pass, Google Images) into:
+  assets/styles/<id>.jpg, assets/orders/<id>.jpg, assets/elements/<id>.jpg,
+  assets/daily/<type>.jpg  (quote/think/do/verse/passage/word),
+  assets/sub/<key>.jpg      (what-it-is/the-path/practice/reading/masters)
+Tiles degrade to a clean gradient badge when an image is missing.
