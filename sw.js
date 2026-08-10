@@ -1,4 +1,4 @@
-const CACHE = 'classical-architecture-v3';
+const CACHE = 'classical-architecture-v4';
 const ASSETS = [
   './',
   './index.html',
@@ -15,7 +15,22 @@ const ASSETS = [
   './assets/elements-data.js',
   './assets/styles-data.js',
   './assets/tryit-data.js',
-  './assets/daily-data.js'
+  './assets/daily-data.js',
+  './credits.html',
+  './assets/image-credits.json',
+  './assets/styles/greek.jpg',
+  './assets/elements/foundation.jpg',
+  './assets/elements/orders.jpg',
+  './assets/elements/proportion.jpg',
+  './assets/elements/ornament.jpg',
+  './assets/elements/building-types.jpg',
+  './assets/elements/materials.jpg',
+  './assets/daily/quote.jpg',
+  './assets/daily/think.jpg',
+  './assets/daily/do.jpg',
+  './assets/daily/verse.jpg',
+  './assets/daily/passage.jpg',
+  './assets/daily/word.jpg'
 ];
 
 self.addEventListener('install', (e) => {
