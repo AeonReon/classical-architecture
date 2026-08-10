@@ -89,5 +89,54 @@
     "artist": "Vignola, 1507-1573; Juglaris, Tommaso; Locke, Warren S",
     "license": "No restrictions",
     "source": "https://commons.wikimedia.org/wiki/File:The_five_orders_of_architecture_(1889)_(14578807958).jpg"
+  },
+  {
+    "path": "assets/styles/roman.jpg",
+    "title": "Rome Colosseum exterior panorama.jpg",
+    "artist": "Nicholas Hartmann",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rome_Colosseum_exterior_panorama.jpg"
+  },
+  {
+    "path": "assets/styles/renaissance.jpg",
+    "title": "Cupola di santa maria del fiore dal campanile di giotto, 01.JPG",
+    "artist": "sailko",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Cupola_di_santa_maria_del_fiore_dal_campanile_di_giotto,_01.JPG"
+  },
+  {
+    "path": "assets/styles/palladian.jpg",
+    "title": "Chiswick House from SE.jpg",
+    "artist": "Michael Coppins",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chiswick_House_from_SE.jpg"
+  },
+  {
+    "path": "assets/styles/baroque.jpg",
+    "title": "St. Peter's Square - north colonnade.jpg",
+    "artist": "MrPanyGoff (Plamen Agov)",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Square_-_north_colonnade.jpg"
+  },
+  {
+    "path": "assets/styles/neoclassical.jpg",
+    "title": "Paris 75005 Panthéon exterior - west facade 01.jpg",
+    "artist": "Freepenguin",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_75005_Panth%C3%A9on_exterior_-_west_facade_01.jpg"
+  },
+  {
+    "path": "assets/styles/greek-revival.jpg",
+    "title": "Add-ons - Late Victorian (Greek Revival on Greek Revival) - Amherst, MA - Amherst College (College Hall) (2).jpg",
+    "artist": "Bmzuckerman",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Add-ons_-_Late_Victorian_(Greek_Revival_on_Greek_Revival)_-_Amherst,_MA_-_Amherst_College_(College_Hall)_(2).jpg"
+  },
+  {
+    "path": "assets/styles/gothic-revival.jpg",
+    "title": "Palace of Westminster seen from the north bank of the Thames, London.jpg",
+    "artist": "Christian David",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster_seen_from_the_north_bank_of_the_Thames,_London.jpg"
   }
 ]

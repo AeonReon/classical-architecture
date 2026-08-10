@@ -104,68 +104,77 @@ window.ARTS.push(
     group: 'The Styles',
     color: '#B4560F', colorDeep: '#7A360A', colorSoft: '#F7E3D2',
     icon: 'arch',
-    blurb: 'Rome took the Greek language of the orders and married it to a genius for engineering. With the arch, the vault, the dome and concrete, the Romans built at a scale and for a range of uses the Greeks never attempted — baths, basilicas, aqueducts, amphitheatres and the Pantheon. Roman architecture is the classical tradition made practical, imperial and vast.',
+    blurb: 'Rome took the Greek language of the orders and married it to a genius for engineering. With the arch, the vault, the dome and concrete, the Romans built at a scale and for a range of uses the Greeks never attempted — baths, basilicas, aqueducts, amphitheatres and the Pantheon. Where the Greek temple is a sculpture seen from outside, the Roman building is a great interior you walk into. Roman architecture is the classical tradition made practical, civic and vast — and it is the architecture our banks, museums and city halls still borrow from.',
     sections: {
       'what-it-is': {
         title: 'What Roman architecture is',
-        intro: 'Roman architecture keeps the Greek orders but changes their job. Where the Greek column carried the building, the Roman column often decorates a wall of arches and concrete that does the real work. The result is an architecture of interior space and engineering, dressed in the classical orders.',
+        intro: 'Roman architecture keeps the Greek orders but changes their job. Where the Greek column carried the roof, the Roman column is often a decorative screen over a wall of arches and concrete that does the real work. The result is an architecture of engineering and enclosed space — the same classical vocabulary, put to entirely new and public ends.',
         principles: [
-          { name: 'The arch changes everything', body: 'The Romans built the whole family of curved structures — the arch, the barrel vault, the groin vault and the dome — which carry load in compression and can span far without columns. Architecture became the shaping of great interior spaces.', why: 'It is the deep difference from Greece. The Greek temple is a sculpture you walk around; the Roman building is a space you walk into. The arch made interior architecture possible.' },
-          { name: 'Concrete and scale', body: 'Roman concrete — lime, volcanic ash and rubble — could be cast into any shape and faced with brick or marble. It freed building from the size of a cut stone and let Rome build baths, basilicas and the Pantheon\'s 43-metre dome.', why: 'It reveals the engineering behind the splendour. Rome\'s grandeur is not just ambition but a material breakthrough that no earlier people possessed.' },
-          { name: 'The orders as dress', body: 'Romans frequently applied the orders to arched and walled structures as decoration — engaged columns and pilasters framing arches, as on the Colosseum, which stacks Doric, Ionic and Corinthian storey by storey.', why: 'It introduces a habit that runs through all later classicism: the order as an applied language on a structural wall, rather than the structure itself. Most classical buildings since are Roman in this sense.' },
-          { name: 'Architecture for a public', body: 'Rome invented the great public building types — the bath, the basilica (law court and hall), the amphitheatre, the triumphal arch, the forum. Architecture became an instrument of civic life and imperial display.', why: 'It is why our civic buildings are Roman in spirit. The idea that the state should house public life in grand classical halls begins in the Roman forum.' },
-          { name: 'The Pantheon', body: 'The Pantheon fuses everything Roman: a Greek Corinthian portico fronting a vast concrete dome lit by a single open oculus. It is the best-preserved and most influential building of antiquity.', why: 'It is the one building to know above all. Almost every later dome — Florence, St Peter\'s, St Paul\'s, the US Capitol — is a descendant of this room.' }
+          { name: 'The arch — turning load into a curve', body: 'A Roman arch is a semicircle built of wedge-shaped stones (voussoirs) locked at the top by the keystone. Because stone is strong when pressed but weak when pulled, the arch is a way of carrying weight without a beam that would crack: the load runs around the curve as compression and down into the supports, which must resist the outward push. It spans far wider than any single flat lintel.', why: 'It is the engine of the whole style. The Romans did not invent the arch — the Etruscans and others used it first — but they exploited it everywhere, at scale, as the organising idea of a whole building culture. (Note the Roman arch is a round half-circle; the pointed arch is a much later, Gothic idea.)' },
+          { name: 'The vault and the dome', body: 'Stretch an arch along a line and you get a barrel vault, a stone tunnel. Cross two barrel vaults and you get a groin vault, which throws its weight onto four corner piers and frees the walls between for windows. Spin an arch full circle and you get a dome, roofing a great space with no internal supports at all.', why: 'These are how Rome roofed vast, column-free interiors in fireproof masonry — the huge halls of the baths, the basilicas, the Pantheon. Nothing the Greeks built, with their timber-and-column roofs, could enclose space like this.' },
+          { name: 'Concrete — the hidden engine', body: 'Roman concrete (opus caementicium) was lime, a volcanic ash called pozzolana, water and rubble aggregate. It set hard even under water, was laid in courses, and was almost always cast against a permanent skin of brick or small stone that also served as the finish. The brick you see on a Roman ruin is usually just that skin over a concrete core.', why: 'Concrete freed building from the size of a quarried block: it could be cast into any curve, used cheap material and less-skilled labour, and set fast. It is the real technology behind the vaults and the scale. (Its famous durability is genuine and still researched — but the viral "self-healing, better than modern" headlines overstate it; Roman concrete is unreinforced and does a different job.)' },
+          { name: 'The orders as applied dress', body: 'On the Colosseum the arches and concrete do the carrying, while engaged half-columns and an entablature are laid over the wall as decoration, storey by storey — sturdy Tuscan at the bottom, then Ionic, then Corinthian, then an attic of pilasters. The order has become a prestige screen, not the structure.', why: 'This is the single most useful thing to learn for reading a building: ask whether the columns are actually holding anything up, or merely dressing a wall. From Rome onward, most classical buildings are Roman in this sense — the order is a language applied to a structure that stands on its own.' },
+          { name: 'Architecture you go into', body: 'The Greek temple is a solid object to be admired from the outside; its interior is small and dark. The Roman achievement is the opposite — to shape and enclose enormous interior volumes as the main event, from the glittering bath halls to the Pantheon\'s rotunda.', why: 'This is the deepest break from Greece, and the through-line to everything after: Byzantine, Romanesque, Gothic, Renaissance and Baroque interiors all descend from Rome\'s discovery that architecture can be the sculpting of inner space.' },
+          { name: 'Architecture for a public', body: 'Rome invented or perfected the great civic types: the basilica (a roofed hall for law and business), the thermae (vast public baths), the amphitheatre, the triumphal arch, the aqueduct and the planned forum. Building became an instrument of public life, infrastructure and imperial display, not just a house for a god.', why: 'It is why our own civic architecture is Roman in spirit. The conviction that the state should house public life in grand classical halls — courts, museums, parliaments, capitols — begins in the Roman forum.' },
+          { name: 'The Pantheon — the synthesis', body: 'A Greek Corinthian portico of granite columns fronts a vast concrete rotunda whose dome is still the largest unreinforced concrete dome in the world. Its diameter and height are equal — about 43 metres — so a perfect sphere would fit inside; it is lightened by five rings of coffers and by concrete made progressively lighter toward the top, and lit by a single open eye, the oculus.', why: 'It is the one building to know above all — order, concrete, dome, geometry and interior space fused into a single room. Almost every later dome, from Florence to St Peter\'s to St Paul\'s to the US Capitol, is its descendant. (The inscription names Agrippa, but it belongs to his earlier Pantheon that burned; the building you visit is Hadrian\'s rebuilding.)' }
         ]
       },
       'the-path': {
         title: 'Learning Roman architecture',
-        intro: 'Rome is best learned through its structural inventions and its great surviving buildings.',
+        intro: 'Rome is best learned through its three structural moves and its great surviving buildings — then through the debates and the long legacy.',
         levels: [
-          { stage: 'Beginner', items: [
-            'Learn the arch, vault and dome, and how each carries load.',
-            'Study the Pantheon: portico, rotunda, dome, oculus.',
-            'Look at the Colosseum and find the three stacked orders.'
+          { stage: 'Beginner — the three moves', items: [
+            'Learn the arch, the vault and the dome, and the words voussoir, keystone and thrust.',
+            'Fix the one big contrast: Greek is exterior, post-and-lintel, stone; Rome is interior, arch-and-vault, concrete.',
+            'Anchor on three monuments you can picture instantly: the Colosseum, an aqueduct (the Pont du Gard), and the Pantheon.',
+            'On the Colosseum, prove to yourself the columns are decoration and the arches do the work.'
           ] },
-          { stage: 'Intermediate', items: [
-            'Understand Roman concrete and how it made the vaults possible.',
-            'Learn the public types: baths, basilica, amphitheatre, triumphal arch.',
-            'Compare a Roman engaged-column façade with a Greek free-standing colonnade.'
+          { stage: 'Intermediate — materials, types, plans', items: [
+            'Learn what Roman concrete is, and read a ruin\'s brick "skin" against its rubble "core".',
+            'Learn the public building types — basilica, baths, amphitheatre, forum, triumphal arch — and what each was for.',
+            'Study the Pantheon closely: portico, rotunda, coffered dome, lightweight aggregate, oculus.',
+            'Read Vitruvius, Book I, for the firmness–commodity–delight triad in its own words.'
           ] },
-          { stage: 'Advanced', items: [
-            'Read Vitruvius as a working Roman architect, not just a theorist.',
-            'Trace Roman construction into Brunelleschi\'s and Wren\'s domes.',
-            'Study how the Renaissance measured and revived Roman remains.'
+          { stage: 'Advanced — intention, debate, legacy', items: [
+            'Study the groin-vaulted bath halls (Caracalla, Diocletian) and how they win vast span and light.',
+            'Read the imperial complexes as designed experiences — the Forum of Trajan, Hadrian\'s Villa.',
+            'Engage the live debates: who designed the Pantheon and when, and how far to trust the "self-healing concrete" story.',
+            'Trace the legacy: basilica into the church, the Pantheon dome into St Peter\'s and the Capitol, the triumphal arch into the Arc de Triomphe and the war memorial.'
           ] }
         ]
       },
       'practice': {
         title: 'Things to look for and do',
-        intro: 'Roman ideas are everywhere in later building. A few things to notice.',
+        intro: 'Roman ideas are hiding in plain sight in later building. A few things to actually do.',
         items: [
-          { name: 'Find an applied order', body: 'Look for columns or pilasters that frame a wall or arches but clearly carry nothing. That is the Roman habit — the order as dress. Spot one near you.' },
-          { name: 'Trace an arch', body: 'Find a stone arch and pick out the wedge-shaped voussoirs and the keystone at the top. Follow how the load runs down each side to the ground.' },
-          { name: 'Look for a Pantheon child', body: 'Any dome on a drum with a portico in front — a domed church, library or capitol — is a descendant of the Pantheon. Find one and see the family likeness.' },
-          { name: 'Read a triumphal arch', body: 'Find a triumphal or memorial arch (many war memorials are one) and read its Roman parts: engaged columns, entablature, attic, inscription.' }
+          { name: 'Separate the order from the structure', body: 'On any classical façade — a ruin, a bank, a courthouse — ask whether the columns are really carrying something or are engaged/pilasters glued to a wall that stands on its own. On the Colosseum, they carry nothing.' },
+          { name: 'Trace the voussoirs and find the keystone', body: 'On any arch — a bridge, a gateway, an aqueduct — follow the wedge stones up to the central keystone, and note the round Roman semicircle against a pointed Gothic arch.' },
+          { name: 'Read the wall\'s skin', body: 'On Roman brick ruins, remember the brick is usually a thin facing over a concrete core. Look for spots where the skin has fallen and the rough rubble core shows through.' },
+          { name: 'Spot the basilica in a church', body: 'A tall central nave, lower side aisles, and an apse at the end is the Roman basilica plan, adopted wholesale by Christianity. Test it in any traditional church.' },
+          { name: 'Find a Pantheon child', body: 'A dome on a drum with a columned portico in front — a domed church, library, museum or capitol — is a descendant of the Pantheon. Find one and see the family likeness.' },
+          { name: 'Read a memorial arch as Roman', body: 'Many war memorials and city gates are triumphal arches: a single or triple opening, an attic for the inscription, and an applied order. Read its parts the Roman way.' }
         ]
       },
       'reading': {
         title: 'Where to read',
-        intro: 'Vitruvius is the ancient voice; modern archaeology makes the engineering vivid.',
+        intro: 'Two genuine Roman voices survive; the modern books make the engineering and the monuments vivid. Honest difficulty notes below.',
         books: [
-          { title: 'De Architectura (The Ten Books)', author: 'Vitruvius', note: 'PRIMARY. Written for Augustus by a working Roman architect — materials, orders, machines and all. The Morgan translation is free.' },
-          { title: 'Roman Building: Materials and Techniques', author: 'Jean-Pierre Adam', note: 'ON-RAMP. The clearest account of how the Romans actually built. Beautifully illustrated.' },
-          { title: 'Rome: An Oxford Archaeological Guide', author: 'Amanda Claridge', note: 'ON-RAMP. The best companion to the buildings themselves, ruin by ruin.' },
-          { title: 'The Pantheon: From Antiquity to the Present', author: 'ed. Marder & Wilson Jones', note: 'ON-RAMP. Everything about the one building you most need to understand.' }
+          { title: 'The Ten Books on Architecture (De Architectura)', author: 'Vitruvius, 1st c. BC (Morgan translation, 1914)', note: 'PRIMARY. The only architectural treatise to survive from antiquity — but written under Augustus, before the Pantheon and Colosseum, so it is the theory, not a tour of the famous buildings. Free at Project Gutenberg.' },
+          { title: 'On the Water-Supply of Rome (De Aquaeductu)', author: 'Frontinus, c. AD 97', note: 'PRIMARY. A report by Rome\'s actual water commissioner on the aqueducts — short, practical and surprisingly readable for an ancient text. Free on LacusCurtius.' },
+          { title: 'Roman Imperial Architecture', author: 'J. B. Ward-Perkins (Yale/Pelican History of Art)', note: 'ON-RAMP. The standard scholarly survey of the great Imperial-period buildings.' },
+          { title: 'Roman Building: Materials and Techniques', author: 'Jean-Pierre Adam', note: 'ON-RAMP. The clearest account of how the Romans actually built — richly illustrated and very readable if the engineering intrigues you.' },
+          { title: 'The Pantheon: Design, Meaning, and Progeny', author: 'William L. MacDonald (Harvard)', note: 'ON-RAMP. The classic deep-dive into the one building you most need to understand, and its long afterlife.' },
+          { title: 'Rome: An Oxford Archaeological Guide', author: 'Amanda Claridge', note: 'ON-RAMP. The best companion to the buildings themselves, ruin by ruin, with plans.' }
         ]
       },
       'masters': {
         title: 'The names',
-        intro: 'Roman architecture is often anonymous engineering, but some names survive.',
+        intro: 'A recurring Roman truth: the name attached to a building is usually the patron or emperor who paid for it, while the designer or engineer is anonymous. "Architect" in the modern sense is often unknowable.',
         figures: [
-          { name: 'Vitruvius (1st c. BC)', what: 'The one Roman architect whose treatise survives — the source of the whole later tradition.' },
-          { name: 'Apollodorus of Damascus', what: 'Trajan\'s brilliant engineer, master of concrete vaulting and the great imperial works.' },
-          { name: 'The emperor Hadrian (76–138 AD)', what: 'Patron and probable designer of the Pantheon in its surviving form, and an architect in his own right.' },
-          { name: 'Marcus Agrippa', what: 'Augustus\'s deputy, whose name still stands on the Pantheon\'s portico from its first building.' }
+          { name: 'Vitruvius (1st c. BC)', what: 'A military engineer under Julius Caesar, later supported by Augustus, whose treatise is the only one to survive from antiquity — the source of the whole later tradition. His one known building, a basilica at Fano, is lost.' },
+          { name: 'Marcus Agrippa (c. 63–12 BC)', what: 'Augustus\'s great general and son-in-law — the patron, not the designer, who funded the first Pantheon, the Aqua Virgo aqueduct, and Rome\'s first great public baths. His name still stands on the Pantheon from that earlier building.' },
+          { name: 'The emperor Hadrian (76–138 AD)', what: 'The patron under whom the Pantheon was rebuilt in its surviving form and Hadrian\'s Villa was raised. He is often called its designer — but no ancient source names the architect, so that is an informed guess, not a fact.' },
+          { name: 'Apollodorus of Damascus (early 2nd c. AD)', what: 'Trajan\'s brilliant Greek engineer, designer of the Forum of Trajan and the great bridge over the Danube. The ancient story that Hadrian had him executed for insolence is doubted by most historians.' }
         ]
       }
     }
