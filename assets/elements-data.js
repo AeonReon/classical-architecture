@@ -495,3 +495,7 @@ window.ARTS = [
     }
   }
 ];
+
+// Look a topic up by id (used by art.html). Reads window.ARTS lazily so it
+// works whether or not styles-data.js has finished pushing the styles yet.
+window.ART_BY_ID = (id) => (window.ARTS || []).find(a => a.id === id);
