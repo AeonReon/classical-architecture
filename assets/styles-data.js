@@ -439,36 +439,77 @@ window.ARTS.push(
     group: 'The Styles',
     color: '#6B7A8F', colorDeep: '#45536A', colorSoft: '#E4E9F0',
     icon: 'column',
-    blurb: 'In reaction to Baroque excess, the eighteenth century returned to the calm and correctness of antiquity. Neoclassicism — in Britain the Georgian age — prized restraint, clarity and archaeological accuracy: elegant terraces, sober public buildings, and refined interiors. It is the classicism of the Enlightenment, and the everyday classical language of the modern city.',
+    blurb: 'In reaction to Baroque theatre and Rococo frivolity, the eighteenth century returned to the calm and correctness of antiquity. Neoclassicism prized restraint, clarity, symmetry and the orders used exactly as the ancients had used them — armed, for the first time, with real archaeological evidence. It is the classicism of the Enlightenment: elegant Georgian terraces, sober civic buildings, and refined interiors, and the everyday classical language of the modern city. (A word on labels: "Georgian" is the British period, 1714–1830, spanning both the earlier Palladian and the later Neoclassical phases; "Regency" is its late chapter; "Neoclassical" is the international style itself.)',
     sections: {
       'what-it-is': {
         title: 'What Neoclassical architecture is',
-        intro: 'Neoclassicism sought to build with the purity the ancients were believed to have possessed — clear geometry, correct orders, and restrained ornament, informed by the new archaeology of Greece and Rome. In Britain the "Georgian" style gave the age its terraces, squares and public buildings.',
+        intro: 'Neoclassicism sought to build with the purity the ancients were believed to have possessed — clear geometry, correct orders, and restrained ornament — but now informed by the new science of archaeology rather than by Renaissance interpretation. It is the calm, rational classicism of the age of reason, and it became the natural language of the Enlightenment city and the new republics.',
         principles: [
-          { name: 'Return to antique purity', body: 'Reacting against Baroque theatre, Neoclassical architects sought sober correctness — clean walls, accurate orders, calm proportion — guided by fresh archaeological knowledge of the real Greek and Roman buildings.', why: 'It explains the cool restraint of the age. After the Baroque\'s drama, the eighteenth century wanted architecture to reason rather than shout.' },
-          { name: 'Archaeology as authority', body: 'The excavations of Pompeii and Herculaneum and the surveys of Athens gave designers accurate ancient models. Correctness — using the orders as the ancients really had — became a serious ambition.', why: 'It marks a new seriousness about the past. The style is "neo"-classical precisely because it was trying to get antiquity right, not just evoke it.' },
-          { name: 'The Georgian terrace and square', body: 'In Britain the classical language became urban and repeatable: uniform terraces, crescents and squares (Bath, Edinburgh New Town, Georgian Dublin) built to a shared, restrained classical pattern.', why: 'It is why whole city centres feel harmonious. Georgian classicism turned the single ordered façade into a template for the entire street.' },
-          { name: 'Refined interiors', body: 'Designers like Robert Adam brought a light, elegant classicism indoors — delicate plasterwork, harmonised rooms, antique motifs — creating a total interior style to match the exterior order.', why: 'It shows classicism reaching the whole environment. The Adam interior is proof that the language governs not just the front but the rooms, the ceilings and the furniture.' }
+          { name: 'A return to antique purity', body: 'By the mid-eighteenth century, educated taste turned hard against the movement, gilt and illusion of the Baroque and the light frivolity of the Rococo, and reached back for calm, clarity, symmetry and correctness — the orders used soberly and "by the book".', why: 'It reframes ornament as almost a moral question: restraint and reason read as virtue, excess as decadence. That shift in feeling is the engine of the whole style.' },
+          { name: 'Archaeology as authority', body: 'For the first time architects had accurate, measured evidence of antiquity. The buried Roman towns were dug — Herculaneum from 1738, Pompeii from 1748 — and Stuart and Revett surveyed Athens and published their measured Antiquities from 1762.', why: 'Design shifted from building "in the spirit of the antique" to copying the real, measured thing. The style is "neo"-classical precisely because its authority now came from the ground, not from Vitruvius or Palladio alone.' },
+          { name: 'Noble simplicity and quiet grandeur', body: 'The critic Winckelmann gave the movement its creed — edle Einfalt und stille Größe, "noble simplicity and quiet grandeur" — making a serene, restrained, white-marble Greece the standard of beauty, and shaping a whole generation\'s taste.', why: 'It is the aesthetic soul of the style. But it carries a famous error worth knowing: that pristine-white antiquity was partly an eighteenth-century preference. The ancients painted their temples and statues in strong colour; Winckelmann canonised a whiteness that was never quite real.' },
+          { name: 'Reason and the primitive hut', body: 'The Abbé Laugier argued that all true architecture descends from the simplest natural structure — four tree-trunk columns carrying beams under a pitched, pediment-like roof. Column, entablature and pediment are essential and honest; pilasters, engaged columns and arches-on-columns are faults to be pruned away.', why: 'It gives Neoclassicism a rational test, not just a nostalgic one: is each part doing honest structural work? This "structural rationalism" runs on, remarkably, all the way to modernism.' },
+          { name: 'The Georgian terrace, square and crescent', body: 'Britain\'s great contribution was less the single monument than the classically ordered street. The terrace, square and crescent applied one restrained, proportioned façade across many houses — Bath\'s Royal Crescent is thirty houses behind a single sweep of 114 Ionic columns; Edinburgh laid out a whole classical New Town.', why: 'It turned classicism into an urban system — beauty by uniformity and proportion at the scale of a city, not by individual show. It is why whole Georgian city centres still feel so harmonious.' },
+          { name: 'The refined interior', body: 'Robert Adam, with his brother James, created a delicate, unified interior style — low-relief plasterwork, arabesques, urns, swags and pastel grounds drawn from the newly excavated Roman rooms — designing every element, down to the carpets and door-handles, as one antique-inspired whole.', why: 'It shows the style was never only façades. The Adam interior is the intimate, elegant face of Neoclassicism, and proof that the classical language could govern a whole room, not just a front.' },
+          { name: 'Pure geometry and the visionaries', body: 'The French "visionaries" pushed reason to a sublime extreme — pure solids, spheres, cubes and endless colonnades at overwhelming scale. Boullée\'s vast spherical Cenotaph for Newton and Ledoux\'s work embody "architecture parlante", speaking architecture whose bare form declares its purpose.', why: 'It reveals the movement\'s other pole: not only archaeological correctness but abstract, awe-inducing geometry — an imaginative reach far beyond what could ever be built.' },
+          { name: 'An international style of reason', body: 'Neoclassicism became the shared language of Enlightenment Europe and beyond — Britain, France, Schinkel\'s Prussia, imperial Russia, and the new United States, where Jefferson gave the young republic a temple-form Capitol.', why: 'The calm, rational classical vocabulary was adopted as the natural style for reason, civic virtue and new republics — which is exactly why so many parliaments, museums, banks and courthouses still look this way.' }
+        ]
+      },
+      'the-path': {
+        title: 'Learning the Neoclassical',
+        intro: 'Learn to see calm and correctness first, then the reasoning and the interior, then the theory, the visionaries and the national schools.',
+        levels: [
+          { stage: 'Beginner — see the calm', items: [
+            'Learn the silhouette: rectilinear, symmetrical, low-key, with the temple-front portico as the signature move.',
+            'Learn the three orders at a glance — Doric plain, Ionic scrolled, Corinthian leafy — enough to name a portico.',
+            'Study the Royal Crescent in Bath and a Georgian terrace near you: is it symmetrical, is the ornament restrained, do the proportions repeat house to house?'
+          ] },
+          { stage: 'Intermediate — the reasoning and the room', items: [
+            'Do the contrast drill: set a calm Neoclassical portico beside a restless Baroque façade and name the differences.',
+            'Study an Adam interior (Syon, Osterley, Kedleston) as a single designed system.',
+            'Learn the urban idea by comparing Bath with Edinburgh New Town — and meet Laugier\'s primitive hut as the "why".'
+          ] },
+          { stage: 'Advanced — theory, visionaries, nations', items: [
+            'Read the theorists — Laugier and Winckelmann — and grasp archaeology-as-authority through Stuart and Revett.',
+            'Study the French civic strand (Soufflot\'s Panthéon) and the visionary strand (Boullée and Ledoux).',
+            'Study the national summits — Schinkel\'s Berlin and Soane\'s idiosyncratic classicism — then place the boundary with the Greek Revival (its own tile here).'
+          ] }
+        ]
+      },
+      'practice': {
+        title: 'Things to look for and do',
+        intro: 'Neoclassicism built our city centres, so it is the easiest style to practise on. A few things to do.',
+        items: [
+          { name: 'Read a Georgian terrace', body: 'Stand before one and check the uniform proportion: the same window rhythm, floor heights and cornice line running unbroken across many front doors. Notice the windows getting shorter floor by floor going up — the storey hierarchy.' },
+          { name: 'Spot the correct, restrained order', body: 'Find the portico or pilasters, name the order, and note that it is used sparingly and by the book — no twisting, no piling-up. Restraint is the point.' },
+          { name: 'Find an Adam interior', body: 'In a historic house, look up: fine low-relief ceilings with swags, urns and medallions on pastel grounds — and see how ceiling, walls, floor and furniture all rhyme.' },
+          { name: 'Compare calm with restless', body: 'Put a Neoclassical portico beside a Baroque façade and tally the differences — straight lines versus curves, flat wall versus deep shadow, one clear order versus theatrical layering. This one drill teaches the whole reaction.' },
+          { name: 'Recognise a Panthéon child', body: 'Learn the type — a great dome on a columned drum over a symmetrical, temple-fronted body — and then spot its descendants in civic domes, libraries and capitols.' },
+          { name: 'Run the primitive-hut test', body: 'Ask of any classical building: are the columns, beams and pediment doing honest structural work, or merely stuck on? Laugier would approve of the first and frown at the second.' }
         ]
       },
       'reading': {
         title: 'Where to read',
-        intro: 'This age wrote sharp theory and built our cities; read the polemics and a good survey.',
+        intro: 'This age argued sharply on paper and built our cities in stone — read the polemics (all free and public-domain), then the best surveys. Honest notes below.',
         books: [
-          { title: 'The Antiquities of Athens', author: 'Stuart & Revett, 1762', note: 'PRIMARY. The archaeology that armed the Greek strand of Neoclassicism.' },
-          { title: 'Essay on Architecture', author: 'Marc-Antoine Laugier, 1753', note: 'PRIMARY. The "primitive hut" argument for a rational, stripped classicism — hugely influential.' },
-          { title: 'Georgian London', author: 'John Summerson', note: 'ON-RAMP. The classic, delightful account of how Georgian classicism built a city.' },
-          { title: 'The Works in Architecture', author: 'Robert & James Adam, 1773', note: 'PRIMARY. The Adam brothers present their own refined classical manner.' }
+          { title: 'An Essay on Architecture', author: 'Marc-Antoine Laugier, 1753 (2nd ed. 1755)', note: 'PRIMARY. The "primitive hut" argument for a rational, stripped classicism — short, vivid and hugely influential. The best single primary entry point; free online.' },
+          { title: 'Reflections on the Imitation of Greek Works / History of the Art of Antiquity', author: 'J. J. Winckelmann, 1755 / 1764', note: 'PRIMARY. The source of "noble simplicity and quiet grandeur". The 1755 essay is short and quotable; the 1764 History is long and dense — dip rather than read through.' },
+          { title: 'The Antiquities of Athens', author: 'Stuart & Revett, from 1762', note: 'PRIMARY. The accurate measured drawings that were the archaeological "evidence" itself. Browse the plates.' },
+          { title: 'The Works in Architecture of Robert and James Adam', author: 'Robert & James Adam, 1773–1779', note: 'PRIMARY. The Adams presenting their own refined manner, room by room.' },
+          { title: 'Neo-classicism', author: 'Hugh Honour, 1968', note: 'ON-RAMP. The best short thematic introduction to the whole movement. Start here.' },
+          { title: 'Georgian London', author: 'John Summerson', note: 'ON-RAMP. The classic, delightful account of how Georgian classicism built a city — perfect for the terrace-and-square idea.' }
         ]
       },
       'masters': {
         title: 'The names',
-        intro: 'The architects of the age of reason.',
+        intro: 'The architects of the age of reason, across its national schools.',
         figures: [
-          { name: 'Robert Adam (1728–1792)', what: 'Whose elegant, unified interiors and exteriors defined British Neoclassicism.' },
-          { name: 'Jacques-Germain Soufflot (1713–1780)', what: 'Architect of the Panthéon in Paris, the monument of French Neoclassicism.' },
-          { name: 'Sir John Soane (1753–1837)', what: 'The idiosyncratic English master of a stripped, poetic classicism (the Bank of England).' },
-          { name: 'Karl Friedrich Schinkel (1781–1841)', what: 'The great architect of Prussian Neoclassicism, whose Berlin buildings are its summit.' }
+          { name: 'Robert Adam (1728–1792)', what: 'Who, with his brother James, created the elegant, unified "Adam style" — his great interiors at Syon, Kedleston and Osterley are its intimate face.' },
+          { name: 'Sir William Chambers (1723–1796)', what: 'Adam\'s soberer, more Franco-Roman rival, architect of Somerset House and author of an influential treatise on the orders.' },
+          { name: 'Jacques-Germain Soufflot (1713–1780)', what: 'Architect of the Panthéon in Paris (begun as the church of Sainte-Geneviève) — the great monument of French Neoclassicism, completed after his death.' },
+          { name: 'Boullée & Ledoux', what: 'The French visionaries: Étienne-Louis Boullée (1728–1799), of the colossal, unbuilt Cenotaph for Newton, and Claude-Nicolas Ledoux (1736–1806), of the Royal Saltworks — pioneers of pure geometry and "speaking architecture".' },
+          { name: 'Sir John Soane (1753–1837)', what: 'The idiosyncratic English master of a stripped, poetic classicism — the Bank of England (long since demolished) and his own house, now Sir John Soane\'s Museum.' },
+          { name: 'Karl Friedrich Schinkel (1781–1841)', what: 'The summit of Prussian Neoclassicism, whose Altes Museum and theatre gave Berlin its serene classical face.' }
         ]
       }
     }
