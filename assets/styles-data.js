@@ -352,36 +352,80 @@ window.ARTS.push(
     group: 'The Styles',
     color: '#A23B5A', colorDeep: '#6E2540', colorSoft: '#F3DAE2',
     icon: 'dome',
-    blurb: 'The Baroque is the classical language made dramatic. Beginning in seventeenth-century Rome, architects kept the orders and proportions but bent them toward movement, emotion and spectacle — curved walls, swelling domes, sweeping colonnades and floods of light. It is classicism as theatre, built to move the beholder and to overwhelm.',
+    blurb: 'The Baroque is the classical language made dramatic. Beginning in seventeenth-century Rome, architects kept the orders and proportions but bent them toward movement, emotion and spectacle — curved walls, oval domes, sweeping colonnades and floods of hidden light. It is classicism as theatre, built to move the beholder and to overwhelm. (The name itself began as an insult — probably from the Portuguese for a misshapen pearl — a mockery of art thought excessive; the architects never called their work "Baroque".)',
     sections: {
       'what-it-is': {
         title: 'What Baroque architecture is',
-        intro: 'Baroque architecture uses the whole classical vocabulary but sets it in motion. Straight walls curve, façades advance and recede, columns cluster and project, and space, light and ornament are orchestrated for a single powerful effect. Where the Renaissance sought repose, the Baroque seeks drama.',
+        intro: 'Baroque architecture uses the whole classical vocabulary but sets it in motion. Straight walls curve, façades advance and recede, columns cluster and project, and space, light and ornament are orchestrated for a single powerful effect. Where the Renaissance sought repose and balance, the Baroque seeks movement and drama — and it does so for a reason: to move the heart.',
         principles: [
-          { name: 'Movement and the curve', body: 'Baroque architects broke the flat Renaissance wall into curves — convex and concave façades, oval domes and plans, undulating cornices — so that the building seems to move and the eye is swept along it.', why: 'It is the quickest way to know the Baroque. When a classical wall bends and flows rather than standing flat and still, you are in the Baroque.' },
-          { name: 'Theatre and emotion', body: 'The Baroque was born partly of the Counter-Reformation\'s wish to move the faithful. Architecture, sculpture and painting fuse into overwhelming spectacles of light and space designed to stir feeling, not just satisfy reason.', why: 'It explains the aim behind the drama. The Baroque church is a machine for producing awe — every effect is calculated on the beholder\'s emotions.' },
-          { name: 'Light as material', body: 'Hidden windows, deep coffering and gilded surfaces make light itself a building material — dramatic shafts, glowing domes, dark and bright played against each other for theatrical effect.', why: 'It reveals a new ambition: to shape not just stone but the light within it. The Baroque interior changes with the sun as a stage changes with its lamps.' },
-          { name: 'The grand ensemble', body: 'The Baroque thinks big — Bernini\'s sweeping colonnade embracing St Peter\'s Square, Versailles ordering a whole landscape. The single building expands into a total composition of space, garden and city.', why: 'It shows classicism scaling up to the absolutist age. The Baroque does not stop at the façade; it organises the whole world around it into one dramatic order.' }
+          { name: 'Movement and the curved wall', body: 'The defining Baroque move: the wall stops being a flat plane and begins to undulate. Façades ripple in and out — convex bulging toward you, concave scooping away — and plans and domes become ovals and complex figures instead of the calm Renaissance circle and square. The touchstone is Borromini\'s tiny San Carlo alle Quattro Fontane, whose front waves like a curtain.', why: 'It is the fastest way to tell Baroque from Renaissance. A Renaissance front is a grid at rest; a Baroque one looks alive, caught mid-motion. Once you can see the wall "breathing", you have the whole style.' },
+          { name: 'Theatre, emotion and the Counter-Reformation', body: 'The Baroque was born as the visual language of the Catholic Church answering the Reformation. The Council of Trent reaffirmed that sacred images belonged in churches — to teach and to move worshippers to devotion — and architects turned that charge into buildings designed to overwhelm the senses and stir the heart.', why: 'It explains why the style exists. The Baroque is not just ornate Renaissance; every device — light, motion, gilding — is aimed at persuasion and awe. Knowing the purpose lets you read the intention behind the drama.' },
+          { name: 'The fusion of the arts', body: 'Architecture, sculpture and painting are merged into one seamless effect, so you cannot tell where one art ends and the next begins — what scholars call Bernini\'s bel composto, the "beautiful whole". His Cornaro Chapel, framing the Ecstasy of Saint Teresa, stages architecture, hidden light, gilded rays, painted ceiling and marble "theatre boxes" as a single vision.', why: 'It changes how you look. A Baroque interior is not a room full of separate objects but one designed experience — a total work of art meant to be felt all at once.' },
+          { name: 'Light as a building material', body: 'Baroque architects sculpt daylight. Windows are hidden from view so light seems to pour from a mysterious, divine source, and gilded surfaces catch and throw it. Over the Ecstasy of St Teresa a concealed window sends light down bronze rays; behind the Cathedra Petri in St Peter\'s, a window of yellow glass makes light appear to burst from the Holy Spirit.', why: 'Light is invisible until it strikes something — so the key question in any Baroque interior is "where is this glow coming from, and why can\'t I see the window?" Answer it and you have found the machinery of the miracle.' },
+          { name: 'The giant order and monumental scale', body: 'The Baroque loves the giant, or colossal, order — columns and pilasters that rise through two or more storeys in a single sweep — and sheer bigness as a rhetorical device: scale that dwarfs the visitor and proclaims the power of Church or Crown.', why: 'It marks the difference from the human-scaled, storey-by-storey rhythm of much Renaissance work. Learning to spot the order that spans the whole height lets you read ambition and power directly in the stone.' },
+          { name: 'The grand ensemble', body: 'The Baroque thinks beyond the single building to the whole setting — squares, avenues, gardens and sightlines. Bernini\'s oval colonnade reaches out from St Peter\'s to gather the crowd; he said the mother church of all churches needed a portico that gave "an open-armed, maternal welcome" to the faithful. At Versailles, Louis XIV\'s architects ordered a whole landscape into one axial system.', why: 'Baroque space is choreographed: the building stage-manages how you approach and what you feel. It is the seed of modern axial town planning — architecture that arranges the world around itself.' },
+          { name: 'Rich materials and dynamic ornament', body: 'Coloured marbles, gilt bronze, stucco and deep undercut carving make surfaces of shifting richness, and the ornament itself is restless — broken pediments, scrolls, cartouches, swags. Bernini\'s Baldacchino over the high altar of St Peter\'s, with its twisting Solomonic columns, is the icon of this material spectacle.', why: 'Ornament here is not decoration for its own sake but energy made solid — motion frozen in bronze and marble, reinforcing the sense of a building in movement.' },
+          { name: 'The English Baroque — a soberer strand', body: 'England came to the Baroque late and kept it restrained: less swirling emotion, more grandeur and mass. Wren rebuilt St Paul\'s and the City churches after the Great Fire of 1666; Vanbrugh and Hawksmoor raised the massive, dramatic Blenheim Palace and Castle Howard.', why: 'It proves the Baroque is not one thing. Setting Roman exuberance beside English weight — and beside the light, dancing Rococo of the German churches — teaches you to read regional temperament in architecture.' }
+        ]
+      },
+      'the-path': {
+        title: 'Learning the Baroque',
+        intro: 'Feel the motion and the drama first, then learn to name the devices, then follow the style out of Rome across Europe.',
+        levels: [
+          { stage: 'Beginner — see the motion, feel the drama', items: [
+            'Learn the one big contrast: Renaissance is calm and balanced; Baroque is moving and emotional (this is exactly Wölfflin\'s method).',
+            'Look at one curving façade — Borromini\'s San Carlo alle Quattro Fontane — and watch the wall wave in and out.',
+            'Absorb one theatrical interior — Bernini\'s Cornaro Chapel with the Ecstasy of St Teresa — as a whole before analysing it.',
+            'Learn the origin story: Counter-Reformation Rome, architecture built to move the faithful.'
+          ] },
+          { stage: 'Intermediate — name the devices', items: [
+            'Tell convex from concave in a façade, and find an oval plan or dome (Bernini\'s Sant\'Andrea al Quirinale).',
+            'Trace concealed light: find the hidden window behind a glowing altar.',
+            'Recognise the giant order and the twisting Solomonic column of the Baldacchino.',
+            'Meet the three Roman rivals — Bernini, Borromini and Pietro da Cortona — and start telling their temperaments apart.'
+          ] },
+          { stage: 'Advanced — the regions and the geometry', items: [
+            'Follow the style out of Rome: Guarini\'s dizzying rib-domes in Turin, and the Central-European Baroque and Rococo of Balthasar Neumann.',
+            'Contrast the sober English Baroque (Wren, Vanbrugh, Hawksmoor) with Roman exuberance.',
+            'Read the Baroque-to-Rococo transition and argue where the line falls — scholars still do.',
+            'Go to the two contemporary lives of Bernini to hear how the age itself spoke of its greatest architect.'
+          ] }
+        ]
+      },
+      'practice': {
+        title: 'Things to look for and do',
+        intro: 'The Baroque is best learned by chasing its effects. A few things to actually do.',
+        items: [
+          { name: 'Spot the undulating wall', body: 'Trace a façade left to right and ask whether it bulges toward you (convex) then scoops away (concave). If the wall waves, you are looking at the Baroque.' },
+          { name: 'Find an oval', body: 'Look for oval plans and oval domes in place of the Renaissance circle or square — a clean example is Bernini\'s Sant\'Andrea al Quirinale.' },
+          { name: 'Trace the hidden light', body: 'In a glowing chapel, hunt for the light source. If the altar shines but you cannot see the window, you have found a Baroque light-well doing its theatrical work.' },
+          { name: 'Read the interior as theatre', body: 'Ask where the "stage" is, where the audience would sit, and where the sculpted "cast" appears. The Cornaro Chapel is literally built as a theatre with opera boxes.' },
+          { name: 'Recognise the giant order', body: 'Count the storeys, then check whether a single column or pilaster runs unbroken through two or more of them. One order spanning the whole height is the giant order.' },
+          { name: 'Compare calm with restless', body: 'Set a serene Renaissance front beside a Baroque one and name three visible differences. That side-by-side is Wölfflin\'s whole method in miniature.' }
         ]
       },
       'reading': {
         title: 'Where to read',
-        intro: 'The Baroque wrote less theory and built more; go to the great modern historians and the buildings.',
+        intro: 'The Baroque built more than it wrote, so start with the two contemporary lives of Bernini, then the great modern historians. Honest notes below.',
         books: [
-          { title: 'Art and Architecture in Italy 1600–1750', author: 'Rudolf Wittkower', note: 'ON-RAMP (scholarly). The standard, magnificent account of the Roman and Italian Baroque.' },
-          { title: 'Baroque Architecture', author: 'Christian Norberg-Schulz', note: 'ON-RAMP. A clear thematic introduction to the style\'s space and meaning.' },
-          { title: 'The Lives of Bernini / contemporary biographies', author: 'Filippo Baldinucci & Domenico Bernini', note: 'PRIMARY. Contemporary lives of the age\'s greatest architect-sculptor.' },
-          { title: 'A History of Architecture', author: 'Banister Fletcher', note: 'ON-RAMP. For the comparative plans of the great Baroque churches and palaces.' }
+          { title: 'The Life of Gian Lorenzo Bernini', author: 'Domenico Bernini, c. 1713 (Mormando translation, 2011)', note: 'PRIMARY. The fuller, more intimate of the two contemporary lives, written by Bernini\'s son. Mormando\'s edition adds hundreds of clarifying notes.' },
+          { title: 'The Life of Bernini', author: 'Filippo Baldinucci, 1682 (Enggass translation)', note: 'PRIMARY. The first stand-alone biography, begun while Bernini still lived — short and readable, but adulatory; read it as a period document.' },
+          { title: 'Bernini: His Life and His Rome', author: 'Franco Mormando, 2011', note: 'ON-RAMP. A modern, very readable narrative biography — the easiest way into Bernini and his city.' },
+          { title: 'Renaissance and Baroque', author: 'Heinrich Wölfflin, 1888', note: 'ON-RAMP. The foundational study that turned "Baroque" from an insult into a serious category, on the calm-versus-movement contrast. The German original is free online.' },
+          { title: 'Art and Architecture in Italy 1600–1750', author: 'Rudolf Wittkower', note: 'ON-RAMP (demanding). The standard scholarly survey of the Italian Baroque, now revised into three volumes.' },
+          { title: 'Architecture in Britain 1530–1830', author: 'John Summerson', note: 'ON-RAMP. The authoritative account of the English strand — Wren and the Baroque, Vanbrugh and Hawksmoor.' }
         ]
       },
       'masters': {
         title: 'The names',
-        intro: 'The architects who set the classical language in motion.',
+        intro: 'The architects who set the classical language in motion — the Roman rivals first, then the men who carried it across Europe.',
         figures: [
-          { name: 'Gian Lorenzo Bernini (1598–1680)', what: 'Sculptor-architect of Baroque Rome — the colonnade of St Peter\'s Square and the Baldacchino within.' },
-          { name: 'Francesco Borromini (1599–1667)', what: 'Bernini\'s rival, master of the curved wall and complex geometry (San Carlo alle Quattro Fontane).' },
-          { name: 'Sir John Vanbrugh (1664–1726)', what: 'Who brought a massive English Baroque to Blenheim Palace and Castle Howard.' },
-          { name: 'Balthasar Neumann (1687–1753)', what: 'Master of the German Baroque and Rococo, architect of the Würzburg Residence.' }
+          { name: 'Gian Lorenzo Bernini (1598–1680)', what: 'The towering figure of the Roman Baroque — sculptor, architect and showman. The colonnade of St Peter\'s Square, the Baldacchino, the Cornaro Chapel and the Cathedra Petri, and the oval church of Sant\'Andrea al Quirinale. Master of the fusion of the arts.' },
+          { name: 'Francesco Borromini (1599–1667)', what: 'The master of the curved wall and of architecture built from geometry rather than the human body — San Carlo alle Quattro Fontane and Sant\'Ivo alla Sapienza. A tormented genius, Bernini\'s bitter rival, who died by his own sword.' },
+          { name: 'Pietro da Cortona (1596–1669)', what: 'The great painter-architect of Baroque Rome, whose church of Santi Luca e Martina was among the first fully Baroque façades.' },
+          { name: 'Guarino Guarini (1624–1683)', what: 'Priest, mathematician and architect in Turin, who built the most daring geometric domes of the age — interlacing rib-arches opening to the sky, as in the Chapel of the Holy Shroud.' },
+          { name: 'Sir Christopher Wren (1632–1723)', what: 'Astronomer turned architect and the leading figure of the English Baroque, who rebuilt St Paul\'s Cathedral and the City of London churches after the Great Fire. His epitaph there reads: "Reader, if you seek his monument, look around you."' },
+          { name: 'Vanbrugh & Hawksmoor', what: 'The pair who brought the English Baroque to its massive climax — Blenheim Palace and Castle Howard — with Vanbrugh (1664–1726) the visionary and Hawksmoor (c. 1661–1736), Wren\'s former pupil, the technical master and builder of his own powerful London churches.' }
         ]
       }
     }
