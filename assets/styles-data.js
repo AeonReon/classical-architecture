@@ -523,35 +523,75 @@ window.ARTS.push(
     group: 'The Styles',
     color: '#4F6D7A', colorDeep: '#2F4550', colorSoft: '#E1E9EC',
     icon: 'temple',
-    blurb: 'From the late eighteenth into the nineteenth century, the accurate rediscovery of Greek architecture inspired a full revival — real Greek temples, especially the Doric, reborn as banks, museums, courthouses and homes. Charged with associations of democracy, liberty and pure taste, the Greek Revival gave the young United States and Britain some of their most dignified public buildings.',
+    blurb: 'From the late eighteenth into the nineteenth century, the accurate rediscovery of Greek architecture inspired a full revival — real Greek temples, above all the sturdy baseless Doric, reborn as banks, museums, courthouses and homes. Charged with the ideals of democracy, liberty and pure taste, the Greek Revival gave the young United States and Britain some of their most dignified public buildings. (It is usually seen as the later, specifically-Greek and more archaeological phase of Neoclassicism — a convention rather than a hard line; see the Neoclassical tile.)',
     sections: {
       'what-it-is': {
         title: 'What the Greek Revival is',
-        intro: 'The Greek Revival is the archaeologically-minded imitation of actual Greek temple architecture — its true Doric and Ionic orders, its columned porticoes and pediments — applied to modern building types and freighted with the political ideals then attached to ancient Greece.',
+        intro: 'The Greek Revival is the archaeologically-minded imitation of actual ancient Greek temple architecture — its true orders, its columned porticoes and pediments — applied to modern building types and freighted with the political ideals then attached to ancient Greece. It began the moment architects could measure Greece rather than merely imagine it.',
         principles: [
-          { name: 'The real Greek orders', body: 'Armed with accurate surveys (Stuart and Revett), revival architects used genuine Greek Doric — baseless, sturdy, severe — rather than the softened Roman versions preferred earlier. Correctness to the Greek original was the point.', why: 'It marks a shift from Roman to Greek as the ideal. The heavy, baseless Doric portico is the signature — and it tells you the builder wanted Athens, not Rome.' },
-          { name: 'The temple as any building', body: 'The full temple form — a columned, pedimented portico — was applied to banks, churches, museums, courthouses and even farmhouses, making the Greek temple the standard dress of serious public and private building.', why: 'It is why so many old civic buildings look like temples. The revival made the temple front a universal sign of dignity and permanence.' },
-          { name: 'Politics in stone', body: 'Greece meant democracy, liberty and the birth of the West. The style carried these associations, which is why it flourished in the young American republic and in the reforming, self-improving cities of Britain.', why: 'It shows a style chosen as an argument. To build Greek was to claim descent from Athens — its freedom, its taste, its civic ideal.' }
+          { name: 'Measuring Greece, not imagining it', body: 'Earlier classicism was Roman-derived and second-hand. The revival began when accurate measured drawings of real Greek buildings appeared — above all Stuart and Revett\'s Antiquities of Athens, from 1762 — backed by the sustained survey-and-publish effort of the Society of Dilettanti.', why: 'It is why this revival could be exact where earlier ones only evoked. Authority now came from the actual stones of Athens, put into architects\' hands, not from Vitruvius or Palladio.' },
+          { name: 'The real Greek orders — the baseless Doric', body: 'The signature is the Greek Doric order: a sturdy, primitive-looking column with no base, its fluted shaft rising straight from the platform, the flutes meeting at sharp ridges. This contrasts sharply with Roman Doric, which stands on a base and is more slender.', why: 'That missing base is the single clearest field-mark of a true Greek Revival building. See it and you know the builder wanted Athens, not Rome — and the "primitive strength" of Greek Doric was prized as honest and manly.' },
+          { name: 'The temple front for any building', body: 'Revivalists took the ancient temple form — a columned portico crowned by a triangular pediment — and applied it to every serious modern type: banks, museums, courthouses, churches, universities, even farmhouses.', why: 'A religious form for a dead pagan cult became the default dress of seriousness for civic and commercial life. It is why so many old banks and courthouses are, quite literally, temples.' },
+          { name: 'Politics in stone', body: 'Ancient Greece stood for democracy, liberty and the cradle of the West, and the style carried that charge — sharpened by philhellenism and the Greek War of Independence (1821–1832), which made Greek forms feel like solidarity with a living fight for freedom.', why: 'It shows a style chosen as an argument. A Greek-fronted courthouse or capitol was making a claim about democratic legitimacy — which is exactly why it suited the young American republic and reforming British cities.' },
+          { name: 'Correctness — and the colour it uncovered', body: 'The revival prized archaeological accuracy, but accuracy cut against its own taste. From the 1820s scholars such as Hittorff argued, from surviving paint traces on Sicilian temples, that Greek temples had been brightly painted — overturning the serene white-marble ideal the revival loved.', why: 'It exposed a gap between the cool white Greece the age imagined and the gaudier ancient reality. The white stone we admire is a modern ideal, not what the Greeks actually built — the same correction that haunts the Greek tile.' },
+          { name: 'America\'s near-national style', body: 'In the United States the Greek Revival became almost a national style from about 1820 to 1850 — state capitols, banks, courthouses, churches and Southern plantation houses — carried to ordinary carpenters by pattern books, and riding a wave of classical town names across the interior (Athens, Sparta, Ithaca, Syracuse).', why: 'It is why the American civic landscape is so full of white columns. A young republic reached for the architecture of the first democracy to give itself a face — and it stuck.' },
+          { name: 'The limits of a temple', body: 'The style\'s strength was also its trap. Forcing a windowless temple form onto a working modern building — an office needing daylight, a bank needing security — was awkward, and Pugin attacked the misuse of pagan temples for Christian and everyday purposes.', why: 'It explains why the revival faded: one noble form could not bend to every use. That very rigidity helped provoke the Gothic Revival, which promised a more flexible, more "honest" and Christian alternative.' }
+        ]
+      },
+      'the-path': {
+        title: 'Learning the Greek Revival',
+        intro: 'Learn one field-mark and the temple silhouette first, then the orders and the political reading, then the sources, the controversies and the great originals.',
+        levels: [
+          { stage: 'Beginner — the field-mark', items: [
+            'Learn to see the pedimented portico — columns plus a triangular gable — as one recognisable shape.',
+            'Learn the killer test: Greek Doric has NO base (shaft straight onto the platform); Roman Doric has one. Practise on photographs.',
+            'Anchor on the Second Bank of the United States in Philadelphia — the first American building explicitly modelled on the Parthenon.'
+          ] },
+          { stage: 'Intermediate — orders, types, message', items: [
+            'Tell the three revived Greek orders apart: baseless Doric, scrolled Ionic (the British Museum, the US Treasury), leafy Corinthian (Girard College).',
+            'Learn the type-spread — bank, museum, courthouse, church, university, house — all in the same temple dress.',
+            'Start reading the message: why the style of the first democracy suited banks and capitols. Anchors: the British Museum, Downing College, the Royal High School in Edinburgh.'
+          ] },
+          { stage: 'Advanced — sources, controversy, originality', items: [
+            'Go to the primary source, Stuart and Revett, to see how measured drawings drove the whole revival.',
+            'Engage the polychromy debate (Hittorff) and the tension between archaeology and the white-marble ideal.',
+            'Study the critique — windowless temples for functional buildings, Pugin, the Gothic reaction — and then the great originals who pushed past copying: "Greek" Thomson in Glasgow, and Klenze\'s Walhalla, a full Parthenon on the Danube.'
+          ] }
+        ]
+      },
+      'practice': {
+        title: 'Things to look for and do',
+        intro: 'The Greek Revival is on almost every old high street. A few things to actually do.',
+        items: [
+          { name: 'Check for the missing base', body: 'Find a fluted Doric column and look at the bottom: straight onto the platform means Greek, a ring-like base means Roman. This one check sorts most classical buildings at a glance.' },
+          { name: 'Find a temple-fronted civic building', body: 'Hunt for a bank, county courthouse or nineteenth-century museum with a columned portico and pediment. These are the richest hunting grounds for the style.' },
+          { name: 'Read the political message', body: 'Ask what a Greek-columned civic building is claiming by dressing as a temple — democratic legitimacy, permanence, seriousness. The columns are an argument.' },
+          { name: 'Spot it on a house', body: 'Look for the columned porch and low-pitched pediment gable on nineteenth-century farmhouses and Southern plantation houses — the temple form come home.' },
+          { name: 'Put the colour back', body: 'Remember the plain white stone is a modern ideal; look up a painted reconstruction of a Greek temple and notice how alien the real, coloured original looks against the "pure white" expectation.' },
+          { name: 'Count and name the order', body: 'Count the columns and name the order — Doric, Ionic or Corinthian — to practise seeing exactly which Greek model a building is copying.' }
         ]
       },
       'reading': {
         title: 'Where to read',
-        intro: 'Begin with the archaeology that started it, then a good history of the movement.',
+        intro: 'Begin with the archaeology that started it, then the standard histories of the British and American movements.',
         books: [
-          { title: 'The Antiquities of Athens', author: 'Stuart & Revett, 1762 onward', note: 'PRIMARY. The measured drawings that made the whole revival possible.' },
-          { title: 'The Greek Revival', author: 'J. Mordaunt Crook', note: 'ON-RAMP. The standard, readable history of the British movement.' },
-          { title: 'Greek Revival America', author: 'Roger G. Kennedy', note: 'ON-RAMP. On why the young United States built itself in Greek dress.' },
-          { title: 'The Greek Revival: Architecture and the politics of hellenism', author: 'various', note: 'ON-RAMP. On the ideas and associations the style carried.' }
+          { title: 'The Antiquities of Athens', author: 'Stuart & Revett, several volumes 1762–1816', note: 'PRIMARY. The measured-drawing sourcebook that made the whole revival possible. Browse the plates; it is a reference, not a read. Free on archive.org.' },
+          { title: 'The Greek Revival', author: 'J. Mordaunt Crook, 1972', note: 'ON-RAMP. The standard scholarly history of the British movement — serious but readable.' },
+          { title: 'Greek Revival America', author: 'Roger G. Kennedy, 1989', note: 'ON-RAMP. A lavishly illustrated survey of the American style — the friendliest starting point.' },
+          { title: 'Greek Revival Architecture in America', author: 'Talbot Hamlin, 1944', note: 'ON-RAMP. The classic, still-cited American study — denser older scholarship, but foundational.' },
+          { title: 'Architecture in Britain 1530–1830', author: 'John Summerson', note: 'ON-RAMP. Places the British Greek Revival in the long sweep of British classicism ("Greek and Gothic after Waterloo").' }
         ]
       },
       'masters': {
         title: 'The names',
-        intro: 'The architects who brought the temple back.',
+        intro: 'The architects who brought the temple back, in Britain, America and Germany.',
         figures: [
-          { name: 'James "Athenian" Stuart (1713–1788)', what: 'Whose surveys and early Greek buildings launched the revival in Britain.' },
-          { name: 'Benjamin Latrobe (1764–1820)', what: 'Father of American professional architecture; shaped the US Capitol in a Greek spirit.' },
-          { name: 'Robert Smirke (1780–1867)', what: 'Architect of the British Museum, the grandest British Greek Revival building.' },
-          { name: 'Alexander "Greek" Thomson (1817–1875)', what: 'The great, original Glasgow architect who pushed Greek forms into something new.' }
+          { name: 'James "Athenian" Stuart (1713–1788)', what: 'Co-author of the Antiquities of Athens, whose surveys launched the revival; his Doric temple at Hagley (1758) is often called the first Greek Revival building.' },
+          { name: 'William Strickland (1788–1854)', what: 'Architect of the Second Bank of the United States in Philadelphia — the first American building explicitly modelled on the Parthenon.' },
+          { name: 'Robert Smirke (1780–1867)', what: 'Architect of the British Museum, with its great Ionic colonnade — the grandest British Greek Revival building.' },
+          { name: 'Benjamin Latrobe (1764–1820)', what: 'The English-born "father of American architecture", who worked on the US Capitol and designed the Bank of Pennsylvania, the first Greek Revival building in America.' },
+          { name: 'Leo von Klenze (1784–1864)', what: 'Architect of the Walhalla near Regensburg — a full-scale Parthenon built as a German hall of fame on a hill above the Danube.' },
+          { name: 'Alexander "Greek" Thomson (1817–1875)', what: 'Glasgow\'s great original, who pushed Greek forms into something genuinely new in his churches and villas.' }
         ]
       }
     }
