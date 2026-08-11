@@ -188,36 +188,74 @@ window.ARTS.push(
     group: 'The Styles',
     color: '#C08A2E', colorDeep: '#8A5F16', colorSoft: '#F5E9CE',
     icon: 'dome',
-    blurb: 'The Renaissance was the deliberate rebirth of classical architecture in fifteenth- and sixteenth-century Italy. Scholars recovered Vitruvius, architects measured the Roman ruins, and a new generation set out to build again in the language of antiquity — rationally, harmoniously, and to the measure of man. It is the moment the classical tradition became self-conscious and set the course for the next five hundred years.',
+    blurb: 'The Renaissance was the deliberate rebirth of classical architecture in fifteenth- and sixteenth-century Italy. Scholars recovered Vitruvius, architects measured the Roman ruins first-hand, and a new kind of designer — the learned scholar-artist — set out to build again in the language of antiquity: rationally, harmoniously, and to the measure of man. It is the moment the classical tradition became self-conscious, and it set the course of Western building for the next five hundred years.',
     sections: {
       'what-it-is': {
         title: 'What Renaissance architecture is',
-        intro: 'Renaissance architecture is classical architecture recovered by study. Where medieval builders had worked by inherited craft, the Renaissance architect was a scholar-artist who read Vitruvius, measured Roman ruins, and designed by reasoned proportion — treating building as a liberal art.',
+        intro: 'Renaissance architecture is classical architecture recovered by study. Where the medieval mason worked by inherited craft, the Renaissance architect was a scholar-artist who read Vitruvius, measured the Roman ruins, and designed by reasoned proportion — treating building as a liberal art, and antiquity as a school to be learned from the ground up.',
         principles: [
-          { name: 'The recovery of the ancients', body: 'The rediscovery of Vitruvius\'s text and the careful measuring of Roman remains gave architects a body of ancient principle to revive. Alberti wrote the first modern treatise; the ruins became a school.', why: 'It marks the birth of the architect as a learned author. Building was no longer only a craft handed down, but an art recovered from books and stones and consciously re-founded.' },
-          { name: 'Harmony and proportion restored', body: 'Renaissance builders revived the classical faith that beauty is ratio, and applied musical proportions to plans and façades. The centrally-planned church — a perfect circle or square under a dome — became the ideal.', why: 'It explains the serene rationality of a Renaissance building. Every dimension answers to a ratio; the calm you feel is mathematics made visible.' },
-          { name: 'The dome reborn', body: 'Brunelleschi\'s dome for Florence Cathedral (1436), solved by studying Roman construction, announced the age. The dome became the Renaissance\'s crowning form, culminating in Michelangelo\'s St Peter\'s.', why: 'It shows revival as real invention. Brunelleschi did not copy Rome; he out-engineered it, and in doing so opened the whole era.' },
-          { name: 'The palace and the façade', body: 'In the city, the Renaissance perfected the palazzo — a rusticated, symmetrical block with rhythmically ordered windows and a strong cornice — giving the classical language to private and civic urban life.', why: 'It carried classicism off the temple and onto the street. The ordered urban façade we take for granted is a Renaissance achievement.' }
+          { name: 'The recovery of antiquity', body: 'The one surviving ancient treatise, Vitruvius, had been known but garbled through the Middle Ages; in 1416 the humanist Poggio Bracciolini found a good old copy in the abbey of St Gall, and it was studied in Florence. At the same time architects went to Rome to measure the actual ruins — arches, temples, the Pantheon — first-hand.', why: 'It means the style was recovered by reading and measuring, not by copying the recent past. Architecture became evidence-based: you went to the source, the antique building itself, and worked out its rules.' },
+          { name: 'The architect as scholar-artist', body: 'A genuinely new idea: the designer as a learned individual practising a liberal art, not the anonymous collective of the medieval mason\'s lodge. Leon Battista Alberti is the emblem — a humanist who wrote the theory and supplied designs, leaving the stone-cutting to master-masons.', why: 'It is why buildings now carry a name and express one educated mind, why the drawing and the model came to rule the site, and why "architecture" joined the intellectual disciplines. Our whole idea of "the architect" begins here.' },
+          { name: 'Proportion, mathematics and perspective', body: 'Beauty was held to arise from commensurable, whole-number ratios governing plan and elevation, on a rational human-centred plan. Bound up with it was linear perspective, which Brunelleschi demonstrated around 1415 with a painted panel viewed through a peephole against a mirror — proving that space obeys mathematics.', why: 'Space, proportion and the drawing all became measurable and rule-governed — the calm rationality you feel in a Renaissance interior. (One honest caution: the strong claim, argued by Wittkower, that these ratios are literally musical harmonies has been challenged, and fits only some buildings.)' },
+          { name: 'The centrally-planned church', body: 'Theory prized the centralised plan — a circle, square or Greek cross under a dome — as the most perfect, God-like form. Its purest built statement is Bramante\'s tiny Tempietto in Rome (about 1502), a circular temple ringed by columns; his first plan for new St Peter\'s was a colossal Greek cross under one great dome.', why: 'It is geometry as theology — the "perfect" shapes made visible. It also sets up a permanent tension: the ideal circle versus the long nave a congregation needs, which is why St Peter\'s began central and ended as a Latin cross.' },
+          { name: 'The dome reborn', body: 'Brunelleschi\'s dome for Florence Cathedral (built 1420–36) reopened the age: an octagonal double shell raised without a full timber centering, held by self-keying herringbone brickwork and hidden tension chains. It is still the largest masonry dome in the world. A century later Michelangelo answered it with the dome of St Peter\'s.', why: 'It shows revival as real invention. Brunelleschi did not copy Rome — he out-engineered it. (Note the honest version: he built without a full internal falsework, not with "no scaffolding at all" — there were platforms, hoists and his famous lifting machines.)' },
+          { name: 'The palazzo and the ordered façade', body: 'In the city the Renaissance created the classical street front. The Palazzo Medici stacks graded rustication — rough rock-faced stone below, smoother above, under a heavy cornice — while Alberti\'s Palazzo Rucellai maps the Colosseum\'s stacked orders onto a house as flat pilasters, storey by storey.', why: 'It carried classicism off the temple and onto the everyday street. The ordered, hierarchical urban façade we now take for granted — and imitated for four hundred years — is a Renaissance achievement.' },
+          { name: 'Mannerism — bending the rules', body: 'Once the grammar was fully mastered, architects began to break it on purpose for expressive tension. Michelangelo is the pivot: his Laurentian Library in Florence recesses columns into the wall, sets brackets that support nothing, and pours a staircase into the room; Giulio Romano lets triglyphs "slip" as a learned joke.', why: 'It proves the rules had been completely internalised — you can only break the grammar knowingly once you know it cold. Mannerism is the bridge from the serene High Renaissance toward the drama of the Baroque.' }
+        ]
+      },
+      'the-path': {
+        title: 'Learning Renaissance architecture',
+        intro: 'Begin in early Florence with the calm classical front, move to the theory and the applied orders, and finish in High-Renaissance Rome where the ideal is perfected and then knowingly broken.',
+        levels: [
+          { stage: 'Beginner — the classical front (Florence)', items: [
+            'Learn the five orders as vocabulary, and the big shift: round arch, column, symmetry and proportion, in reaction to Gothic points and verticality.',
+            'Study Brunelleschi\'s Ospedale degli Innocenti (begun 1419) — the first calm Renaissance loggia of round arches on slender columns.',
+            'Read a rusticated palazzo (Palazzo Medici) from the ground up: rough base, smoother top, crowning cornice.'
+          ] },
+          { stage: 'Intermediate — proportion and the orders', items: [
+            'Spot Alberti\'s superimposed pilaster orders on the Palazzo Rucellai — the façade as a grid.',
+            'Study Alberti\'s church fronts — Santa Maria Novella and Sant\'Andrea in Mantua — where a temple front and triumphal arch are applied to a church.',
+            'Learn the harmonic-ratio idea, and the perspective story (Brunelleschi\'s demonstration, Alberti\'s writing).'
+          ] },
+          { stage: 'Advanced — the High Renaissance and Mannerism (Rome)', items: [
+            'Study Bramante\'s Tempietto (the centralised ideal in miniature) and his Greek-cross plan for St Peter\'s.',
+            'Follow Michelangelo — the dome of St Peter\'s, the Campidoglio, and the Laurentian Library as the doorway to Mannerism.',
+            'Finish with Mannerism proper (Giulio Romano) and the turn toward Palladio and the Baroque.'
+          ] }
+        ]
+      },
+      'practice': {
+        title: 'Things to look for and do',
+        intro: 'The Renaissance front is all around us in later imitation. A few things to actually do.',
+        items: [
+          { name: 'Read the rustication gradient', body: 'On a palazzo or a bank, check whether the ground floor is rough rock-faced stone and the upper floors get smoother — that heavy-to-light stacking under a strong cornice is the Renaissance signature.' },
+          { name: 'Spot applied superimposed orders', body: 'Look for flat pilasters dividing a façade into a grid, changing order storey by storey (Tuscan, then Ionic, then Corinthian). Ask: are they carrying anything, or mapping the classical system as decoration? Usually the latter.' },
+          { name: 'Central or longitudinal?', body: 'Standing at a church door, ask: does the space radiate equally around a central point under a dome, or pull you down a long nave to an altar? Note the ones, like St Peter\'s, that try to be both.' },
+          { name: 'Compare a dome to the Pantheon', body: 'Set a Renaissance dome against the Pantheon: pointed, double-shelled, ribbed brick (Florence) versus a single coffered concrete shell with an open oculus (Rome). The profile and the material tell the story.' },
+          { name: 'Read a pedimented window', body: 'Find windows framed by little columns carrying a triangular or segmental pediment — a miniature temple front on an opening. Alternating triangular and segmental pediments in a row is a Mannerist move.' }
         ]
       },
       'reading': {
         title: 'Where to read',
-        intro: 'The Renaissance wrote its own theory — go to the treatises, then a great modern historian.',
+        intro: 'The Renaissance wrote its own theory — go to the treatises (with honest difficulty notes), then the best modern historians.',
         books: [
-          { title: 'On the Art of Building in Ten Books', author: 'Leon Battista Alberti, c. 1450', note: 'PRIMARY. The first modern architectural treatise, modelled on Vitruvius. Learned and foundational.' },
-          { title: 'The Lives of the Artists', author: 'Giorgio Vasari, 1550', note: 'PRIMARY. The insider\'s account of the architects themselves — Brunelleschi, Bramante, Michelangelo — by a contemporary.' },
-          { title: 'Architectural Principles in the Age of Humanism', author: 'Rudolf Wittkower', note: 'ON-RAMP (scholarly). The classic study of Renaissance proportion and the centrally-planned church.' },
-          { title: 'The Architecture of the Italian Renaissance', author: 'Peter Murray', note: 'ON-RAMP. A clear, well-illustrated survey — the standard first book.' }
+          { title: 'On the Art of Building in Ten Books', author: 'Leon Battista Alberti, c. 1450 (printed 1485)', note: 'PRIMARY. The first modern architectural treatise, modelled on Vitruvius, and the source of "concinnitas" (beauty as harmony). Dense — read Books VI and IX on beauty rather than cover to cover. The Rykwert–Leach–Tavernor MIT edition is standard.' },
+          { title: 'Sebastiano Serlio on Architecture', author: 'Serlio, books from 1537 (Hart & Hicks, Yale)', note: 'PRIMARY. The first practical, illustrated rulebook of the five orders — browse the plates even if you never read it through. It spread the style across Europe.' },
+          { title: 'Lives of the Most Excellent Painters, Sculptors and Architects', author: 'Giorgio Vasari, 1550 / 1568', note: 'PRIMARY. The contemporary insider on the architects — and the origin of the "rebirth" idea. Readable but Florence-biased and fond of legend, so enjoy the flavour and verify the facts. Free online.' },
+          { title: 'The Architecture of the Italian Renaissance', author: 'Peter Murray', note: 'ON-RAMP. The best single-volume introduction, clear and well-illustrated. Start here.' },
+          { title: 'Brunelleschi\'s Dome', author: 'Ross King, 2000', note: 'ON-RAMP. A gripping popular narrative of how the Florence dome was raised. Engaging; cross-check the finer technical claims.' },
+          { title: 'Architectural Principles in the Age of Humanism', author: 'Rudolf Wittkower, 1949', note: 'ON-RAMP (harder). The famous study of Renaissance proportion and the central plan — brilliant, but its musical-ratio thesis is contested, so read the critiques alongside.' }
         ]
       },
       'masters': {
         title: 'The names',
-        intro: 'The founders of the whole modern tradition.',
+        intro: 'The founders of the whole modern tradition — and the layered authorship shows how the age worked, one hand taking over from the last.',
         figures: [
-          { name: 'Filippo Brunelleschi (1377–1446)', what: 'Solved the dome of Florence and re-founded classical architecture; the age begins with him.' },
-          { name: 'Leon Battista Alberti (1404–1472)', what: 'Humanist and theorist who gave the revival its intellectual programme and several great buildings.' },
-          { name: 'Donato Bramante (1444–1514)', what: 'Whose Tempietto perfected the small round temple and who began new St Peter\'s.' },
-          { name: 'Michelangelo (1475–1564)', what: 'Sculptor-architect of the dome of St Peter\'s and the Campidoglio, straining the classical rules toward the Baroque.' }
+          { name: 'Filippo Brunelleschi (1377–1446)', what: 'Solved the dome of Florence, built the serene Ospedale degli Innocenti, and demonstrated linear perspective. The age begins with him.' },
+          { name: 'Leon Battista Alberti (1404–1472)', what: 'The scholar-architect: author of On the Art of Building, and designer of the Palazzo Rucellai and Santa Maria Novella façades and Sant\'Andrea in Mantua. He supplied the designs and left the building to master-masons.' },
+          { name: 'Michelozzo (1396–1472)', what: 'The Medici\'s architect, whose Palazzo Medici set the model for the rusticated Renaissance town palace.' },
+          { name: 'Donato Bramante (c. 1444–1514)', what: 'Who founded the High Renaissance in Rome with the perfect little Tempietto and the first, Greek-cross plan for new St Peter\'s.' },
+          { name: 'Michelangelo (1475–1564)', what: 'Sculptor-architect of the dome of St Peter\'s and the Campidoglio, and of the Laurentian Library that opened Mannerism and pointed toward the Baroque.' }
         ]
       }
     }
