@@ -605,35 +605,76 @@ window.ARTS.push(
     group: 'The Styles',
     color: '#6B4A8A', colorDeep: '#452F5E', colorSoft: '#E9E1F2',
     icon: 'arch',
-    blurb: 'Not every revival looked to Greece and Rome. The Gothic Revival returned instead to the pointed arches, soaring vaults and rich ornament of the medieval cathedral, arguing that the true, Christian and honest architecture was Gothic, not classical. Its greatest monument, the Palace of Westminster, and its fierce theory made it the classical tradition\'s most serious modern rival.',
+    blurb: 'Not every revival looked to Greece and Rome. The Gothic Revival returned instead to the pointed arches, soaring vaults and rich ornament of the medieval cathedral, and argued fiercely that the true, honest and Christian architecture was Gothic, not classical. It is the one style in this app that is not classical at all — the classical tradition\'s great rival — and its greatest monument, the Palace of Westminster, is a modern parliament dressed in the medieval past. It is here so you can see what the classical tradition was arguing against.',
     sections: {
       'what-it-is': {
         title: 'What the Gothic Revival is',
-        intro: 'The Gothic Revival is the deliberate return, from the eighteenth century onward, to medieval Gothic forms — the pointed arch, the rib vault, the pinnacle and tracery — often argued for on moral and religious grounds as more honest and more Christian than the pagan classical orders.',
+        intro: 'The Gothic Revival is the deliberate return, from the eighteenth century onward, to medieval Gothic forms — the pointed arch, the rib vault, the pinnacle and tracery — and above all to the belief that these were more honest, more Christian and more truthful than the "pagan" classical orders. It is presented here on its own terms, as the great alternative the classical tradition had to answer.',
         principles: [
-          { name: 'The pointed arch', body: 'Where classical building rests on the round arch and the horizontal beam, the Gothic rests on the pointed arch and the rib vault, which channel load in different ways and allow height, thin walls and great windows.', why: 'It is the visible dividing line from the classical. The pointed arch is a different structural idea, and with it comes a whole different family of forms.' },
-          { name: 'A moral argument', body: 'Pugin and Ruskin argued that Gothic was truthful — its structure honestly shown, its ornament hand-made and meaningful — and that classical architecture was pagan, dishonest and mechanical. Style became a matter of conscience.', why: 'It shows architecture debated as morality, not just taste. The Gothic Revival forced the whole tradition to justify itself, which sharpened classical thought in turn.' },
-          { name: 'Faith and nation', body: 'Gothic carried associations of the Christian Middle Ages and of national roots, which is why it clothed churches, universities and parliaments — the Palace of Westminster chief among them.', why: 'It explains where you find it: churches, colleges and civic buildings that wished to claim the medieval, Christian past rather than the classical, ancient one.' }
+          { name: 'The pointed arch and the Gothic skeleton', body: 'Classical building rests on post-and-lintel and the round arch, which push their load outward and so need thick walls and small windows. Gothic replaces them with three linked devices — the pointed arch (which drives its thrust more steeply downward), the rib vault (which gathers the roof onto slender piers), and the flying buttress (which carries the remaining outward push across open air to a pier outside). The wall stops carrying weight and becomes a thin screen of stained glass.', why: 'It is the deepest contrast with classicism. Where the classical is balanced mass, the horizontal, and the module of the column, Gothic is a skeleton of thrusts and counter-thrusts, verticality, and a wall dissolved into coloured light. The revivalists argued this made Gothic the more structurally expressive architecture — you can read the forces at work.' },
+          { name: 'The moral argument', body: 'Pugin turned Gothic from a style into a conscience. His "two great rules" were that a building should have no feature not needed for use, construction or propriety, and that all ornament should enrich the essential construction. On that test classical architecture failed — its columns that carry nothing and its temple-front shams were, to him, dishonest, and being descended from pagan Greece and Rome, un-Christian too.', why: 'It is the hinge of the whole rivalry. It reframed a choice of style as a choice between honesty and deceit, faith and paganism — and it forced the classical tradition to defend itself, which sharpened classical thinking in turn.' },
+          { name: 'Ruskin and the joy of the workman', body: 'John Ruskin, a critic rather than an architect, gave the movement its other great text in "The Nature of Gothic". He located Gothic\'s worth not in geometry but in the free medieval craftsman: its roughness and variety — its "savageness" — are the visible trace of a human being thinking for himself, and ornament is the workman\'s joy. He set this against industrial perfection: "You must either make a tool of the creature, or a man of him."', why: 'It turned Gothic into a social and ethical creed, feeding William Morris and the Arts and Crafts movement. It also sharpens the classical contrast: the exact repetition and machine-smooth finish the classical prizes is precisely what Ruskin distrusted as inhuman.' },
+          { name: 'Faith and nation', body: 'Gothic carried two associations classicism could not match in the nineteenth century: it was felt to be intrinsically Christian — the architecture of the medieval Church — and to be the national, home-grown medieval past rather than an import from the pagan Mediterranean.', why: 'It explains exactly where you find it: churches, colleges and civic buildings that wished to claim the Christian, medieval, national past. It is why a modern parliament at Westminster reached for the pointed arch instead of the portico.' },
+          { name: 'The correct church', body: 'The Cambridge Camden Society, through its journal The Ecclesiologist, told Anglicans precisely what a "correct" church should be — modelled on fourteenth-century "Middle Pointed" Gothic and laid out for proper worship, with a deep chancel and a real altar.', why: 'It took the moral argument and made it a rulebook. A church could now be judged right or wrong against a doctrine, which drove an enormous wave of new and restored parish churches across the English-speaking world.' },
+          { name: 'Colour built into the stone', body: 'At mid-century the revival grew muscular and colourful. William Butterfield\'s All Saints, Margaret Street pioneered structural polychromy — colour built into the fabric itself in permanent materials, banded red and black brick, stone and patterned tile, rather than painted on.', why: 'It is Pugin\'s honesty principle carried to the very surface: the colour is a true property of the material, not a fake finish. It produced the aggressive, unmistakable "High Victorian" look — the polar opposite of cool, pale classical stone.' },
+          { name: 'Gothic as reason, and the restorers', body: 'In France, Viollet-le-Duc argued that Gothic was above all a rational structural system — every rib and buttress doing a job — a model even for modern iron construction. He was also France\'s great restorer, at Notre-Dame and Carcassonne, but his restorations were conjectural: he aimed to return a building to an ideal "complete state which may never have existed".', why: 'It is the strand of the revival that points forward to modern structural honesty rather than back to medieval faith — and it set off the great conservation quarrel, between restoring to an imagined ideal and Ruskin and Morris\'s "anti-scrape" plea to conserve honestly and never fake a lost original.' }
+        ]
+      },
+      'the-path': {
+        title: 'Learning the Gothic Revival',
+        intro: 'Learn the one visual test first, then the argument that made it a crusade, then the nuance, the structure and the great conservation quarrel.',
+        levels: [
+          { stage: 'Beginner — see the difference', items: [
+            'Learn the single most useful test: pointed arch versus round arch. Round is classical or Romanesque; the tent-like point is Gothic. Practise on any doorway or window.',
+            'Start with the light-hearted early phase — Horace Walpole\'s Strawberry Hill — where "Gothick" was romantic fashion, before it turned serious and moral.',
+            'Grasp the big idea: after centuries of classicism, people deliberately went back to the pointed Middle Ages, then argued it was morally better.'
+          ] },
+          { stage: 'Intermediate — the argument', items: [
+            'Read Pugin\'s two great rules and look at a Puginian church (St Giles, Cheadle), asking whether every part does a job and the ornament decorates real structure.',
+            'Understand the Ecclesiological rulebook — why so many Victorian churches look fourteenth-century.',
+            'Meet the rivalry head-on: compare a Greek Revival "temple for a bank" with a Gothic church or town hall, and read the opposing messages.'
+          ] },
+          { stage: 'Advanced — nuance, structure, controversy', items: [
+            'Study structural polychromy at All Saints, Margaret Street, and the rational-structure argument of Viollet-le-Duc.',
+            'Engage the restoration controversy — restore-to-an-ideal versus Ruskin and Morris\'s "conserve, don\'t fake" — and the founding of the SPAB in 1877.',
+            'Trace the spread: Collegiate Gothic on campuses, wooden Carpenter Gothic in America, and Cologne Cathedral finally completed in 1880 to its surviving medieval plans.'
+          ] }
+        ]
+      },
+      'practice': {
+        title: 'Things to look for and do',
+        intro: 'The Gothic Revival is on every high street and in every old churchyard. A few things to actually do.',
+        items: [
+          { name: 'Pointed or round?', body: 'The fastest single skill: a round-topped arch is classical or Romanesque; the tent-like point is Gothic. Test it on windows, doorways and arcades wherever you go.' },
+          { name: 'Look up for the ribs', body: 'Inside, do slender stone ribs spring from the piers and cross the ceiling like the spokes of an umbrella? That is a Gothic rib vault. A smooth round tunnel is Romanesque; a flat or coffered ceiling is classical.' },
+          { name: 'Find a flying buttress', body: 'From outside, look for the half-arch "flyers" leaping from the upper wall to a free-standing pier — the trick that lets the wall be thin and full of glass. Small parish churches are too low to need them, so absence is not failure.' },
+          { name: 'Test a church for honesty', body: 'Ask Pugin\'s two questions: is every feature needed for use, construction or propriety, or is something there purely for show? And does the ornament enrich real structure, or disguise it? A sheltering porch passes; a buttress that carries nothing fails.' },
+          { name: 'Is the colour built in?', body: 'Where a Gothic Revival building is coloured, check whether the colour is bands of different brick, stone and tile built into the wall, or merely paint on the surface. Built-in is the honest, Butterfield way.' },
+          { name: 'Read the two messages', body: 'Set a Gothic Revival building beside a classical one and read what each says: the temple-front says order, reason and ancient authority; the Gothic says faith, nation, the medieval past and honest craft. That is the whole rivalry made visible.' }
         ]
       },
       'reading': {
         title: 'Where to read',
-        intro: 'The Gothic Revival produced the fiercest architectural writing of the age — read the polemics.',
+        intro: 'The Gothic Revival produced the fiercest architectural writing of the age — read the polemics first (all free and public-domain), then the modern histories.',
         books: [
-          { title: 'The True Principles of Pointed or Christian Architecture', author: 'A. W. N. Pugin, 1841', note: 'PRIMARY. The passionate manifesto that structure should be honest and ornament meaningful. Short and thrilling.' },
-          { title: 'The Stones of Venice', author: 'John Ruskin, 1851–53', note: 'PRIMARY. Especially "The Nature of Gothic" — the greatest essay on why Gothic and craft matter. Unmissable.' },
-          { title: 'The Gothic Revival', author: 'Kenneth Clark, 1928', note: 'ON-RAMP. The classic, elegant history of the movement.' },
-          { title: 'God\'s Architect: Pugin', author: 'Rosemary Hill', note: 'ON-RAMP. A superb modern life of the revival\'s driving genius.' }
+          { title: 'The True Principles of Pointed or Christian Architecture', author: 'A. W. N. Pugin, 1841', note: 'PRIMARY. The manifesto of the "two great rules" — that structure should be honest and ornament should enrich it. Short, clear and thrilling. Free online.' },
+          { title: 'Contrasts', author: 'A. W. N. Pugin, 1836', note: 'PRIMARY. His satirical paired engravings setting a noble medieval town against its shabby modern self — the "temples for banks" critique made vivid. Free online.' },
+          { title: 'The Stones of Venice', author: 'John Ruskin, 1851–1853', note: 'PRIMARY. Read the one chapter "The Nature of Gothic" (vol. 2, 1853) even if nothing else — the greatest essay on why Gothic and honest craft matter. Free online.' },
+          { title: 'A History of the Gothic Revival', author: 'Charles L. Eastlake, 1872', note: 'PRIMARY. The movement\'s first history, written from the inside by a contemporary — invaluable and readable. Free online.' },
+          { title: 'The Gothic Revival', author: 'Kenneth Clark, 1928', note: 'ON-RAMP. The classic, elegant history of the movement — the traditional starting point.' },
+          { title: 'God\'s Architect: Pugin and the Building of Romantic Britain', author: 'Rosemary Hill, 2007', note: 'ON-RAMP. A superb, immersive, prize-winning life of Pugin — the best narrative way into the whole movement.' }
         ]
       },
       'masters': {
         title: 'The names',
-        intro: 'The architects and critics of the medieval revival.',
+        intro: 'The architects and critics of the medieval revival — the prophet, his classical partner, the great critic, and the men who built it.',
         figures: [
-          { name: 'A. W. N. Pugin (1812–1852)', what: 'The revival\'s prophet; designed the detail of the Palace of Westminster and wrote its theory.' },
-          { name: 'Sir Charles Barry (1795–1860)', what: 'Classical architect who, with Pugin, designed the Palace of Westminster itself.' },
-          { name: 'Sir George Gilbert Scott (1811–1878)', what: 'The most prolific Gothic Revival architect — St Pancras, the Albert Memorial.' },
-          { name: 'John Ruskin (1819–1900)', what: 'The critic whose writing gave the revival its moral and aesthetic case.' }
+          { name: 'A. W. N. Pugin (1812–1852)', what: 'The revival\'s prophet: a Catholic convert who wrote its theory (Contrasts, The True Principles), designed the Gothic detail of the Palace of Westminster, and built St Giles, Cheadle — packing several careers into twenty years before breaking down and dying at forty.' },
+          { name: 'Sir Charles Barry (1795–1860)', what: 'The classically-trained architect who won the competition for the Palace of Westminster and set its plan and massing, with Pugin supplying the Gothic detail. Pugin\'s own verdict on Barry\'s classicism: "All Grecian, Sir; Tudor details on a classic body." The exact split of credit between them is still debated.' },
+          { name: 'John Ruskin (1819–1900)', what: 'The critic, not an architect, whose Seven Lamps and Stones of Venice gave the movement its moral and social conscience — and, through "The Nature of Gothic", inspired William Morris and the Arts and Crafts movement.' },
+          { name: 'Sir George Gilbert Scott (1811–1878)', what: 'The most prolific Gothic Revival architect — hundreds of churches, the Midland Grand Hotel at St Pancras, and the Albert Memorial — and a great, if controversial, restorer of cathedrals.' },
+          { name: 'William Butterfield (1814–1900)', what: 'The master of High Victorian Gothic and structural polychromy, above all at All Saints, Margaret Street, and Keble College, Oxford.' },
+          { name: 'Eugène Viollet-le-Duc (1814–1879)', what: 'The French rationalist and restorer — of Notre-Dame de Paris and the walls of Carcassonne — who read Gothic as pure structural logic and pointed it toward the modern age.' }
         ]
       }
     }

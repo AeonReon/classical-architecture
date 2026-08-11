@@ -1,4 +1,4 @@
-const CACHE = 'classical-architecture-v10';
+const CACHE = 'classical-architecture-v11';
 const ASSETS = [
   './',
   './index.html',
