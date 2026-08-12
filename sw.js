@@ -1,4 +1,4 @@
-const CACHE = 'classical-architecture-v13';
+const CACHE = 'classical-architecture-v14';
 const ASSETS = [
   './',
   './index.html',
@@ -42,7 +42,17 @@ const ASSETS = [
   './assets/daily/do.jpg',
   './assets/daily/verse.jpg',
   './assets/daily/passage.jpg',
-  './assets/daily/word.jpg'
+  './assets/daily/word.jpg',
+  './quiz.html',
+  './assets/quiz-data.js',
+  './assets/quiz/doric-capital.jpg',
+  './assets/quiz/ionic-capital.jpg',
+  './assets/quiz/corinthian-capital.jpg',
+  './assets/quiz/composite-capital.jpg',
+  './assets/quiz/triglyph-frieze.jpg',
+  './assets/quiz/pediment.jpg',
+  './assets/quiz/round-arch.jpg',
+  './assets/quiz/pointed-arch.jpg'
 ];
 
 self.addEventListener('install', (e) => {

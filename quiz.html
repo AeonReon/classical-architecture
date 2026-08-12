@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#3F8FCB">
+  <title>Test Yourself — Classical Architecture</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="icon-192.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .quiz-main{ max-width:560px; margin:0 auto; padding:20px 16px 60px; }
+    .quiz-head{ text-align:center; margin:8px 0 18px; }
+    .quiz-head h1{ font-weight:800; font-size:clamp(24px,6vw,32px); letter-spacing:-.03em; margin:0; color:var(--ink,#2A2038); }
+    .quiz-head p{ margin:.4em 0 0; color:#6b6478; font-size:15px; }
+
+    .qmeter{ display:flex; align-items:center; gap:10px; margin:0 0 14px; }
+    .qmeter-bar{ flex:1; height:8px; border-radius:999px; background:#EADFC6; overflow:hidden; }
+    .qmeter-fill{ height:100%; width:0; background:linear-gradient(90deg,#5FB1DD,#3F8FCB); transition:width .3s ease; }
+    .qmeter-txt{ font:800 12.5px -apple-system,system-ui,sans-serif; color:#6b6478; white-space:nowrap; }
+
+    .qcard{ background:#fff; border-radius:20px; overflow:hidden; box-shadow:0 2px 4px rgba(60,45,20,.07),0 12px 30px rgba(60,45,20,.10); }
+    .qimg{ position:relative; width:100%; aspect-ratio:16/10; background:linear-gradient(150deg,#5FB1DD,#3F8FCB); overflow:hidden; }
+    .qimg img{ width:100%; height:100%; object-fit:cover; display:block; }
+    .qbody{ padding:18px 18px 20px; }
+    .qtext{ font-weight:800; font-size:1.18em; letter-spacing:-.01em; line-height:1.3; color:var(--ink,#2A2038); margin:0 0 14px; }
+
+    .qopts{ display:flex; flex-direction:column; gap:9px; }
+    .qopt{ text-align:left; cursor:pointer; background:#fff; border:1.6px solid #EADFC6; border-radius:13px; padding:13px 15px; font:600 1.02em -apple-system,system-ui,sans-serif; color:var(--ink,#2A2038); transition:border-color .12s ease, background .12s ease, transform .1s ease; }
+    .qopt:hover:not(:disabled){ border-color:#5FB1DD; }
+    .qopt:active:not(:disabled){ transform:scale(.99); }
+    .qopt:disabled{ cursor:default; }
+    .qopt.correct{ border-color:#1F8F5E; background:#E7F6EE; color:#13603f; font-weight:800; }
+    .qopt.wrong{ border-color:#D9534F; background:#FBEAEA; color:#a3312d; }
+
+    .qfb{ margin-top:14px; padding:13px 15px; border-radius:13px; background:#F3EEF9; color:#4d4658; font-size:.97em; line-height:1.5; }
+    .qfb.ok{ background:#E7F6EE; }
+    .qfb b{ color:var(--ink,#2A2038); }
+
+    .qnext{ display:inline-flex; align-items:center; justify-content:center; gap:.5em; width:100%; margin-top:16px; border:0; cursor:pointer;
+      font:800 1.05em -apple-system,system-ui,sans-serif; color:#fff; background:linear-gradient(135deg,#5FB1DD,#3F8FCB); padding:.9em 1.2em; border-radius:14px;
+      box-shadow:0 4px 14px rgba(46,132,189,.32); transition:transform .15s ease; }
+    .qnext:active{ transform:scale(.98); }
+
+    /* ---- Result screen ---- */
+    .qresult{ text-align:center; background:#fff; border-radius:20px; padding:34px 22px 30px; box-shadow:0 2px 4px rgba(60,45,20,.07),0 12px 30px rgba(60,45,20,.10); }
+    .qscore{ font-weight:800; font-size:3.2em; letter-spacing:-.03em; line-height:1; background:linear-gradient(135deg,#E7A83C,#C6811A); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
+    .qscore-sub{ margin:.5em 0 0; color:#6b6478; font-size:1.05em; }
+    .qgrade{ margin:.9em 0 0; font-weight:800; font-size:1.25em; color:var(--ink,#2A2038); }
+    .qagain{ display:inline-flex; align-items:center; gap:.5em; margin-top:22px; border:0; cursor:pointer; font:800 1.05em -apple-system,system-ui,sans-serif;
+      color:#fff; background:linear-gradient(135deg,#E7A83C,#C6811A); padding:.85em 1.6em; border-radius:999px; box-shadow:0 4px 14px rgba(198,129,26,.32); }
+    .qhome{ display:block; margin-top:14px; color:#6b6478; text-decoration:none; font-weight:700; font-size:.95em; }
+  </style>
+</head>
+<body class="method-page">
+  <main class="quiz-main">
+    <div class="quiz-head">
+      <h1>Test Yourself</h1>
+      <p>Read the buildings. Name the orders. Lock it in.</p>
+    </div>
+    <div id="stage"></div>
+  </main>
+
+  <script src="assets/quiz-data.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+    const ALL = (window.QUIZ || []).slice();
+    const stage = document.getElementById('stage');
+    const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+    function shuffle(a){ a = a.slice(); for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+
+    // How many questions per round (cap so it stays snappy).
+    const ROUND = Math.min(12, ALL.length);
+    let deck = [], idx = 0, score = 0, answered = false;
+
+    function start(){
+      deck = shuffle(ALL).slice(0, ROUND).map(q => {
+        // shuffle options, tracking the correct answer
+        const order = shuffle(q.options.map((_, i) => i));
+        return { q: q.q, image: q.image, explain: q.explain,
+                 options: order.map(i => q.options[i]),
+                 answer: order.indexOf(q.answer) };
+      });
+      idx = 0; score = 0; answered = false;
+      renderQ();
+    }
+
+    function renderQ(){
+      const item = deck[idx];
+      answered = false;
+      const pct = Math.round((idx) / deck.length * 100);
+      stage.innerHTML = `
+        <div class="qmeter">
+          <div class="qmeter-bar"><div class="qmeter-fill" style="width:${pct}%"></div></div>
+          <div class="qmeter-txt">${idx + 1} / ${deck.length}</div>
+        </div>
+        <div class="qcard">
+          ${item.image ? `<div class="qimg"><img src="${esc(item.image)}" alt="" onerror="this.parentNode.style.display='none'"></div>` : ''}
+          <div class="qbody">
+            <p class="qtext">${esc(item.q)}</p>
+            <div class="qopts">
+              ${item.options.map((o, i) => `<button class="qopt" data-i="${i}">${esc(o)}</button>`).join('')}
+            </div>
+            <div class="qfb" id="fb" hidden></div>
+            <button class="qnext" id="next" hidden>Next →</button>
+          </div>
+        </div>`;
+      stage.querySelectorAll('.qopt').forEach(b => b.addEventListener('click', onPick));
+      const nx = document.getElementById('next');
+      nx.addEventListener('click', () => { idx++; (idx >= deck.length) ? renderResult() : renderQ(); });
+      window.scrollTo(0, 0);
+    }
+
+    function onPick(e){
+      if (answered) return;
+      answered = true;
+      const item = deck[idx];
+      const chosen = +e.currentTarget.dataset.i;
+      const opts = [...stage.querySelectorAll('.qopt')];
+      opts.forEach((b, i) => {
+        b.disabled = true;
+        if (i === item.answer) b.classList.add('correct');
+        else if (i === chosen) b.classList.add('wrong');
+      });
+      if (chosen === item.answer) score++;
+      const fb = document.getElementById('fb');
+      fb.hidden = false;
+      fb.classList.toggle('ok', chosen === item.answer);
+      fb.innerHTML = `<b>${chosen === item.answer ? '✓ Correct.' : '✗ Not quite.'}</b> ${esc(item.explain)}`;
+      const nx = document.getElementById('next');
+      nx.hidden = false;
+      nx.textContent = (idx + 1 >= deck.length) ? 'See your score →' : 'Next →';
+    }
+
+    function renderResult(){
+      const pct = Math.round(score / deck.length * 100);
+      let grade = 'Keep looking up.';
+      if (pct === 100) grade = 'Perfect — you read buildings like a master.';
+      else if (pct >= 80) grade = 'Excellent — the classical eye is yours.';
+      else if (pct >= 60) grade = 'Good — the grammar is coming.';
+      else if (pct >= 40) grade = 'A start — walk past a few more buildings.';
+      stage.innerHTML = `
+        <div class="qresult">
+          <div class="qscore">${score}/${deck.length}</div>
+          <div class="qscore-sub">${pct}% correct</div>
+          <div class="qgrade">${grade}</div>
+          <button class="qagain" id="again">↻ Play again</button>
+          <a href="index.html" class="qhome">← Back to the home screen</a>
+        </div>`;
+      document.getElementById('again').addEventListener('click', start);
+      window.scrollTo(0, 0);
+    }
+
+    if (!ALL.length) stage.innerHTML = '<p style="text-align:center;color:#6b6478">Quiz coming soon.</p>';
+    else start();
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
+    }
+  </script>
+</body>
+</html>

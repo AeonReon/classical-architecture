@@ -201,7 +201,8 @@
       capital: `<g><path d="M14 20 Q 20 12 32 12 Q 44 12 50 20 Q 44 26 38 20 Q 44 30 50 34 H14 Q 20 30 26 20 Q 20 26 14 20 Z" fill="currentColor"/><rect x="16" y="36" width="32" height="4" fill="currentColor" opacity="0.9"/><g fill="currentColor" opacity="0.85"><rect x="22" y="42" width="4" height="14"/><rect x="30" y="42" width="4" height="14"/><rect x="38" y="42" width="4" height="14"/></g></g>`,
       compass: `<g><circle cx="32" cy="18" r="4" fill="currentColor"/><path d="M32 20 L18 54" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M32 20 L46 54" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M23 42 Q 32 48 41 42" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></g>`,
       dome: `<g><path d="M12 40 a20 20 0 0 1 40 0 Z" fill="currentColor"/><rect x="10" y="40" width="44" height="5" rx="1.5" fill="currentColor"/><rect x="14" y="46" width="36" height="10" rx="1.5" fill="currentColor" opacity="0.9"/><rect x="30" y="10" width="4" height="8" fill="currentColor"/></g>`,
-      acanthus: `<g><path d="M32 54 C 20 44 16 30 20 16 C 26 24 30 22 32 12 C 34 22 38 24 44 16 C 48 30 44 44 32 54 Z" fill="currentColor"/><path d="M32 54 L32 20" stroke="rgba(255,255,255,0.55)" stroke-width="1.5"/></g>`
+      acanthus: `<g><path d="M32 54 C 20 44 16 30 20 16 C 26 24 30 22 32 12 C 34 22 38 24 44 16 C 48 30 44 44 32 54 Z" fill="currentColor"/><path d="M32 54 L32 20" stroke="rgba(255,255,255,0.55)" stroke-width="1.5"/></g>`,
+      target: `<circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="32" cy="32" r="12" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="32" cy="32" r="4" fill="currentColor"/>`
     };
 
     function buildTile(a){
@@ -239,6 +240,7 @@
       { name:'Materials & Construction', tagline:'Stone, brick, timber, the arch and the dome.', count:'How it stands up', href:'art.html?id=materials', image:'assets/elements/materials.jpg', icon:'arch', color:'#6B7280', colorDeep:'#404650' },
     ];
     const TOOLS = [
+      { name:'Test yourself', tagline:'A quick quiz — name the orders, read the styles, spot the details. See how well your eye reads a building.', count:'Quiz', href:'quiz.html', image:'', icon:'target', color:'#2E84BD', colorDeep:'#1F5E8A' },
       { name:'Surprise me', tagline:'A random thing to notice, from any style or element. Press for another.', count:'Random', href:'random.html', image:'', icon:'star', color:'#7C3AED', colorDeep:'#5B21B6' },
     ];
     function rtile(c){

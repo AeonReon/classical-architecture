@@ -1,0 +1,88 @@
+// quiz-data.js — the "Test Yourself" question bank.
+// Each question: { q, image?, options[], answer (index), explain }.
+// image is optional; if it fails to load, quiz.html hides it gracefully.
+// Questions are shuffled on each play, and the options within each question
+// are shuffled too (the answer index is tracked through the shuffle).
+
+window.QUIZ = [
+  // ---- Identify the order (capital photos) ----
+  { q: 'Which order is this capital?',
+    image: 'assets/quiz/doric-capital.jpg',
+    options: ['Doric', 'Ionic', 'Corinthian', 'Composite'], answer: 0,
+    explain: 'A plain cushion capital — a round echinus under a square abacus, with no scrolls or leaves — is Doric, the oldest and gravest of the orders.' },
+  { q: 'Which order is this capital?',
+    image: 'assets/quiz/ionic-capital.jpg',
+    options: ['Ionic', 'Doric', 'Corinthian', 'Tuscan'], answer: 0,
+    explain: 'The pair of spiral scrolls (volutes) is the unmistakable signature of the Ionic order — the graceful, learned middle order.' },
+  { q: 'This carving of acanthus leaves comes from which order?',
+    image: 'assets/quiz/corinthian-capital.jpg',
+    options: ['Corinthian', 'Composite', 'Ionic', 'Doric'], answer: 0,
+    explain: 'Acanthus leaves are the mark of the Corinthian — the slenderest and richest of the Greek orders. (Add big Ionic volutes on top of the leaves and it becomes the Composite.)' },
+  { q: 'Which order is this capital?',
+    image: 'assets/quiz/composite-capital.jpg',
+    options: ['Composite', 'Corinthian', 'Ionic', 'Tuscan'], answer: 0,
+    explain: 'Big Ionic volutes sitting on top of Corinthian acanthus leaves make the Composite — the Romans’ own richest order, the crown of the five.' },
+  { q: 'Which order is a plain, smooth, unfluted column with a simple cushion capital and no carving at all?',
+    options: ['Tuscan', 'Doric', 'Ionic', 'Corinthian'], answer: 0,
+    explain: 'That bareness — an unfluted shaft and a plain capital — is the Tuscan, the simplest and sturdiest of the five orders.' },
+
+  // ---- Identify the element (feature photos) ----
+  { q: 'This frieze of grooved blocks and panels belongs to which order?',
+    image: 'assets/quiz/triglyph-frieze.jpg',
+    options: ['Doric', 'Ionic', 'Corinthian', 'Tuscan'], answer: 0,
+    explain: 'Alternating triglyphs (three-grooved blocks) and metopes (the panels between) are the signature Doric frieze — thought to remember the beam-ends of the first timber temples.' },
+  { q: 'What is the triangular gable crowning a temple front called?',
+    image: 'assets/quiz/pediment.jpg',
+    options: ['The pediment', 'The portico', 'The entablature', 'The cornice'], answer: 0,
+    explain: 'The low triangular gable is the pediment; its recessed face is the tympanum, often filled with sculpture.' },
+  { q: 'This round, semicircular arch is characteristic of which builders?',
+    image: 'assets/quiz/round-arch.jpg',
+    options: ['The Romans', 'The Gothic builders', 'The Greeks', 'no one — Greek temples used it'], answer: 0,
+    explain: 'The round (semicircular) arch is the Roman one. The Greeks built with post-and-lintel and had no true arch; the pointed arch is a much later, Gothic idea.' },
+  { q: 'The pointed arch belongs to which tradition?',
+    image: 'assets/quiz/pointed-arch.jpg',
+    options: ['Gothic', 'Roman', 'Greek', 'Renaissance'], answer: 0,
+    explain: 'The pointed arch is Gothic — the great rival to the classical round arch. It drives its thrust more steeply downward, allowing thin walls and huge windows.' },
+
+  // ---- Identify the style (building photos, reusing the tile heroes) ----
+  { q: 'Which style is this building?',
+    image: 'assets/styles/greek.jpg',
+    options: ['Greek', 'Roman', 'Baroque', 'Gothic Revival'], answer: 0,
+    explain: 'The Parthenon — a Doric temple of columns and pediment, seen from outside. This is Greek, the source of the whole tradition.' },
+  { q: 'Which style is this building?',
+    image: 'assets/styles/roman.jpg',
+    options: ['Roman', 'Greek', 'Renaissance', 'Neoclassical'], answer: 0,
+    explain: 'The Colosseum — arches and concrete doing the work, with the orders applied as decoration, stacked storey by storey. This is Roman.' },
+  { q: 'Which style is this house?',
+    image: 'assets/styles/palladian.jpg',
+    options: ['Palladian', 'Baroque', 'Gothic Revival', 'Greek'], answer: 0,
+    explain: 'A symmetrical, temple-fronted, domed villa in the manner of Palladio — the root of the classic country house. This is Palladian.' },
+  { q: 'Which style is this building?',
+    image: 'assets/styles/baroque.jpg',
+    options: ['Baroque', 'Neoclassical', 'Greek Revival', 'Renaissance'], answer: 0,
+    explain: 'Bernini’s sweeping colonnade embracing St Peter’s Square — movement, drama and the grand ensemble. This is Baroque.' },
+  { q: 'Which style is this building?',
+    image: 'assets/styles/gothic-revival.jpg',
+    options: ['Gothic Revival', 'Palladian', 'Neoclassical', 'Roman'], answer: 0,
+    explain: 'The Palace of Westminster — pointed arches, pinnacles and tracery, a modern parliament in medieval dress. This is the Gothic Revival, the classical tradition’s great rival.' },
+
+  // ---- Concept questions (no image) ----
+  { q: 'Which order stands with NO base, straight on the temple floor?',
+    options: ['Greek Doric', 'Ionic', 'Corinthian', 'Composite'], answer: 0,
+    explain: 'Greek Doric alone has no base — the shaft rises straight from the platform. (Roman Doric adds one.) The missing base is the fastest Greek-versus-Roman tell.' },
+  { q: 'The three tests of good building — firmness, commodity and delight — come from which ancient writer?',
+    options: ['Vitruvius', 'Palladio', 'Ruskin', 'Pugin'], answer: 0,
+    explain: 'The triad is Vitruvius’s (firmitas, utilitas, venustas). The catchy English wording is Sir Henry Wotton’s 1624 paraphrase.' },
+  { q: 'A capital wrapped in carved acanthus leaves is which order?',
+    options: ['Corinthian', 'Doric', 'Tuscan', 'Ionic'], answer: 0,
+    explain: 'Leaves mean Corinthian. According to a story Vitruvius tells, its inventor was inspired by acanthus growing round a basket on a girl’s grave — a legend, not history.' },
+  { q: 'The gleaming white marble of a Greek temple was originally...',
+    options: ['painted in bright colours', 'bare white marble, as we see it', 'covered in gold leaf', 'plain brick'], answer: 0,
+    explain: 'Greek temples were brightly painted — reds, blues, gold. The pure-white ideal is an accident of weathering plus eighteenth-century taste.' },
+  { q: 'Is the famous "golden ratio in the Parthenon" a proven fact?',
+    options: ['No — it is largely a modern, unproven claim', 'Yes, the Greeks measured it exactly', 'Yes, Vitruvius records it', 'Yes, Euclid designed the Parthenon'], answer: 0,
+    explain: 'There is little evidence the Greeks used the golden ratio in building. The real classical ratios are simple whole numbers you can hear in music.' },
+  { q: 'On a multi-storey classical façade like the Colosseum, the orders are stacked...',
+    options: ['plainest and strongest at the bottom', 'richest at the bottom', 'all the same order', 'in no particular order'], answer: 0,
+    explain: 'Sturdiest at the base, lightest at the top — Tuscan or Doric below, then Ionic, then Corinthian — so the visual weight rests on the strongest order.' }
+];
