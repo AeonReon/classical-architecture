@@ -394,32 +394,70 @@ window.ARTS = [
     sections: {
       'what-it-is': {
         title: 'What proportion means',
-        intro: 'Proportion is the system of ratios that governs a classical design: the height of a column to its width, a door to its room, a window to the wall. The tradition inherited from Pythagoras and Plato the belief that the same simple ratios that sound harmonious in music are beautiful in space.',
+        intro: 'Proportion is the system of ratios that governs a classical design — the height of a column to its width, a door to its room, a window to the wall. The tradition inherited from Pythagoras and Plato the conviction that the same simple ratios that sound harmonious to the ear are beautiful in space, and it built a whole art on that belief.',
         principles: [
-          { name: 'Beauty as agreement', body: 'Alberti defined beauty as concinnitas — the harmony of all the parts, such that nothing could be added, taken away or altered but for the worse. Beauty is not ornament laid on top; it is the rightness of the relationships underneath.', why: 'It reframes what you are looking at. A plain, unornamented classical building can be profoundly beautiful, because its beauty lives in proportion, not decoration.' },
-          { name: 'Music you can see', body: 'The consonant intervals of music — the octave (2:1), the fifth (3:2), the fourth (4:3) — were used as the ratios of rooms and façades. A room might be a "double cube"; a window twice as tall as wide. The building is tuned like an instrument.', why: 'It explains the strange calm of classical spaces. Your eye is reading the same harmonies your ear finds pleasing in music — order sensed before it is understood.' },
+          { name: 'Symmetria — agreement with a measure', body: 'The ancient word Vitruvius used, symmetria, does not mean mirror-symmetry. It means commensurability: that every part of a building is measured in the same unit and answers to the others, so nothing is an arbitrary size. Proportion is the parts sharing a common measure.', why: 'It clears up a common confusion. Classical "proportion" is not about a building matching left to right; it is about every dimension being a knowable multiple of one another, so the whole holds together.' },
+          { name: 'Beauty as agreement', body: 'Alberti defined beauty as concinnitas — the harmony of all the parts such that nothing could be added, taken away or altered but for the worse. Beauty is not ornament laid on top; it is the rightness of the relationships underneath.', why: 'It reframes what you are looking at, and gives you a test. A plain, unornamented classical building can be profoundly beautiful, because its beauty lives in proportion, not decoration.' },
+          { name: 'Music you can see', body: 'The consonant intervals of music — the octave (2:1), the fifth (3:2), the fourth (4:3) — were used as the ratios of rooms and façades. A room might be a double cube; a window twice as tall as wide. The building is, in effect, tuned like an instrument.', why: 'It explains the strange calm of classical spaces. Your eye is reading the same harmonies your ear finds pleasing in music — an order sensed before it is understood.' },
           { name: 'The human measure', body: 'Vitruvius set the well-formed human body inside a circle and a square — the image Leonardo drew as Vitruvian Man — and made the body the source of the orders\' proportions. The building is scaled to us.', why: 'It is why classical buildings feel humane rather than alien. Their measure is taken from the body, so we feel addressed by them, at our own scale.' },
-          { name: 'The module', body: 'Proportion is made practical through the module — usually the radius or diameter of the column — from which every other dimension is derived by ratio. Design becomes a matter of counting modules, not free invention.', why: 'It shows how a whole building could be held in the mind and coordinated by hand, long before drawings could be copied exactly. One number governs all.' }
+          { name: 'The module', body: 'Proportion is made practical through the module — usually the diameter of the column (or, in some rulebooks, its half) — from which every other dimension is derived by ratio. Design becomes a matter of counting modules, not free invention.', why: 'It shows how a whole building could be held in the mind and coordinated by hand, long before drawings could be copied exactly. One number governs all — which is exactly how the orders work.' },
+          { name: 'Palladio\'s beautiful rooms', body: 'Palladio turned the theory into usable rules, naming his most beautiful room shapes — the circle, the square, the square-and-a-half, whole-number rectangles like 4:3, 3:2 and 5:3, and the double square (2:1) — and setting a room\'s height by proportional means so the third dimension answers to the plan.', why: 'It is proportion made buildable. It is why Palladian rooms feel so composed: their dimensions are a tuned system, not free choices, and the harmony is felt even when it is not understood.' },
+          { name: 'The golden-ratio myth', body: 'It is often claimed that the Greeks and Renaissance architects designed on the golden ratio (about 1.618). There is little real evidence for it: the "golden Parthenon" and "golden Vitruvian Man" readings rely on selective measuring, the Parthenon\'s footprint is closer to 2.25:1, and the golden section was first set out by Euclid — after the Parthenon — as geometry, not an architectural rule.', why: 'It is worth knowing so you are not fooled. The real ratios the tradition used are simple whole numbers you can hear in music, not a mystical irrational number laid over everything after the fact.' }
+        ]
+      },
+      'the-path': {
+        title: 'Learning to see proportion',
+        intro: 'Feel it first in a calm room, then learn the numbers behind the feeling, then read the theory and the debate.',
+        levels: [
+          { stage: 'Beginner', items: [
+            'Stand in a well-proportioned classical room — a Georgian drawing room, a temple portico — and simply feel its calm before analysing anything.',
+            'Take in the big idea: the tradition held beauty to be measurable ratio, not personal taste.',
+            'Learn the module — that a column\'s diameter is the unit everything else is measured in.'
+          ] },
+          { stage: 'Intermediate', items: [
+            'Learn the musical ratios (2:1, 3:2, 4:3) and Palladio\'s recommended room shapes.',
+            'Learn that ancient "symmetria" means commensurability, not mirror-symmetry.',
+            'Read Palladio\'s Book I on room proportions — the theory at its most usable.'
+          ] },
+          { stage: 'Advanced', items: [
+            'Read Alberti on concinnitas — beauty as the harmony from which nothing can be changed for the better.',
+            'Engage the Wittkower debate: his musical-proportion thesis, and the studies that found it fits only some rooms.',
+            'Test the golden-ratio claims sceptically by actually measuring a building said to embody them.'
+          ] }
+        ]
+      },
+      'practice': {
+        title: 'Things to look for and do',
+        intro: 'Proportion is invisible until you start counting. A few things to do.',
+        items: [
+          { name: 'Measure a room as a ratio', body: 'Pace or measure a classical room\'s length and width and reduce it to a simple ratio. Is it a square, a 3:2, a double square? The good ones usually land on a simple number.' },
+          { name: 'Count in modules', body: 'On a columned building, take the column\'s diameter as "1" and estimate the other parts as multiples of it — the spacing, the height, the entablature. Feel the whole resolve into counting.' },
+          { name: 'Hunt for the double cube', body: 'Look for a room twice as long as it is wide (and often as high) — the famous "double cube", a favourite of the English Palladians. Once you know it, you feel it on entering.' },
+          { name: 'Test a "golden" building', body: 'Take a building someone calls golden-ratio, measure it honestly, and see whether 1.618 actually holds — or whether a simple whole-number ratio fits better.' },
+          { name: 'Feel well against badly proportioned', body: 'Compare a resolved classical room with a mean, arbitrary modern one, and notice the difference in your body before you can name it. That feeling is proportion, working or missing.' }
         ]
       },
       'reading': {
         title: 'Where to read',
-        intro: 'This is the most philosophical of the elements; the primary texts are essential, with one great modern study.',
+        intro: 'This is the most philosophical of the elements; the primary texts are essential, with the great modern study and its critics.',
         books: [
-          { title: 'On the Art of Building, Books VI & IX', author: 'Leon Battista Alberti', note: 'PRIMARY. The fullest classical theory of proportion and concinnitas. Dense but foundational.' },
-          { title: 'The Four Books of Architecture, Book I', author: 'Andrea Palladio', note: 'PRIMARY. Palladio\'s recommended room ratios — the theory turned into usable rules. Free scans.' },
-          { title: 'Architectural Principles in the Age of Humanism', author: 'Rudolf Wittkower, 1949', note: 'ON-RAMP (scholarly). The classic modern study of musical proportion in Renaissance architecture. Changed the field.' },
-          { title: 'The Geometry of Art and Life', author: 'Matila Ghyka', note: 'ON-RAMP. On ratio, the golden section and proportion across art and nature.' }
+          { title: 'De Architectura, Book III', author: 'Vitruvius, 1st c. BC', note: 'PRIMARY. On symmetry, proportion and the human figure set in the circle and square. Free in the Morgan translation.' },
+          { title: 'On the Art of Building, Books VI & IX', author: 'Leon Battista Alberti', note: 'PRIMARY. The fullest classical theory of proportion and of concinnitas. Dense — read the books on beauty rather than the whole.' },
+          { title: 'The Four Books of Architecture, Book I', author: 'Andrea Palladio', note: 'PRIMARY. His recommended room ratios — the theory turned into usable rules. Ware\'s 1738 English edition is free.' },
+          { title: 'Architectural Principles in the Age of Humanism', author: 'Rudolf Wittkower, 1949', note: 'ON-RAMP (harder). The famous study of musical proportion in Renaissance architecture — brilliant, but its thesis is contested, so read the critiques alongside.' },
+          { title: 'Proportion: Science, Philosophy, Architecture', author: 'Richard Padovan, 1999', note: 'ON-RAMP. A wide, thoughtful modern survey of proportion theory across the whole tradition.' },
+          { title: 'The Classical Language of Architecture', author: 'John Summerson', note: 'ON-RAMP. Short and clear, placing proportion within the whole grammar of the orders.' }
         ]
       },
       'masters': {
         title: 'The names',
-        intro: 'The theorists of ratio, ancient and Renaissance.',
+        intro: 'The theorists of ratio, ancient, Renaissance and modern.',
         figures: [
-          { name: 'Pythagoras & Plato', what: 'Whose discovery of harmonic ratios in music and cosmos gave the tradition its faith that number is beautiful.' },
-          { name: 'Vitruvius', what: 'Who tied proportion to the human body and made it the basis of the orders.' },
-          { name: 'Leon Battista Alberti', what: 'Who gave proportion its fullest theory as concinnitas — the harmony of the whole.' },
-          { name: 'Andrea Palladio', what: 'Who turned the theory into simple, repeatable room-ratios that spread across Europe.' }
+          { name: 'Pythagoras & Plato', what: 'Whose discovery of harmonic ratios in music and the cosmos gave the tradition its faith that number is beautiful.' },
+          { name: 'Vitruvius (1st c. BC)', what: 'Who tied proportion to the human body and the module, and made it the basis of the orders.' },
+          { name: 'Leon Battista Alberti (1404–1472)', what: 'Who gave proportion its fullest theory as concinnitas — the harmony of the whole.' },
+          { name: 'Andrea Palladio (1508–1580)', what: 'Who turned the theory into simple, repeatable room-ratios that spread across Europe.' },
+          { name: 'Rudolf Wittkower (1901–1971)', what: 'The modern historian who revived the reading of Renaissance proportion as musical harmony — and set off the debate that still runs.' }
         ]
       }
     }
