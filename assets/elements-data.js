@@ -475,32 +475,69 @@ window.ARTS = [
     sections: {
       'what-it-is': {
         title: 'What classical ornament is',
-        intro: 'Ornament in the classical tradition is governed, not free. There is a repertoire of standard mouldings (each a particular curved profile), standard motifs carved upon them, and rules about where richness belongs. Learning ornament is learning this vocabulary and its grammar.',
+        intro: 'Ornament in the classical tradition is governed, not free. There is a repertoire of standard mouldings, each a particular curved profile; a settled set of motifs carved upon them; and rules about where richness belongs and how much. Learning ornament is learning this vocabulary and its grammar — and then reading it everywhere.',
         principles: [
-          { name: 'The mouldings', body: 'A handful of profiles do most of the work: the ovolo, cyma, cavetto, torus, scotia and fillet. Each catches light differently — some bold and shadow-casting, some delicate — and each has a traditional carved enrichment (egg-and-dart on the ovolo, leaf-and-dart on the cyma).', why: 'Mouldings are the smallest units of the language. Learn to read a cornice profile and you can date and place a building from a scrap of its edge.' },
-          { name: 'Enrichment belongs to structure', body: 'Good classical ornament marks and explains the construction — it gathers at capitals, cornices, doorways and the meeting of parts, where the eye needs help understanding what is happening. It is placed by logic, not scattered.', why: 'It gives you a test for ornament: does it clarify the building or merely cover it? The best carving tells you where you are and what is carrying what.' },
-          { name: 'The standard motifs', body: 'A shared alphabet of motifs recurs across centuries: acanthus, egg-and-dart, bead-and-reel, the Greek key (meander), guilloche, palmette, rosette and swag. They travel from the orders into furniture, silver and print.', why: 'These motifs are the tradition\'s shared words. Recognising them ties a doorway, a picture frame and a temple into one continuous language.' },
-          { name: 'Restraint is a rule', body: 'The tradition prized decorum — richness suited to the building\'s purpose and rank. Too much ornament, or ornament in the wrong place, was a fault. Ruskin and Pugin later insisted, too, that ornament be honest and hand-made.', why: 'It explains why the greatest classical buildings can look austere. Knowing when NOT to enrich is as much part of the grammar as the carving itself.' }
+          { name: 'The mouldings — profiles that shape light', body: 'A handful of profiles do most of the work: the flat fillet, the small bead (astragal), the big torus, the deep hollow scotia, the convex ovolo, the concave cavetto, the S-curved cyma recta and cyma reversa, and the broad projecting corona of the cornice. Convex mouldings catch light, concave ones read as shadow, and the S-curves do both.', why: 'Mouldings are the smallest units of the language. Learn to read a cornice profile and you can name, date and place a building from a scrap of its edge.' },
+          { name: 'Each moulding has its enrichment', body: 'The tradition pairs a given profile with a given carved motif: egg-and-dart on the ovolo, bead-and-reel on the little astragal, leaf-and-dart or water-leaf on the ogee. And in the cornice, dentils (a row of small tooth-like blocks, an Ionic tell) are distinct from modillions (larger scroll brackets, a Corinthian one).', why: 'Because the pairing is conventional, once you know it you can predict what a plain moulding "should" carry — and spot at once where a carver kept or broke the rule.' },
+          { name: 'The standard motifs', body: 'A shared repertoire recurs across the centuries: the acanthus leaf, the palmette and anthemion, the Greek key (meander), the plaited guilloche, the running Vitruvian wave, foliage scrollwork (rinceau), the rosette and patera, the hanging swag or festoon, and the garlanded ox-skull (bucranium).', why: 'These motifs are the tradition\'s shared words, and they travel — off the temple into furniture, silver, plasterwork and print. Recognise them once and you read them everywhere.' },
+          { name: 'Ornament enriches construction', body: 'Good classical ornament marks and clarifies the structure — it gathers at the capital, the cornice, the doorway and the meeting of parts, where the eye needs help understanding what is happening, and is placed by logic, not scattered evenly. As Owen Jones put it: "Construction should be decorated. Decoration should never be purposely constructed."', why: 'It gives you a test for any ornament: does it clarify the building, or merely cover a surface? The best carving tells you where you are and what is carrying what.' },
+          { name: 'Decorum — the discipline of restraint', body: 'Classical theory holds that richness should suit a building\'s purpose and rank: a temple, a bank and a garden pavilion do not carry the same amount of ornament, and ornament in the wrong place, or too much of it, is a fault.', why: 'It explains why so many of the greatest classical buildings look austere. Knowing when NOT to enrich is as much part of the grammar as the carving itself — restraint is a positive value, not a lack.' },
+          { name: 'The honesty debate', body: 'In the nineteenth century ornament became a moral question. Pugin demanded that all ornament be the enrichment of the essential construction, never construction dressed up as ornament; Ruskin held that true ornament comes from nature and the joy of the hand. A generation later Adolf Loos, in his lecture "Ornament and Crime", rejected applied ornament altogether — the argument that ends in the bare modern wall.', why: 'It shows the stakes: the tradition\'s ornament was not idle decoration but a claim about honesty and value, and the fight over it helped strip ornament out of building for a century.' },
+          { name: 'Ornament was painted', body: 'Classical ornament was not bare stone but colour: Greek and Roman mouldings, friezes and sculpture were painted in strong blues, reds and blacks, and pigment analysis has recovered the traces on the Parthenon\'s triglyphs, metopes and cornice mouldings.', why: 'It doubles the point of the carving. The mouldings were shaped to catch light AND coloured to read — the "pure white marble" ornament we picture is an accident of weathering, not the real thing.' }
+        ]
+      },
+      'the-path': {
+        title: 'Learning ornament',
+        intro: 'Learn to name a few motifs first, then the mouldings and their enrichments, then the theory and the placement logic.',
+        levels: [
+          { stage: 'Beginner', items: [
+            'Learn four motifs by eye and name them on real buildings: egg-and-dart, the Greek key, the acanthus leaf, and a hanging swag.',
+            'Notice how ornament clusters at the top of a building (the cornice) and the top of a column (the capital), not spread evenly.'
+          ] },
+          { stage: 'Intermediate', items: [
+            'Learn the moulding profiles — fillet, astragal, ovolo, cavetto, torus, scotia, cyma recta and reversa, corona.',
+            'Learn the fixed pairings: egg-and-dart on the ovolo, bead-and-reel on the astragal, leaf-and-dart on the ogee.',
+            'Learn to tell dentils (little teeth) from modillions (scroll brackets) in a cornice.'
+          ] },
+          { stage: 'Advanced', items: [
+            'Read Owen Jones\'s propositions and Ruskin\'s "Lamp of Beauty" on where ornament should come from.',
+            'Understand the placement logic and decorum — why ornament gathers where it does, and why rank governs richness.',
+            'Follow the moral debate from Pugin to Ruskin to Loos, and look at painted reconstructions to see ornament as colour.'
+          ] }
+        ]
+      },
+      'practice': {
+        title: 'Things to look for and do',
+        intro: 'Ornament is everywhere once you can name it. A few things to do.',
+        items: [
+          { name: 'Name the egg-and-dart', body: 'Find a classical cornice — a bank, a town hall, an old civic building — and pick out the row of alternating eggs and darts on the ovolo moulding. Say it aloud.' },
+          { name: 'Trace a Greek key', body: 'Find a meander band and follow it with your eye or finger — feel how one continuous line makes all the right-angle turns.' },
+          { name: 'Dentils or modillions?', body: 'Look up under a cornice: little rectangular teeth (dentils) or bigger scroll brackets (modillions)? The answer hints at the order — dentils lean Ionic, modillions Corinthian.' },
+          { name: 'Apply Pugin\'s test', body: 'On any enriched surface ask: is this ornament clarifying the construction, or just covering it? You are now judging ornament the way the tradition did.' },
+          { name: 'Find a motif off a building', body: 'Pick one motif — acanthus, swag, patera — and spot it on furniture, silver or a printed border, to prove the vocabulary travels far beyond stone.' },
+          { name: 'Put the colour back', body: 'Look up a painted reconstruction of a Greek temple and re-picture a moulding you know — the egg-and-dart, say — in its original strong colour.' }
         ]
       },
       'reading': {
         title: 'Where to read',
-        intro: 'For ornament, the great 19th-century pattern books and the moral critics are the heart of it.',
+        intro: 'For ornament, the great nineteenth-century pattern books and moral critics are the heart of it — all free and public-domain — with one clear modern dictionary.',
         books: [
-          { title: 'The Grammar of Ornament', author: 'Owen Jones, 1856', note: 'PRIMARY (modern). The most beautiful survey of ornament ever printed, with its famous propositions on design. Free scans exist.' },
-          { title: 'The Seven Lamps of Architecture', author: 'John Ruskin, 1849', note: 'PRIMARY. The "Lamp of Beauty" on where ornament comes from and what makes it true. Passionate and unforgettable.' },
-          { title: 'The True Principles of Pointed or Christian Architecture', author: 'A. W. N. Pugin, 1841', note: 'PRIMARY. Pugin\'s demand that ornament be honest — decoration OF construction, never construction hidden by decoration.' },
-          { title: 'A Visual Dictionary of Architecture', author: 'Francis D. K. Ching', note: 'ON-RAMP. The quickest way to put names to the mouldings and motifs you see.' }
+          { title: 'The Grammar of Ornament', author: 'Owen Jones, 1856', note: 'PRIMARY. The most beautiful survey of ornament ever printed, opening with its famous general propositions on design. A picture-book to browse; free scans exist.' },
+          { title: 'The Seven Lamps of Architecture', author: 'John Ruskin, 1849', note: 'PRIMARY. Read "The Lamp of Beauty" on where ornament should come from — nature and the hand. Beautiful, demanding Victorian prose; dip in.' },
+          { title: 'The True Principles of Pointed or Christian Architecture', author: 'A. W. N. Pugin, 1841', note: 'PRIMARY. The "two great rules" — that ornament should be the enrichment of the essential construction, never construction dressed as ornament. Short and fierce.' },
+          { title: 'Handbook of Ornament', author: 'Franz Sales Meyer, 1888 (English 1892)', note: 'ON-RAMP. The classic illustrated reference — thousands of plates naming every motif and moulding. Public-domain; a lookup, not a read-through.' },
+          { title: 'A Visual Dictionary of Architecture', author: 'Francis D. K. Ching', note: 'ON-RAMP. The fastest modern way to fix the moulding and motif names with clear drawings.' }
         ]
       },
       'masters': {
         title: 'The names',
-        intro: 'The carvers are mostly anonymous; the theorists of ornament are not.',
+        intro: 'The carvers are mostly anonymous; the theorists — and one supreme carver — are not.',
         figures: [
-          { name: 'Owen Jones (1809–1874)', what: 'Whose Grammar of Ornament codified the world\'s decorative languages and set out principles still taught today.' },
-          { name: 'John Ruskin', what: 'Who tied ornament to labour, love and truth, and changed how the modern age valued carving.' },
-          { name: 'A. W. N. Pugin', what: 'Who insisted ornament must reveal construction, not disguise it — a rule that outlived his own Gothic cause.' },
-          { name: 'Grinling Gibbons (1648–1721)', what: 'The supreme carver of the English classical age, whose limewood swags set the standard for enrichment.' }
+          { name: 'Owen Jones (1809–1874)', what: 'Whose Grammar of Ornament codified the world\'s decorative languages and set out the propositions on design still taught today.' },
+          { name: 'A. W. N. Pugin (1812–1852)', what: 'Who insisted ornament must enrich construction, not disguise it — a rule that outlived his own Gothic cause.' },
+          { name: 'John Ruskin (1819–1900)', what: 'Who tied ornament to nature, labour and the joy of the hand, and changed how the modern age valued carving.' },
+          { name: 'Grinling Gibbons (1648–1721)', what: 'The supreme carver of the English classical age, whose naturalistic limewood swags of fruit and flowers set the standard for enrichment.' },
+          { name: 'Adolf Loos (1870–1933)', what: 'The modernist who, in his lecture "Ornament and Crime", rejected applied ornament altogether — the end of the long argument.' }
         ]
       }
     }
