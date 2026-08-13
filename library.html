@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#4C63B6">
+  <title>The Library — Classical Architecture</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="icon-192.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .lib-main{ max-width:720px; margin:0 auto; padding:20px 16px 70px; }
+    .lib-head{ margin:6px 0 16px; }
+    .lib-head h1{ font-weight:800; font-size:clamp(26px,6.5vw,36px); letter-spacing:-.03em; margin:0; color:var(--ink,#2A2038); }
+    .lib-head p{ margin:.5em 0 0; color:#6b6478; font-size:16px; line-height:1.5; }
+    .lib-bar{ display:flex; flex-wrap:wrap; gap:9px; align-items:center; margin:14px 0 6px; }
+    .lib-count{ font:800 13px -apple-system,system-ui,sans-serif; color:#6b6478; }
+    .lib-btn{ cursor:pointer; border:0; font:800 13px -apple-system,system-ui,sans-serif; color:#fff; padding:.6em 1.05em; border-radius:999px;
+      background:linear-gradient(135deg,#4C63B6,#33468C); box-shadow:0 3px 10px rgba(51,70,140,.28); }
+    .lib-btn.ghost{ background:#fff; color:#33468C; border:1.5px solid #d7ddf0; box-shadow:none; }
+    .lib-group-title{ font-weight:800; font-size:1.15em; letter-spacing:-.02em; color:var(--ink,#2A2038); margin:26px 0 4px; }
+    .lib-group-sub{ color:#7a7488; font-size:.92em; margin:0 0 12px; }
+    .bk{ background:#fff; border:1px solid #EADFC6; border-radius:14px; padding:13px 15px; margin:0 0 10px; box-shadow:0 2px 4px rgba(60,45,20,.06); }
+    .bk-title{ font-weight:800; color:var(--ink,#2A2038); line-height:1.3; }
+    .bk-author{ color:#6b6478; font-size:.95em; margin-top:.15em; }
+    .bk-note{ font-size:.9em; color:#7a7488; line-height:1.45; margin-top:.45em; }
+    .bk-tags{ margin-top:.55em; display:flex; flex-wrap:wrap; gap:5px; }
+    .bk-tag{ font:700 10.5px -apple-system,system-ui,sans-serif; letter-spacing:.02em; color:#5b6b8a; background:#eef1f8; border-radius:999px; padding:.28em .7em; }
+    .bk-free{ font:800 10.5px -apple-system,system-ui,sans-serif; color:#13603f; background:#E7F6EE; border-radius:999px; padding:.28em .7em; }
+    .lib-note{ margin-top:26px; font-size:.9em; color:#7a7488; line-height:1.55; border-top:1px solid #EADFC6; padding-top:14px; }
+    .lib-note a{ color:#4C63B6; }
+    .toast{ position:fixed; left:50%; bottom:24px; transform:translateX(-50%) translateY(20px); background:#2A2038; color:#fff; font:700 14px -apple-system,system-ui,sans-serif;
+      padding:.75em 1.3em; border-radius:999px; opacity:0; pointer-events:none; transition:opacity .2s, transform .2s; z-index:60; }
+    .toast.show{ opacity:1; transform:translateX(-50%) translateY(0); }
+  </style>
+</head>
+<body class="method-page">
+  <main class="lib-main">
+    <div class="lib-head">
+      <h1>The Library</h1>
+      <p>Every book recommended across this app, gathered in one place. The primary sources come first — the tradition in its own voice — then the modern guides. Almost all of the primary works are out of copyright, so most can be read (or downloaded) free.</p>
+    </div>
+    <div class="lib-bar">
+      <span class="lib-count" id="count"></span>
+      <button class="lib-btn" id="copyAll">⧉ Copy the whole list</button>
+      <a class="lib-btn ghost" href="assets/reading-list.json" download>⬇ Download as data</a>
+    </div>
+    <div id="list"></div>
+    <p class="lib-note">The list is generated straight from the reading sections of every topic, so it always stays in step with the app. "Copy the whole list" puts every <em>Title — Author</em> on your clipboard, ready to paste into a book downloader; "Download as data" gives the same list as a JSON file.</p>
+  </main>
+
+  <div class="toast" id="toast">Copied</div>
+
+  <script src="assets/elements-data.js"></script>
+  <script src="assets/styles-data.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+    const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    // Aggregate every reading list across all topics, dedup by title+author.
+    const seen = new Map();
+    (window.ARTS || []).forEach(a => {
+      const books = a.sections && a.sections.reading && a.sections.reading.books;
+      if (!books) return;
+      books.forEach(b => {
+        const key = (b.title + '|' + b.author).toLowerCase().replace(/[^a-z0-9|]/g, '');
+        if (!seen.has(key)) seen.set(key, { ...b, topics: [a.name] });
+        else if (!seen.get(key).topics.includes(a.name)) seen.get(key).topics.push(a.name);
+      });
+    });
+    const all = [...seen.values()];
+    const isPrimary = b => /PRIMARY/i.test(b.note || '');
+    const isFree = b => /\bfree\b|public-domain|gutenberg|archive\.org|lacuscurtius|perseus/i.test(b.note || '');
+    const byAuthor = (x, y) => (x.author || '').localeCompare(y.author || '');
+    const primary = all.filter(isPrimary).sort(byAuthor);
+    const modern = all.filter(b => !isPrimary(b)).sort(byAuthor);
+
+    function bookHTML(b){
+      return `<div class="bk">
+        <div class="bk-title">${esc(b.title)}</div>
+        <div class="bk-author">${esc(b.author)}</div>
+        ${b.note ? `<div class="bk-note">${esc(b.note.replace(/^(PRIMARY[^.]*\.\s*|ON-RAMP[^.]*\.\s*)/i,''))}</div>` : ''}
+        <div class="bk-tags">
+          ${isFree(b) ? `<span class="bk-free">Free / public domain</span>` : ''}
+          ${b.topics.slice(0,4).map(t => `<span class="bk-tag">${esc(t)}</span>`).join('')}
+        </div>
+      </div>`;
+    }
+
+    document.getElementById('count').textContent = `${all.length} books · ${primary.length} primary sources`;
+    document.getElementById('list').innerHTML =
+      `<div class="lib-group-title">Primary sources</div>
+       <p class="lib-group-sub">The originals — read these first. Almost all are free online.</p>
+       ${primary.map(bookHTML).join('')}
+       <div class="lib-group-title">Modern guides & on-ramps</div>
+       <p class="lib-group-sub">The accessible way in, and the standard scholarly surveys.</p>
+       ${modern.map(bookHTML).join('')}`;
+
+    // Copy every "Title — Author" line to the clipboard.
+    document.getElementById('copyAll').addEventListener('click', () => {
+      const text = [...primary, ...modern].map(b => `${b.title} — ${b.author}`).join('\n');
+      const done = () => { const t = document.getElementById('toast'); t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 1400); };
+      if (navigator.clipboard) navigator.clipboard.writeText(text).then(done).catch(() => { window.prompt('Copy the list:', text); });
+      else window.prompt('Copy the list:', text);
+    });
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
+    }
+  </script>
+</body>
+</html>

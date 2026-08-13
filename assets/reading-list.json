@@ -1,0 +1,612 @@
+[
+  {
+    "title": "Greek Architecture",
+    "author": "A. W. Lawrence, rev. R. A. Tomlinson (Yale, 1996)",
+    "note": "ON-RAMP. The standard authoritative survey — university-level but clear and well-ordered.",
+    "topics": [
+      "Greek"
+    ]
+  },
+  {
+    "title": "Contrasts",
+    "author": "A. W. N. Pugin, 1836",
+    "note": "PRIMARY. His satirical paired engravings setting a noble medieval town against its shabby modern self — the \"temples for banks\" critique made vivid. Free online.",
+    "topics": [
+      "Gothic Revival"
+    ]
+  },
+  {
+    "title": "The True Principles of Pointed or Christian Architecture",
+    "author": "A. W. N. Pugin, 1841",
+    "note": "PRIMARY. The \"two great rules\" — that ornament should be the enrichment of the essential construction, never construction dressed as ornament. Short and fierce.",
+    "topics": [
+      "Ornament & Detail",
+      "Gothic Revival"
+    ]
+  },
+  {
+    "title": "Rome: An Oxford Archaeological Guide",
+    "author": "Amanda Claridge",
+    "note": "ON-RAMP. To see the Corinthian on the actual Roman buildings that perfected it.",
+    "topics": [
+      "The Corinthian Order",
+      "Roman"
+    ]
+  },
+  {
+    "title": "The Four Books of Architecture, Book I",
+    "author": "Andrea Palladio",
+    "note": "PRIMARY. Palladio's plates of the Doric, with his proportions. Free scans.",
+    "topics": [
+      "The Doric Order",
+      "The Ionic Order",
+      "The Corinthian Order",
+      "The Composite Order",
+      "Proportion & Harmony"
+    ]
+  },
+  {
+    "title": "The Four Books of Architecture, Books II–IV",
+    "author": "Andrea Palladio",
+    "note": "PRIMARY. Palladio moves type by type — houses, then public buildings, then temples. The clearest classical account of type. Free scans.",
+    "topics": [
+      "Building Types"
+    ]
+  },
+  {
+    "title": "The Four Books of Architecture",
+    "author": "Andrea Palladio, 1570",
+    "note": "PRIMARY. Part manifesto, part pattern-book, gorgeously illustrated. The single most influential architecture book ever printed. Free scans exist.",
+    "topics": [
+      "Foundation"
+    ]
+  },
+  {
+    "title": "The Four Books of Architecture",
+    "author": "Andrea Palladio, Venice 1570",
+    "note": "PRIMARY. The most influential architecture book ever printed, illustrated with his own designs. Dip into the plans and the room-proportion passages. Isaac Ware's 1738 English edition is free online; the modern Tavernor & Schofield translation (MIT, 1997) is the most accurate.",
+    "topics": [
+      "Palladian"
+    ]
+  },
+  {
+    "title": "A History of Architecture",
+    "author": "Banister Fletcher",
+    "note": "ON-RAMP. Unmatched for seeing each type across periods with comparative plans.",
+    "topics": [
+      "Building Types"
+    ]
+  },
+  {
+    "title": "A History of the Gothic Revival",
+    "author": "Charles L. Eastlake, 1872",
+    "note": "PRIMARY. The movement's first history, written from the inside by a contemporary — invaluable and readable. Free online.",
+    "topics": [
+      "Gothic Revival"
+    ]
+  },
+  {
+    "title": "Vitruvius Britannicus",
+    "author": "Colen Campbell, 1715–1725",
+    "note": "PRIMARY (revival). The engraved survey of British classical houses that launched the English Palladian revival. A plate-book to browse, free in scans.",
+    "topics": [
+      "Palladian"
+    ]
+  },
+  {
+    "title": "The Life of Gian Lorenzo Bernini",
+    "author": "Domenico Bernini, c. 1713 (Mormando translation, 2011)",
+    "note": "PRIMARY. The fuller, more intimate of the two contemporary lives, written by Bernini's son. Mormando's edition adds hundreds of clarifying notes.",
+    "topics": [
+      "Baroque"
+    ]
+  },
+  {
+    "title": "The Life of Bernini",
+    "author": "Filippo Baldinucci, 1682 (Enggass translation)",
+    "note": "PRIMARY. The first stand-alone biography, begun while Bernini still lived — short and readable, but adulatory; read it as a period document.",
+    "topics": [
+      "Baroque"
+    ]
+  },
+  {
+    "title": "The Elements of Style / Ching's Architecture: Form, Space and Order",
+    "author": "Francis D. K. Ching",
+    "note": "ON-RAMP. Clear, diagram-led modern books if you want the vocabulary drawn out plainly before tackling the old texts.",
+    "topics": [
+      "Foundation"
+    ]
+  },
+  {
+    "title": "A Visual Dictionary of Architecture",
+    "author": "Francis D. K. Ching",
+    "note": "ON-RAMP. The fastest modern way to fix the moulding and motif names with clear drawings.",
+    "topics": [
+      "Ornament & Detail"
+    ]
+  },
+  {
+    "title": "Bernini: His Life and His Rome",
+    "author": "Franco Mormando, 2011",
+    "note": "ON-RAMP. A modern, very readable narrative biography — the easiest way into Bernini and his city.",
+    "topics": [
+      "Baroque"
+    ]
+  },
+  {
+    "title": "Handbook of Ornament",
+    "author": "Franz Sales Meyer, 1888 (English 1892)",
+    "note": "ON-RAMP. The classic illustrated reference — thousands of plates naming every motif and moulding. Public-domain; a lookup, not a read-through.",
+    "topics": [
+      "Ornament & Detail"
+    ]
+  },
+  {
+    "title": "On the Water-Supply of Rome (De Aquaeductu)",
+    "author": "Frontinus, c. AD 97",
+    "note": "PRIMARY. A report by Rome's actual water commissioner on the aqueducts — short, practical and surprisingly readable for an ancient text. Free on LacusCurtius.",
+    "topics": [
+      "Roman"
+    ]
+  },
+  {
+    "title": "Canon of the Five Orders (Regola delli cinque ordini)",
+    "author": "Giacomo Barozzi da Vignola, 1562",
+    "note": "PRIMARY. The most influential rulebook of the orders ever made — Vignola's plates fixed the Tuscan's proportions for three centuries. Mostly measured drawings.",
+    "topics": [
+      "The Tuscan Order"
+    ]
+  },
+  {
+    "title": "Lives of the Most Excellent Painters, Sculptors and Architects",
+    "author": "Giorgio Vasari, 1550 / 1568",
+    "note": "PRIMARY. The contemporary insider on the architects — and the origin of the \"rebirth\" idea. Readable but Florence-biased and fond of legend, so enjoy the flavour and verify the facts. Free online.",
+    "topics": [
+      "Renaissance"
+    ]
+  },
+  {
+    "title": "Renaissance and Baroque",
+    "author": "Heinrich Wölfflin, 1888",
+    "note": "ON-RAMP. The foundational study that turned \"Baroque\" from an insult into a serious category, on the calm-versus-movement contrast. The German original is free online.",
+    "topics": [
+      "Baroque"
+    ]
+  },
+  {
+    "title": "Neo-classicism",
+    "author": "Hugh Honour, 1968",
+    "note": "ON-RAMP. The best short thematic introduction to the whole movement. Start here.",
+    "topics": [
+      "Neoclassical & Georgian"
+    ]
+  },
+  {
+    "title": "Roman Imperial Architecture",
+    "author": "J. B. Ward-Perkins (Yale/Pelican History of Art)",
+    "note": "ON-RAMP. The standard scholarly survey of the great Imperial-period buildings.",
+    "topics": [
+      "Roman"
+    ]
+  },
+  {
+    "title": "Structures: Or Why Things Don't Fall Down",
+    "author": "J. E. Gordon",
+    "note": "ON-RAMP. A joyful introduction to how arches, beams and domes really work. No maths needed to enjoy it.",
+    "topics": [
+      "Materials & Construction"
+    ]
+  },
+  {
+    "title": "Ancient Greek Architects at Work",
+    "author": "J. J. Coulton, 1977",
+    "note": "ON-RAMP (deeper). On how the temples were actually designed and set out — the problems of structure and proportion, solved on the ground.",
+    "topics": [
+      "Greek"
+    ]
+  },
+  {
+    "title": "Reflections on the Imitation of Greek Works / History of the Art of Antiquity",
+    "author": "J. J. Winckelmann, 1755 / 1764",
+    "note": "PRIMARY. The source of \"noble simplicity and quiet grandeur\". The 1755 essay is short and quotable; the 1764 History is long and dense — dip rather than read through.",
+    "topics": [
+      "Neoclassical & Georgian"
+    ]
+  },
+  {
+    "title": "The Greek Revival",
+    "author": "J. Mordaunt Crook, 1972",
+    "note": "ON-RAMP. The standard scholarly history of the British movement — serious but readable.",
+    "topics": [
+      "Greek Revival"
+    ]
+  },
+  {
+    "title": "Palladio",
+    "author": "James S. Ackerman, 1966",
+    "note": "ON-RAMP. The classic short scholarly introduction — clear, authoritative, the standard first serious book.",
+    "topics": [
+      "Palladian"
+    ]
+  },
+  {
+    "title": "The Antiquities of Athens",
+    "author": "James Stuart & Nicholas Revett, 1762–1816",
+    "note": "PRIMARY. The first accurate measured survey of the Greek monuments, and the book that launched the whole Greek Revival. A historical folio — its value is in the superb measured plates rather than the prose.",
+    "topics": [
+      "Greek"
+    ]
+  },
+  {
+    "title": "Roman Building: Materials and Techniques",
+    "author": "Jean-Pierre Adam",
+    "note": "ON-RAMP. The standard modern account of how the Romans actually built — clear and richly illustrated.",
+    "topics": [
+      "Materials & Construction",
+      "Roman"
+    ]
+  },
+  {
+    "title": "The Stones of Venice",
+    "author": "John Ruskin",
+    "note": "PRIMARY. On material, craft and the truth of construction — the moral case, beautifully argued.",
+    "topics": [
+      "Materials & Construction"
+    ]
+  },
+  {
+    "title": "The Seven Lamps of Architecture",
+    "author": "John Ruskin, 1849",
+    "note": "PRIMARY (modern). Not a how-to but a passionate argument for what building is for. Read the \"Lamp of Memory\" even if you read nothing else.",
+    "topics": [
+      "Foundation",
+      "Ornament & Detail"
+    ]
+  },
+  {
+    "title": "The Stones of Venice",
+    "author": "John Ruskin, 1851–1853",
+    "note": "PRIMARY. Read the one chapter \"The Nature of Gothic\" (vol. 2, 1853) even if nothing else — the greatest essay on why Gothic and honest craft matter. Free online.",
+    "topics": [
+      "Gothic Revival"
+    ]
+  },
+  {
+    "title": "The Classical Language of Architecture",
+    "author": "John Summerson",
+    "note": "ON-RAMP. Short and elegant, on why an order means something — the orders as the \"Latin\" of the classical language.",
+    "topics": [
+      "The Tuscan Order",
+      "The Ionic Order",
+      "Proportion & Harmony",
+      "Building Types"
+    ]
+  },
+  {
+    "title": "Architecture in Britain 1530–1830",
+    "author": "John Summerson",
+    "note": "ON-RAMP. The authoritative account of the English strand — Wren and the Baroque, Vanbrugh and Hawksmoor.",
+    "topics": [
+      "Baroque",
+      "Greek Revival"
+    ]
+  },
+  {
+    "title": "Georgian London",
+    "author": "John Summerson",
+    "note": "ON-RAMP. The classic, delightful account of how Georgian classicism built a city — perfect for the terrace-and-square idea.",
+    "topics": [
+      "Neoclassical & Georgian"
+    ]
+  },
+  {
+    "title": "The Classical Language of Architecture",
+    "author": "John Summerson, 1963",
+    "note": "THE way in. Short, brilliant, and exactly the \"language\" metaphor this app is built on. Read it first.",
+    "topics": [
+      "Foundation"
+    ]
+  },
+  {
+    "title": "The Gothic Revival",
+    "author": "Kenneth Clark, 1928",
+    "note": "ON-RAMP. The classic, elegant history of the movement — the traditional starting point.",
+    "topics": [
+      "Gothic Revival"
+    ]
+  },
+  {
+    "title": "On the Art of Building, Books VI & IX",
+    "author": "Leon Battista Alberti",
+    "note": "PRIMARY. The fullest classical theory of proportion and of concinnitas. Dense — read the books on beauty rather than the whole.",
+    "topics": [
+      "Proportion & Harmony"
+    ]
+  },
+  {
+    "title": "On the Art of Building",
+    "author": "Leon Battista Alberti",
+    "note": "PRIMARY. Organises architecture by public and private types and their proper character.",
+    "topics": [
+      "Building Types"
+    ]
+  },
+  {
+    "title": "On the Art of Building in Ten Books",
+    "author": "Leon Battista Alberti, c. 1450 (printed 1485)",
+    "note": "PRIMARY. The first modern architectural treatise, modelled on Vitruvius, and the source of \"concinnitas\" (beauty as harmony). Dense — read Books VI and IX on beauty rather than cover to cover. The Rykwert–Leach–Tavernor MIT edition is standard.",
+    "topics": [
+      "Renaissance"
+    ]
+  },
+  {
+    "title": "An Essay on Architecture",
+    "author": "Marc-Antoine Laugier, 1753 (2nd ed. 1755)",
+    "note": "PRIMARY. The \"primitive hut\" argument for a rational, stripped classicism — short, vivid and hugely influential. The best single primary entry point; free online.",
+    "topics": [
+      "Neoclassical & Georgian"
+    ]
+  },
+  {
+    "title": "The Parthenon",
+    "author": "Mary Beard, 2002 (rev. 2010)",
+    "note": "ON-RAMP. Witty, scholarly and short — the best general-reader way into Greek architecture and its afterlife. Start here.",
+    "topics": [
+      "Greek"
+    ]
+  },
+  {
+    "title": "The Grammar of Ornament",
+    "author": "Owen Jones, 1856",
+    "note": "PRIMARY. The most beautiful survey of ornament ever printed, opening with its famous general propositions on design. A picture-book to browse; free scans exist.",
+    "topics": [
+      "Ornament & Detail"
+    ]
+  },
+  {
+    "title": "Description of Greece",
+    "author": "Pausanias, 2nd c. AD",
+    "note": "PRIMARY. An ancient traveller's eyewitness guide to the temples and sanctuaries, site by site. Readable but long — use it selectively. Free on the Perseus digital library.",
+    "topics": [
+      "Greek"
+    ]
+  },
+  {
+    "title": "The Architecture of the Italian Renaissance",
+    "author": "Peter Murray",
+    "note": "ON-RAMP. The best single-volume introduction, clear and well-illustrated. Start here.",
+    "topics": [
+      "Renaissance"
+    ]
+  },
+  {
+    "title": "The Stones of Athens",
+    "author": "R. E. Wycherley",
+    "note": "ON-RAMP. On the buildings of ancient Athens and how the Doric temple actually worked in its city.",
+    "topics": [
+      "The Doric Order"
+    ]
+  },
+  {
+    "title": "Proportion: Science, Philosophy, Architecture",
+    "author": "Richard Padovan, 1999",
+    "note": "ON-RAMP. A wide, thoughtful modern survey of proportion theory across the whole tradition.",
+    "topics": [
+      "Proportion & Harmony"
+    ]
+  },
+  {
+    "title": "The Works in Architecture of Robert and James Adam",
+    "author": "Robert & James Adam, 1773–1779",
+    "note": "PRIMARY. The Adams presenting their own refined manner, room by room.",
+    "topics": [
+      "Neoclassical & Georgian"
+    ]
+  },
+  {
+    "title": "The Classical Orders of Architecture",
+    "author": "Robert Chitham",
+    "note": "ON-RAMP. The clearest modern manual, with measured drawings of all five orders — the practical way to learn them by hand today.",
+    "topics": [
+      "The Tuscan Order",
+      "The Doric Order",
+      "The Corinthian Order",
+      "The Composite Order"
+    ]
+  },
+  {
+    "title": "Palladio and Palladianism",
+    "author": "Robert Tavernor, 1991",
+    "note": "ON-RAMP. A concise survey of both Palladio and the later movement — good on the spread to England and America.",
+    "topics": [
+      "Palladian"
+    ]
+  },
+  {
+    "title": "Greek Revival America",
+    "author": "Roger G. Kennedy, 1989",
+    "note": "ON-RAMP. A lavishly illustrated survey of the American style — the friendliest starting point.",
+    "topics": [
+      "Greek Revival"
+    ]
+  },
+  {
+    "title": "God's Architect: Pugin and the Building of Romantic Britain",
+    "author": "Rosemary Hill, 2007",
+    "note": "ON-RAMP. A superb, immersive, prize-winning life of Pugin — the best narrative way into the whole movement.",
+    "topics": [
+      "Gothic Revival"
+    ]
+  },
+  {
+    "title": "Brunelleschi's Dome",
+    "author": "Ross King, 2000",
+    "note": "ON-RAMP. A gripping popular narrative of how the Florence dome was raised. Engaging; cross-check the finer technical claims.",
+    "topics": [
+      "Renaissance"
+    ]
+  },
+  {
+    "title": "Art and Architecture in Italy 1600–1750",
+    "author": "Rudolf Wittkower",
+    "note": "ON-RAMP (demanding). The standard scholarly survey of the Italian Baroque, now revised into three volumes.",
+    "topics": [
+      "Baroque"
+    ]
+  },
+  {
+    "title": "Architectural Principles in the Age of Humanism",
+    "author": "Rudolf Wittkower, 1949",
+    "note": "ON-RAMP (harder). The famous study of musical proportion in Renaissance architecture — brilliant, but its thesis is contested, so read the critiques alongside.",
+    "topics": [
+      "Proportion & Harmony",
+      "Renaissance",
+      "Palladian"
+    ]
+  },
+  {
+    "title": "Sebastiano Serlio on Architecture",
+    "author": "Serlio, books from 1537 (Hart & Hicks, Yale)",
+    "note": "PRIMARY. The first practical, illustrated rulebook of the five orders — browse the plates even if you never read it through. It spread the style across Europe.",
+    "topics": [
+      "Renaissance"
+    ]
+  },
+  {
+    "title": "A History of Architecture",
+    "author": "Sir Banister Fletcher (any modern edition)",
+    "note": "The great reference. Not for reading through, but unmatched for looking things up with clear comparative drawings.",
+    "topics": [
+      "Foundation"
+    ]
+  },
+  {
+    "title": "The Antiquities of Athens",
+    "author": "Stuart & Revett, 1762",
+    "note": "PRIMARY (modern). The measured drawings that gave Europe accurate Greek Ionic — the Erechtheion above all.",
+    "topics": [
+      "The Ionic Order"
+    ]
+  },
+  {
+    "title": "The Antiquities of Athens",
+    "author": "Stuart & Revett, from 1762",
+    "note": "PRIMARY. The accurate measured drawings that were the archaeological \"evidence\" itself. Browse the plates.",
+    "topics": [
+      "Neoclassical & Georgian"
+    ]
+  },
+  {
+    "title": "The Antiquities of Athens",
+    "author": "Stuart & Revett, several volumes 1762–1816",
+    "note": "PRIMARY. The measured-drawing sourcebook that made the whole revival possible. Browse the plates; it is a reference, not a read. Free on archive.org.",
+    "topics": [
+      "Greek Revival"
+    ]
+  },
+  {
+    "title": "Greek Revival Architecture in America",
+    "author": "Talbot Hamlin, 1944",
+    "note": "ON-RAMP. The classic, still-cited American study — denser older scholarship, but foundational.",
+    "topics": [
+      "Greek Revival"
+    ]
+  },
+  {
+    "title": "Regola delli cinque ordini",
+    "author": "Vignola, 1562",
+    "note": "PRIMARY. The rulebook that fixed all five orders, Composite included, for later builders.",
+    "topics": [
+      "The Composite Order"
+    ]
+  },
+  {
+    "title": "The Earth, the Temple, and the Gods",
+    "author": "Vincent Scully, 1962",
+    "note": "ON-RAMP. The famous, readable essay on how Greek temples were placed in dialogue with their landscape and site.",
+    "topics": [
+      "Greek"
+    ]
+  },
+  {
+    "title": "De Architectura, Book IV",
+    "author": "Vitruvius",
+    "note": "PRIMARY. The ancient account of the Doric and its frieze. Free online.",
+    "topics": [
+      "The Doric Order",
+      "The Corinthian Order"
+    ]
+  },
+  {
+    "title": "De Architectura, Books III–IV",
+    "author": "Vitruvius",
+    "note": "PRIMARY. The ancient rules for the Ionic and the famous story of the volute. Free online.",
+    "topics": [
+      "The Ionic Order"
+    ]
+  },
+  {
+    "title": "De Architectura, Books II & V",
+    "author": "Vitruvius",
+    "note": "PRIMARY. On materials, walls, and Roman building methods, straight from an ancient engineer. Free online.",
+    "topics": [
+      "Materials & Construction"
+    ]
+  },
+  {
+    "title": "De Architectura (The Ten Books on Architecture)",
+    "author": "Vitruvius, 1st c. BC",
+    "note": "PRIMARY. The only architectural treatise to survive from antiquity, and the root of the whole tradition. Dry in places, but the source of everything. The Morgan translation is free online.",
+    "topics": [
+      "Foundation"
+    ]
+  },
+  {
+    "title": "De Architectura, Book IV",
+    "author": "Vitruvius, 1st c. BC",
+    "note": "PRIMARY. The ancient description of the Etruscan/Tuscan temple. Readable in the free Morgan translation, but needs a modern gloss to map onto the \"five orders\".",
+    "topics": [
+      "The Tuscan Order"
+    ]
+  },
+  {
+    "title": "De Architectura, Book III",
+    "author": "Vitruvius, 1st c. BC",
+    "note": "PRIMARY. On symmetry, proportion and the human figure set in the circle and square. Free in the Morgan translation.",
+    "topics": [
+      "Proportion & Harmony"
+    ]
+  },
+  {
+    "title": "The Ten Books on Architecture (De Architectura)",
+    "author": "Vitruvius, 1st c. BC (Morgan translation, 1914)",
+    "note": "PRIMARY. The only architectural treatise to survive from antiquity — but written under Augustus, before the Pantheon and Colosseum, so it is the theory, not a tour of the famous buildings. Free at Project Gutenberg.",
+    "topics": [
+      "Roman"
+    ]
+  },
+  {
+    "title": "The Ten Books on Architecture (De Architectura)",
+    "author": "Vitruvius, c. 30–20 BC (Morgan translation, Harvard 1914)",
+    "note": "PRIMARY. A Roman writing after the Greeks, but our main surviving ancient source on the orders — Book IV is the one for their origins. A genuine technical treatise: dip in for reference, don't read cover to cover. Free at Project Gutenberg.",
+    "topics": [
+      "Greek"
+    ]
+  },
+  {
+    "title": "The Pantheon: Design, Meaning, and Progeny",
+    "author": "William L. MacDonald (Harvard)",
+    "note": "ON-RAMP. The classic deep-dive into the one building you most need to understand, and its long afterlife.",
+    "topics": [
+      "Roman"
+    ]
+  },
+  {
+    "title": "The Perfect House",
+    "author": "Witold Rybczynski, 2002",
+    "note": "ON-RAMP. A warm travel-narrative through the villas — the easiest and most enjoyable way in for a non-specialist. Start here.",
+    "topics": [
+      "Palladian"
+    ]
+  }
+]

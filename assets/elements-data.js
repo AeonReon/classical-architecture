@@ -489,6 +489,8 @@ window.ARTS = [
       'the-path': {
         title: 'Learning ornament',
         intro: 'Learn to name a few motifs first, then the mouldings and their enrichments, then the theory and the placement logic.',
+        heroImage: 'assets/detail/path-ornament.jpg',
+        heroCaption: 'An ornamental plaster ceiling rose — the kind of classical enrichment you are learning to read.',
         levels: [
           { stage: 'Beginner', items: [
             'Learn four motifs by eye and name them on real buildings: egg-and-dart, the Greek key, the acanthus leaf, and a hanging swag.',
@@ -510,12 +512,12 @@ window.ARTS = [
         title: 'Things to look for and do',
         intro: 'Ornament is everywhere once you can name it. A few things to do.',
         items: [
-          { name: 'Name the egg-and-dart', body: 'Find a classical cornice — a bank, a town hall, an old civic building — and pick out the row of alternating eggs and darts on the ovolo moulding. Say it aloud.' },
-          { name: 'Trace a Greek key', body: 'Find a meander band and follow it with your eye or finger — feel how one continuous line makes all the right-angle turns.' },
-          { name: 'Dentils or modillions?', body: 'Look up under a cornice: little rectangular teeth (dentils) or bigger scroll brackets (modillions)? The answer hints at the order — dentils lean Ionic, modillions Corinthian.' },
+          { name: 'Name the egg-and-dart', image: 'assets/detail/egg-and-dart.jpg', body: 'Find a classical cornice — a bank, a town hall, an old civic building — and pick out the row of alternating eggs and darts on the ovolo moulding. Say it aloud.' },
+          { name: 'Trace a Greek key', image: 'assets/detail/greek-key.jpg', body: 'Find a meander band and follow it with your eye or finger — feel how one continuous line makes all the right-angle turns.' },
+          { name: 'Dentils or modillions?', image: 'assets/detail/mouldings.jpg', body: 'Look up under a cornice: little rectangular teeth (dentils) or bigger scroll brackets (modillions)? The answer hints at the order — dentils lean Ionic, modillions Corinthian.' },
           { name: 'Apply Pugin\'s test', body: 'On any enriched surface ask: is this ornament clarifying the construction, or just covering it? You are now judging ornament the way the tradition did.' },
-          { name: 'Find a motif off a building', body: 'Pick one motif — acanthus, swag, patera — and spot it on furniture, silver or a printed border, to prove the vocabulary travels far beyond stone.' },
-          { name: 'Put the colour back', body: 'Look up a painted reconstruction of a Greek temple and re-picture a moulding you know — the egg-and-dart, say — in its original strong colour.' }
+          { name: 'Find a motif off a building', image: 'assets/detail/acanthus-scroll.jpg', body: 'Pick one motif — acanthus, swag, patera — and spot it on furniture, silver or a printed border, to prove the vocabulary travels far beyond stone.' },
+          { name: 'Put the colour back', image: 'assets/detail/polychromy.jpg', body: 'Look up a painted reconstruction of a Greek temple and re-picture a moulding you know — the egg-and-dart, say — in its original strong colour.' }
         ]
       },
       'reading': {
