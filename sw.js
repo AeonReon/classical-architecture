@@ -1,4 +1,4 @@
-const CACHE = 'classical-architecture-v16';
+const CACHE = 'classical-architecture-v17';
 const ASSETS = [
   './',
   './index.html',
@@ -47,6 +47,15 @@ const ASSETS = [
   './assets/detail/egg-and-dart.jpg',
   './assets/detail/greek-key.jpg',
   './assets/detail/polychromy.jpg',
+  './assets/detail/portrait-loos.jpg',
+  './assets/detail/portrait-gibbons.jpg',
+  './assets/detail/portrait-ruskin.jpg',
+  './assets/detail/portrait-pugin.jpg',
+  './assets/detail/portrait-owen-jones.jpg',
+  './assets/detail/grammar-plate.jpg',
+  './assets/detail/honesty.jpg',
+  './assets/detail/decorum.jpg',
+  './assets/detail/acanthus-scroll.jpg',
   './quiz.html',
   './assets/quiz-data.js',
   './assets/quiz/doric-capital.jpg',

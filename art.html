@@ -59,6 +59,11 @@
     .master-works li i{ color:var(--ink-mute,#7a7488); }
     .master-link{ display:inline-flex; align-items:center; gap:.35em; margin-top:12px; font:800 .9em var(--sans); color:#fff; text-decoration:none;
       background:linear-gradient(135deg,var(--m-color,#7c3aed),var(--m-deep,#5b21b6)); padding:.5em 1em; border-radius:999px; box-shadow:0 3px 10px rgba(60,45,20,.16); }
+    .master-head{ display:flex; align-items:center; gap:13px; margin-bottom:8px; }
+    .master-head h3{ margin:0; }
+    .master-avatar{ flex:none; width:64px; height:64px; border-radius:50%; object-fit:cover; object-position:top center;
+      box-shadow:0 2px 7px rgba(0,0,0,.22); border:3px solid #fff; background:var(--m-soft,#eee); }
+    .read-hero{ margin:0 0 16px; }
   </style>
 </head>
 <body class="method-page">
@@ -208,6 +213,7 @@
       } else if (key === 'reading') {
         body = `
           <p class="lede">${s.intro}</p>
+          ${s.heroImage ? `<figure class="pfig read-hero"><img src="${s.heroImage}" alt="" loading="lazy" onerror="this.closest('.pfig').remove()">${s.heroCaption ? `<figcaption>${s.heroCaption}</figcaption>` : ''}</figure>` : ''}
           <div class="card">
             <ul class="book-list">
               ${s.books.map(b => `
@@ -221,7 +227,9 @@
           <p class="lede">${s.intro}</p>
           ${s.figures.map(f => `
             <div class="card master-card">
-              <h3>${f.name}</h3>
+              ${f.portrait
+                ? `<div class="master-head"><img class="master-avatar" src="${f.portrait}" alt="" loading="lazy" onerror="this.remove()"><h3>${f.name}</h3></div>`
+                : `<h3>${f.name}</h3>`}
               <p>${f.what}</p>
               ${f.works && f.works.length ? `<div class="master-works"><span class="mw-label">Key works</span><ul>${f.works.map(w => `<li>${w}</li>`).join('')}</ul></div>` : ''}
               ${f.link ? `<a class="master-link" href="${f.link}" target="_blank" rel="noopener">Find out more →</a>` : ''}
