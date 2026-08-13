@@ -46,6 +46,19 @@
     .tryit-more{ display:block; text-decoration:none; margin-top:16px; padding:16px 18px; border-radius:16px; color:#fff; background:linear-gradient(135deg,var(--m-color,#7c3aed),var(--m-deep,#5b21b6)); box-shadow:0 4px 14px rgba(60,45,20,.2); }
     .tryit-more-note{ display:block; font-size:.92em; opacity:.95; line-height:1.45; margin-bottom:9px; }
     .tryit-more-cta{ display:block; font-weight:800; font-size:1.06em; }
+    /* Inline illustrative image inside a principle card */
+    .pfig{ margin:2px 0 14px; border-radius:13px; overflow:hidden; background:var(--m-soft,#f0eef7); box-shadow:0 2px 4px rgba(60,45,20,.08),0 8px 20px rgba(60,45,20,.10); }
+    .pfig img{ display:block; width:100%; height:auto; }
+    .pfig figcaption{ padding:8px 13px 9px; font-size:.83em; line-height:1.4; color:var(--ink-mute,#7a7488); font-style:italic; background:#fff; }
+    .principle-card .pfig{ margin-top:6px; }
+    /* Masters — key works + read-more link */
+    .master-works{ margin-top:12px; padding-top:11px; border-top:1px solid var(--rule,#EADFC6); }
+    .master-works .mw-label{ display:block; font:800 .68rem var(--sans); letter-spacing:.08em; text-transform:uppercase; color:var(--m-deep,#5b21b6); margin-bottom:6px; }
+    .master-works ul{ margin:0; padding-left:1.15em; }
+    .master-works li{ font-size:.94em; line-height:1.5; color:var(--ink-soft,#4d4658); margin:.2em 0; }
+    .master-works li i{ color:var(--ink-mute,#7a7488); }
+    .master-link{ display:inline-flex; align-items:center; gap:.35em; margin-top:12px; font:800 .9em var(--sans); color:#fff; text-decoration:none;
+      background:linear-gradient(135deg,var(--m-color,#7c3aed),var(--m-deep,#5b21b6)); padding:.5em 1em; border-radius:999px; box-shadow:0 3px 10px rgba(60,45,20,.16); }
   </style>
 </head>
 <body class="method-page">
@@ -163,6 +176,7 @@
             <div class="card principle-card">
               <div class="principle-num">${i + 1}</div>
               <h3>${p.name}</h3>
+              ${p.image ? `<figure class="pfig"><img src="${p.image}" alt="" loading="lazy" onerror="this.closest('.pfig').remove()">${p.caption ? `<figcaption>${p.caption}</figcaption>` : ''}</figure>` : ''}
               <p>${p.body}</p>
               <p class="why">${p.why}</p>
             </div>
@@ -206,9 +220,11 @@
         body = `
           <p class="lede">${s.intro}</p>
           ${s.figures.map(f => `
-            <div class="card">
+            <div class="card master-card">
               <h3>${f.name}</h3>
               <p>${f.what}</p>
+              ${f.works && f.works.length ? `<div class="master-works"><span class="mw-label">Key works</span><ul>${f.works.map(w => `<li>${w}</li>`).join('')}</ul></div>` : ''}
+              ${f.link ? `<a class="master-link" href="${f.link}" target="_blank" rel="noopener">Find out more →</a>` : ''}
             </div>
           `).join('')}
         `;
