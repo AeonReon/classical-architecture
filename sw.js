@@ -1,4 +1,4 @@
-const CACHE = 'classical-architecture-v18';
+const CACHE = 'classical-architecture-v19';
 const ASSETS = [
   './',
   './index.html',
@@ -59,6 +59,12 @@ const ASSETS = [
   './library.html',
   './assets/reading-list.json',
   './assets/detail/path-ornament.jpg',
+  './assets/detail/greek-hephaestus.jpg',
+  './assets/detail/greek-antiquities.jpg',
+  './assets/detail/greek-entasis.jpg',
+  './assets/detail/greek-colonnade.jpg',
+  './assets/detail/greek-orders.jpg',
+  './assets/detail/greek-kit.jpg',
   './quiz.html',
   './assets/quiz-data.js',
   './assets/quiz/doric-capital.jpg',
