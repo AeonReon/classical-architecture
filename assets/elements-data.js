@@ -625,6 +625,42 @@ window.ARTS = [
           { name: 'The civic building', image: 'assets/detail/bt-belfast.jpg', caption: 'Belfast City Hall — the dome and temple front borrowed to say permanence, order and public trust.', body: 'Town halls, courts, museums, parliaments and banks took on classical dress to borrow its authority — the temple front and the dome saying permanence, order and public trust. Belfast City Hall and the US Capitol are of this family.', why: 'It explains why so much civic architecture is classical. The style was chosen to make citizens feel their institutions were solid, fair and lasting.' }
         ]
       },
+      'the-path': {
+        title: 'Learning the building types',
+        intro: 'Learn to see the type first — what a building is trying to be — then how each great type was adapted, then the arguments about fitting an old form to a new use.',
+        heroImage: 'assets/styles/roman.jpg',
+        heroCaption: 'The Colosseum — one great classical type among many. The first skill is seeing what a building is trying to be.',
+        levels: [
+          { stage: 'Beginner', items: [
+            'Learn the temple front by heart — columns carrying a pediment — and start spotting its ghost on churches, banks and houses.',
+            'For any building, ask the first question: what type is this trying to be — temple, villa, church, civic hall?',
+            'Visit one classical country house and one classical civic building, and feel how differently each addresses you.'
+          ] },
+          { stage: 'Intermediate', items: [
+            'Trace the villa from Palladio\'s Veneto farmhouses to the country houses of Britain, Ireland and America.',
+            'See how the Roman basilica and the Pantheon\'s dome were remade as the Christian church, in Wren\'s St Paul\'s above all.',
+            'Notice why civic buildings reach for the temple front and the dome — the borrowed language of permanence and public trust.'
+          ] },
+          { stage: 'Advanced', items: [
+            'Read Palladio\'s Books II–IV, which move type by type, and Alberti on the proper character of public and private buildings.',
+            'Judge how well a modern building plays its inherited type — where the convention helps, and where it strains.',
+            'Follow one type — the villa, say — across three centuries and three countries, and watch the same idea in local dress.'
+          ] }
+        ]
+      },
+      'practice': {
+        title: 'Things to look for and do',
+        intro: 'Reading a building\'s type is a quick, useful habit. A few things to do.',
+        heroImage: 'assets/detail/pall-templefront.jpg',
+        heroCaption: 'The temple front — columns and pediment — the single most reused motif in all of architecture.',
+        items: [
+          { name: 'Name the type first', body: 'Before anything else, ask what a building is trying to be — temple, villa, church, palace, civic hall. The type tells you what it is reaching for.' },
+          { name: 'Find the temple front', body: 'Spot the columns-and-pediment motif on something that is not a temple — a church, a bank, a house, a museum — and you have caught the tradition\'s most portable image at work.' },
+          { name: 'Read a country house as a villa', body: 'At a grand estate house, look for Palladio\'s idea underneath: symmetry, a temple-fronted centre, wings reaching out. You are usually touring his invention in local dress.' },
+          { name: 'Ask what a civic building is borrowing', body: 'At a town hall, court or bank, notice the dome or portico and read the message: permanence, order, public trust — then ask whether the building earns it.' },
+          { name: 'Test the fit', body: 'When an old type meets a new use — a temple made into a bank, a basilica into a church — judge how gracefully the form bends. That fit, or its strain, is the whole art of type.' }
+        ]
+      },
       'reading': {
         title: 'Where to read',
         intro: 'The treatises organise themselves by type; a good survey ties them to real buildings.',
@@ -672,6 +708,42 @@ window.ARTS = [
           { name: 'The arch, vault and dome', image: 'assets/detail/roman-vault.jpg', caption: 'The Roman arch turns bending into compression — and from it come the barrel vault and the dome.', body: 'The Romans exploited the arch — a curve of wedge-shaped stones (voussoirs) that turns bending into compression — and from it the barrel vault and the dome. Suddenly vast spaces could be spanned without a forest of columns.', why: 'It is the great divide between Greek and Roman. The arch is why Rome could build baths, basilicas and the Pantheon\'s dome — spaces Greece could never have roofed.' },
           { name: 'Roman concrete', image: 'assets/detail/roman-concrete.jpg', caption: 'Opus caementicium — lime, volcanic ash and rubble cast into vaults, then faced with brick or marble.', body: 'The Romans developed opus caementicium — a concrete of lime, volcanic ash and rubble — that could be cast into arches, vaults and domes, then faced with brick or marble. It freed building from the size of a quarried block.', why: 'It reveals the engineering hidden inside the splendour. The Pantheon\'s marble skin covers a triumph of concrete — ornament and engineering working as one.' },
           { name: 'Honesty and the facing', image: 'assets/detail/mat-facing.jpg', caption: 'A fine skin over a rough core of brick or concrete — and a centuries-long argument about how honest to be about it.', body: 'Classical buildings often wear a fine skin — marble, dressed stone, stucco — over a rougher core of brick or concrete. The tradition argued for centuries about how honest a building must be about what is structure and what is dress.', why: 'It opens the great question Ruskin and Pugin fought over: should a building show how it is made? Knowing the core beneath the facing lets you take a side.' }
+        ]
+      },
+      'the-path': {
+        title: 'Learning classical construction',
+        intro: 'Learn the two great structural ideas first — the beam and the arch — then the materials that made them possible, then the long argument about honesty in building.',
+        heroImage: 'assets/detail/roman-pantheon-in.jpg',
+        heroCaption: 'The Pantheon\'s coffered dome — the Roman arch taken as far as it will go, in cast concrete.',
+        levels: [
+          { stage: 'Beginner', items: [
+            'Learn the one great divide: Greek building spans with beams (post and lintel), Roman building spans with the arch.',
+            'Understand why stone beams must be short — and so why Greek temples crowd their columns close.',
+            'Find an arch and a beam near you, and trace how each carries its load down to the ground.'
+          ] },
+          { stage: 'Intermediate', items: [
+            'Learn the arch, the barrel vault and the dome as one family — the curve of wedge-shaped voussoirs, extended.',
+            'Grasp what Roman concrete changed: building freed from the size of a single quarried block.',
+            'Look for the fine facing — marble, stucco, dressed stone — laid over the rough brick or concrete core.'
+          ] },
+          { stage: 'Advanced', items: [
+            'Read Vitruvius\'s practical books on materials and walls, and a modern account such as Adam\'s Roman Building.',
+            'Engage the honesty debate — Pugin and Ruskin against the sham — and decide how honest you think a building must be.',
+            'Study one great span — the Pantheon\'s dome, or St Paul\'s triple shell — and work out exactly how it stands up.'
+          ] }
+        ]
+      },
+      'practice': {
+        title: 'Things to look for and do',
+        intro: 'Construction is invisible until you look for it. A few things to do.',
+        heroImage: 'assets/detail/greek-kit.jpg',
+        heroCaption: 'The classical kit of parts — beneath the ornament, a set of solutions for holding up a roof and spanning an opening.',
+        items: [
+          { name: 'Beam or arch?', body: 'At any old building, ask the first structural question: is this opening spanned by a straight beam (Greek) or a curved arch (Roman)? It sorts the whole tradition in two.' },
+          { name: 'Follow the load down', body: 'Trace what carries what — roof to vault, vault to wall, wall to ground — until you reach the earth. A building is an argument about load; follow it downward.' },
+          { name: 'Find the voussoirs', body: 'On an arch, pick out the wedge-shaped stones and the keystone at the top. That wedge is the trick that turns bending into compression.' },
+          { name: 'Spot the facing', body: 'Look for where a fine skin — marble, ashlar, stucco — meets a rougher core of brick or rubble, at a broken edge or an unfinished side. Now you can see structure and dress apart.' },
+          { name: 'Take Pugin\'s side, or Ruskin\'s', body: 'Ask whether a building is honest about how it is made, or hides its structure behind a mask. However you answer, you have joined the oldest argument in the tradition.' }
         ]
       },
       'reading': {
