@@ -18,8 +18,6 @@ window.QUOTES = [
   { text: 'Ornament is and should be the expression of love, and it should be tender.', author: 'John Ruskin', source: 'The Seven Lamps of Architecture, 1849' },
   { text: 'The architect should be equipped with knowledge of many branches of study — for it is by his judgement that all work done by the other arts is put to test.', author: 'Vitruvius', source: 'De Architectura, Book I' },
   { text: 'No architecture is so haughty as that which is simple.', author: 'John Ruskin', source: 'The Stones of Venice' },
-  { text: 'Let the beauty of what you love be what you do.', author: 'attributed in the classical spirit', source: '' },
-  { text: 'A building has integrity just like a man. And just as seldom.', author: 'in the manner of the moderns', source: '' },
   { text: 'The orders are to the architect what the letters of the alphabet are to the writer.', author: 'John Summerson', source: 'The Classical Language of Architecture, 1963' },
   { text: 'That is beautiful which pleases when seen — id pulchrum quod visum placet.', author: 'Thomas Aquinas', source: 'in the medieval tradition of proportion' },
   { text: 'Proportion is that agreeable harmony between the several parts of a building.', author: 'Vitruvius', source: 'De Architectura, Book I' },
@@ -35,6 +33,18 @@ window.QUOTES = [
   { text: 'Beauty is that reasoned harmony of all the parts within a body, so that nothing may be added, taken away, or altered, but for the worse.', author: 'Leon Battista Alberti', source: 'On the Art of Building, Book VI, c. 1450 (Rykwert/Leach/Tavernor trans.)' },
   { text: 'Lector, si monumentum requiris, circumspice — Reader, if you seek his monument, look around you.', author: 'epitaph of Sir Christopher Wren, St Paul\'s Cathedral', source: 'composed by his son, Christopher Wren the Younger' },
   { text: 'We shape our buildings, and afterwards our buildings shape us.', author: 'Winston Churchill', source: 'House of Commons, 28 October 1943, on rebuilding the bombed Commons chamber (Hansard wording; often paraphrased "thereafter they shape us")' },
+  { text: 'A house is a machine for living in.', author: 'Le Corbusier', source: 'Towards a New Architecture, 1923' },
+  { text: 'Form and function are one.', author: 'Frank Lloyd Wright', source: 'A Testament, 1957' },
+  { text: 'The passion caused by the great and sublime is astonishment; and astonishment is that state of the soul in which all its motions are suspended.', author: 'Edmund Burke', source: 'A Philosophical Enquiry into the Sublime and Beautiful, 1757' },
+  { text: 'Design is the father of our three arts — architecture, sculpture and painting — having its origin in the intellect.', author: 'Giorgio Vasari', source: 'Lives of the Artists, 1550' },
+  { text: 'First delight, then instruct.', author: 'Karl Friedrich Schinkel', source: 'memorandum on the Altes Museum, Berlin, 1828 (with Gustav Waagen)' },
+  { text: 'Indifference to the fine arts comes close to barbarism.', author: 'Karl Friedrich Schinkel', source: 'recorded aphorism' },
+  { text: 'There should be no features about a building which are not necessary for convenience, construction, or propriety.', author: 'A. W. N. Pugin', source: 'The True Principles of Pointed or Christian Architecture, 1841' },
+  { text: 'The demand for perfection is always a sign of a misunderstanding of the ends of art.', author: 'John Ruskin', source: '"The Nature of Gothic", The Stones of Venice, 1853' },
+  { text: 'In imitating the model well, it is sometimes necessary to introduce into a marble portrait something that is not found in the model.', author: 'Gian Lorenzo Bernini', source: 'recorded in Chantelou\'s Diary of Bernini\'s Visit to France, 1665' },
+  { text: 'A great building must begin with the unmeasurable, must go through measurable means when it is being designed, and in the end must be unmeasurable.', author: 'Louis Kahn', source: 'writings and lectures' },
+  { text: 'Beauty matters; it is not just a subjective thing but a universal need of human beings.', author: 'Sir Roger Scruton', source: 'Why Beauty Matters, BBC, 2009' },
+  { text: 'There is one timeless way of building. It is thousands of years old, and the same today as it has always been.', author: 'Christopher Alexander', source: 'The Timeless Way of Building, 1979' },
 ];
 
 window.THOUGHTS = [
