@@ -17,13 +17,19 @@ window.QUOTES = [
   { text: 'Beauty will result from the form and correspondence of the whole, with respect to the several parts, of the parts with regard to each other, and of these again to the whole.', author: 'Andrea Palladio', source: 'The Four Books of Architecture, 1570' },
   { text: 'Ornament is and should be the expression of love, and it should be tender.', author: 'John Ruskin', source: 'The Seven Lamps of Architecture, 1849' },
   { text: 'The architect should be equipped with knowledge of many branches of study — for it is by his judgement that all work done by the other arts is put to test.', author: 'Vitruvius', source: 'De Architectura, Book I' },
-  { text: 'We shape our buildings; thereafter they shape us.', author: 'Winston Churchill', source: 'to the House of Commons, 1943' },
   { text: 'No architecture is so haughty as that which is simple.', author: 'John Ruskin', source: 'The Stones of Venice' },
   { text: 'Let the beauty of what you love be what you do.', author: 'attributed in the classical spirit', source: '' },
   { text: 'A building has integrity just like a man. And just as seldom.', author: 'in the manner of the moderns', source: '' },
   { text: 'The orders are to the architect what the letters of the alphabet are to the writer.', author: 'John Summerson', source: 'The Classical Language of Architecture, 1963' },
   { text: 'That is beautiful which pleases when seen — id pulchrum quod visum placet.', author: 'Thomas Aquinas', source: 'in the medieval tradition of proportion' },
   { text: 'Proportion is that agreeable harmony between the several parts of a building.', author: 'Vitruvius', source: 'De Architectura, Book I' },
+  { text: 'When we build, let us think that we build for ever.', author: 'John Ruskin', source: 'The Seven Lamps of Architecture, 1849 (the Lamp of Memory)' },
+  { text: 'You must either make a tool of the creature, or a man of him. You cannot make both.', author: 'John Ruskin', source: '"The Nature of Gothic", The Stones of Venice, 1853' },
+  { text: 'Form ever follows function.', author: 'Louis Sullivan', source: '"The Tall Office Building Artistically Considered", 1896 — meant as a spiritual law, not cold utility' },
+  { text: 'No work can be rightly done without honesty and incorruptibility.', author: 'Vitruvius', source: 'De Architectura, Book I, ch. 1 (Morgan trans.)' },
+  { text: 'Beauty is that reasoned harmony of all the parts within a body, so that nothing may be added, taken away, or altered, but for the worse.', author: 'Leon Battista Alberti', source: 'On the Art of Building, Book VI, c. 1450 (Rykwert/Leach/Tavernor trans.)' },
+  { text: 'Lector, si monumentum requiris, circumspice — Reader, if you seek his monument, look around you.', author: 'epitaph of Sir Christopher Wren, St Paul\'s Cathedral', source: 'composed by his son, Christopher Wren the Younger' },
+  { text: 'We shape our buildings, and afterwards our buildings shape us.', author: 'Winston Churchill', source: 'House of Commons, 28 October 1943, on rebuilding the bombed Commons chamber (Hansard wording; often paraphrased "thereafter they shape us")' },
 ];
 
 window.THOUGHTS = [
