@@ -1,4 +1,4 @@
-const CACHE = 'classical-architecture-v32';
+const CACHE = 'classical-architecture-v33';
 const ASSETS = [
   './',
   './index.html',
@@ -179,7 +179,14 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));
+  // RESILIENT precache: add each asset individually with allSettled, so a single
+  // missing/redirected file can NEVER abort the whole install (addAll is atomic
+  // and would leave the device stranded on an old, possibly poisoned cache).
+  e.waitUntil(
+    caches.open(CACHE)
+      .then((c) => Promise.allSettled(ASSETS.map((a) => c.add(a))))
+      .then(() => self.skipWaiting())
+  );
 });
 
 self.addEventListener('activate', (e) => {
@@ -213,8 +220,11 @@ self.addEventListener('fetch', (e) => {
     e.respondWith(
       fetch(e.request)
         .then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE).then((c) => c.put(e.request, copy));
+          // Only cache good responses — never poison the cache with a 404/redirect.
+          if (res && res.ok && res.type === 'basic') {
+            const copy = res.clone();
+            caches.open(CACHE).then((c) => c.put(e.request, copy));
+          }
           return res;
         })
         .catch(() => caches.match(e.request).then((hit) => hit || caches.match('./index.html')))
@@ -227,8 +237,11 @@ self.addEventListener('fetch', (e) => {
     caches.match(e.request).then((hit) =>
       hit ||
       fetch(e.request).then((res) => {
-        const copy = res.clone();
-        caches.open(CACHE).then((c) => c.put(e.request, copy));
+        // Only cache successful, non-redirected responses.
+        if (res && res.ok && res.type === 'basic') {
+          const copy = res.clone();
+          caches.open(CACHE).then((c) => c.put(e.request, copy));
+        }
         return res;
       })
     )

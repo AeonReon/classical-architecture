@@ -145,6 +145,12 @@
     </section>
 
     <section class="tile-section">
+      <h2 class="tile-section-title">Begin here</h2>
+      <p class="tile-section-sub">Before the styles and the stones — who the builder had to become. This is the heart of it: grasp the architect's mind, and everything else in the app falls into place.</p>
+      <div class="rtile-list" id="mind-feature"></div>
+    </section>
+
+    <section class="tile-section">
       <h2 class="tile-section-title">The Styles</h2>
       <p class="tile-section-sub">The great traditions of building — Greek, Roman, Palladian and their revivals — each presented on its own terms.</p>
       <div class="rtile-list" id="schools-cat"></div>
@@ -238,8 +244,9 @@
       { name:'Ornament & Detail', tagline:'Mouldings, capitals and carving — and what they mean.', count:'The grammar of enrichment', href:'art.html?id=ornament', image:'assets/elements/ornament.jpg', icon:'acanthus', color:'#2F9E77', colorDeep:'#1F6B52' },
       { name:'Building Types', tagline:'Temple, villa, church, civic hall — the classical forms.', count:'How the language is used', href:'art.html?id=building-types', image:'assets/elements/building-types.jpg', icon:'temple', color:'#4C63B6', colorDeep:'#33468C' },
       { name:'Materials & Construction', tagline:'Stone, brick, timber, the arch and the dome.', count:'How it stands up', href:'art.html?id=materials', image:'assets/elements/materials.jpg', icon:'arch', color:'#6B7280', colorDeep:'#404650' },
-      { name:"The Architect's Mind", tagline:'The character, discipline and belief that great building asks of a person.', count:'The maker behind the building', href:'art.html?id=architects-mind', image:'assets/elements/architects-mind.jpg', icon:'compass', color:'#7C5CC4', colorDeep:'#4B2F86' },
     ];
+    // The heart of the app — given its own "Begin here" section, above the styles.
+    const MIND_FEATURE = { name:"The Architect's Mind", tagline:'The character, discipline and belief that great building asks of a person — and the old conviction that the buildings we raise then shape us in return.', count:'The maker behind the building', href:'art.html?id=architects-mind', image:'assets/elements/architects-mind.jpg', icon:'compass', color:'#7C5CC4', colorDeep:'#4B2F86' };
     const TOOLS = [
       { name:'Test yourself', tagline:'A quick quiz — name the orders, read the styles, spot the details. See how well your eye reads a building.', count:'Quiz', href:'quiz.html', image:'', icon:'target', color:'#2E84BD', colorDeep:'#1F5E8A' },
       { name:'The Library', tagline:'Every book recommended across the app, gathered in one list — primary sources first, and most of them free to read or download.', count:'The full reading list', href:'library.html', image:'', icon:'books', color:'#4C63B6', colorDeep:'#33468C' },
@@ -260,6 +267,7 @@
     // The Styles — its own tab: one tile into the full set of traditions.
     const SCHOOLS_CAT = { name:'The Great Styles', tagline:'Greek, Roman, Renaissance, Palladian, Baroque, Neoclassical and the revivals — each on its own terms.', count:'Greek · Roman · Palladian · Neoclassical · Beaux-Arts · Revival', href:'category.html?id=styles', image:'assets/styles/greek.jpg', icon:'temple', color:'#4F6D7A', colorDeep:'#2F4550' };
     document.getElementById('schools-cat').innerHTML = rtile(SCHOOLS_CAT);
+    document.getElementById('mind-feature').innerHTML = rtile(MIND_FEATURE);
     document.getElementById('arts-cats').innerHTML = CATEGORIES.map(rtile).join('');
     document.getElementById('tools-list').innerHTML = TOOLS.map(rtile).join('');
 
