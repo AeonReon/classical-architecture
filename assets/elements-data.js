@@ -108,11 +108,11 @@ window.ARTS = [
         title: 'What the Tuscan order is',
         intro: 'The Tuscan is Doric reduced to its essentials: a smooth, unfluted shaft, a simple base of plinth and torus, a plain cushion capital, and an entablature without carving. Its stocky proportions give it a look of solid, unpretending strength — the plainest and heaviest of the five.',
         principles: [
-          { name: 'The unfluted shaft — its fastest tell', body: 'Alone among the orders, the Tuscan shaft is characteristically smooth and unfluted, with a plain cushion capital (a round echinus under a square abacus) and no carving anywhere on the entablature.', why: 'It is the quickest field-mark. A sturdy, smooth column with nothing carved on it, plain top to bottom, is almost certainly Tuscan — the order that says everything by saying nothing.' },
-          { name: 'A simplified Doric, and Rome\'s own', body: 'Where the refined orders came from Greece, the Tuscan is Italic — descended from Etruscan temple-building and adopted by Rome as its plain native order, essentially a Doric with the ornament stripped off. Vitruvius describes the Etruscan temple; the Renaissance made Tuscan the first of the five.', why: 'It shows the tradition was never purely Greek. The plainest order is the home-grown one — a reminder that classical architecture always mixed the imported ideal with the local and useful.' },
-          { name: 'The order of rustic strength', body: 'Stocky in the rulebooks at about seven column-diameters high — the shortest and thickest of the five — the Tuscan reads as sturdy, grounded and rustic. It was the order of the utilitarian and the strong.', why: 'It shows the tradition thought about character, not just decoration. To choose Tuscan was to say "solid and dependable" before a single word of ornament was spoken.' },
-          { name: 'The base of the building', body: 'Because it is plainest and strongest, the Tuscan is often placed lowest, carrying richer orders above it — the ground floor of a palace, the base of a triumphal arch, the rusticated storey beneath the show.', why: 'It introduces the whole hierarchy of the orders: plain and strong at the bottom, rich and slender at the top, exactly as the visual weight decreases upward.' },
-          { name: 'Known from the book, not the ruin', body: 'There is no clean surviving pure-Tuscan ancient temple to point to — the Etruscans built largely in wood and terracotta, so little survives, and later Roman work blurs Tuscan into Roman Doric. It is known chiefly from Vitruvius\'s description and Renaissance reconstruction.', why: 'It is an honest reminder that the tidy "five orders" is a Renaissance ordering of the past. The plainest order is also the least documented in antiquity — reconstructed as much as revived.' }
+          { name: 'The unfluted shaft — its fastest tell', image: 'assets/orders/tuscan.jpg', caption: 'The Tuscan column: smooth and unfluted, plain from top to bottom — the order that says everything by saying nothing.', body: 'Alone among the orders, the Tuscan shaft is characteristically smooth and unfluted, with a plain cushion capital (a round echinus under a square abacus) and no carving anywhere on the entablature.', why: 'It is the quickest field-mark. A sturdy, smooth column with nothing carved on it, plain top to bottom, is almost certainly Tuscan — the order that says everything by saying nothing.' },
+          { name: 'A simplified Doric, and Rome\'s own', image: 'assets/detail/tus-covent.jpg', caption: 'Inigo Jones\'s St Paul\'s, Covent Garden — a stern Tuscan portico, once called “the handsomest barn in England”.', body: 'Where the refined orders came from Greece, the Tuscan is Italic — descended from Etruscan temple-building and adopted by Rome as its plain native order, essentially a Doric with the ornament stripped off. Vitruvius describes the Etruscan temple; the Renaissance made Tuscan the first of the five.', why: 'It shows the tradition was never purely Greek. The plainest order is the home-grown one — a reminder that classical architecture always mixed the imported ideal with the local and useful.' },
+          { name: 'The order of rustic strength', image: 'assets/detail/ord-rustic.jpg', caption: 'A rusticated ground floor — the Tuscan\'s stocky, grounded strength put to work.', body: 'Stocky in the rulebooks at about seven column-diameters high — the shortest and thickest of the five — the Tuscan reads as sturdy, grounded and rustic. It was the order of the utilitarian and the strong.', why: 'It shows the tradition thought about character, not just decoration. To choose Tuscan was to say "solid and dependable" before a single word of ornament was spoken.' },
+          { name: 'The base of the building', image: 'assets/detail/tus-arch.jpg', caption: 'A plain rusticated gateway: the Tuscan set lowest, the strong base that carries richer orders above.', body: 'Because it is plainest and strongest, the Tuscan is often placed lowest, carrying richer orders above it — the ground floor of a palace, the base of a triumphal arch, the rusticated storey beneath the show.', why: 'It introduces the whole hierarchy of the orders: plain and strong at the bottom, rich and slender at the top, exactly as the visual weight decreases upward.' },
+          { name: 'Known from the book, not the ruin', image: 'assets/detail/ord-fiveorders.jpg', caption: 'The five orders as the Renaissance arranged them — the Tuscan placed first, reconstructed as much as revived.', body: 'There is no clean surviving pure-Tuscan ancient temple to point to — the Etruscans built largely in wood and terracotta, so little survives, and later Roman work blurs Tuscan into Roman Doric. It is known chiefly from Vitruvius\'s description and Renaissance reconstruction.', why: 'It is an honest reminder that the tidy "five orders" is a Renaissance ordering of the past. The plainest order is also the least documented in antiquity — reconstructed as much as revived.' }
         ]
       },
       'practice': {
@@ -127,6 +127,8 @@ window.ARTS = [
       'reading': {
         title: 'Where to read',
         intro: 'The orders are learned from the treatises that codified them, with a modern manual alongside. Honest notes below.',
+        heroImage: 'assets/detail/roman-vitruvius.jpg',
+        heroCaption: 'The orders are learned from the treatises that codified them — Vitruvius first of all.',
         books: [
           { title: 'De Architectura, Book IV', author: 'Vitruvius, 1st c. BC', note: 'PRIMARY. The ancient description of the Etruscan/Tuscan temple. Readable in the free Morgan translation, but needs a modern gloss to map onto the "five orders".' },
           { title: 'Canon of the Five Orders (Regola delli cinque ordini)', author: 'Giacomo Barozzi da Vignola, 1562', note: 'PRIMARY. The most influential rulebook of the orders ever made — Vignola\'s plates fixed the Tuscan\'s proportions for three centuries. Mostly measured drawings.' },
@@ -138,10 +140,14 @@ window.ARTS = [
         title: 'The names',
         intro: 'The Tuscan is a codifiers\' order more than a designers\' — its history is largely the history of the rulebooks.',
         figures: [
-          { name: 'Vitruvius (1st c. BC)', what: 'First to describe the Etruscan/Tuscan temple in writing, giving the order its ancient authority.' },
-          { name: 'Sebastiano Serlio (1475–1554)', what: 'First to picture all five orders together as a set (1537), placing the Tuscan at the head of the row.' },
-          { name: 'Giacomo da Vignola (1507–1573)', what: 'Whose Rule of the Five Orders fixed the Tuscan\'s proportions in the form most later builders used.' },
-          { name: 'Inigo Jones (1573–1652)', what: 'Who used a stern Tuscan to great effect at St Paul\'s, Covent Garden — "the handsomest barn in England".' }
+          { name: 'Vitruvius (1st c. BC)', what: 'First to describe the Etruscan/Tuscan temple in writing, giving the order its ancient authority.',
+            works: ['<i>De Architectura</i> (Ten Books on Architecture)'], link: 'https://en.wikipedia.org/wiki/Vitruvius' },
+          { name: 'Sebastiano Serlio (1475–1554)', portrait: 'assets/detail/portrait-serlio.jpg', what: 'First to picture all five orders together as a set (1537), placing the Tuscan at the head of the row.',
+            works: ['<i>Tutte l\'opere d\'architettura et prospetiva</i> (the Seven Books)'], link: 'https://en.wikipedia.org/wiki/Sebastiano_Serlio' },
+          { name: 'Giacomo da Vignola (1507–1573)', portrait: 'assets/detail/portrait-vignola.jpg', what: 'Whose Rule of the Five Orders fixed the Tuscan\'s proportions in the form most later builders used.',
+            works: ['<i>Regola delli cinque ordini d\'architettura</i>', 'Villa Farnese, Caprarola', 'The Church of the Gesù, Rome'], link: 'https://en.wikipedia.org/wiki/Jacopo_Barozzi_da_Vignola' },
+          { name: 'Inigo Jones (1573–1652)', portrait: 'assets/detail/portrait-inigojones.jpg', what: 'Who used a stern Tuscan to great effect at St Paul\'s, Covent Garden — "the handsomest barn in England".',
+            works: ['St Paul\'s, Covent Garden', 'The Banqueting House, Whitehall', 'The Queen\'s House, Greenwich'], link: 'https://en.wikipedia.org/wiki/Inigo_Jones' }
         ]
       }
     }
@@ -161,17 +167,19 @@ window.ARTS = [
         title: 'What the Doric order is',
         intro: 'In its Greek form the Doric has no base, a shaft cut with shallow flutes meeting in sharp edges, a simple capital of a round echinus under a square abacus, and — its signature — a frieze of triglyphs (three-grooved blocks) alternating with metopes (often carved panels). The Roman version adds a base and slims the proportions.',
         principles: [
-          { name: 'No base, straight from the floor', body: 'The Greek Doric column stands directly on the temple platform without a base, its weight met by the flat stone. (The later Roman Doric adds a base and slims down.) This gives the Greek version a look of rooted, elemental strength found in no other order.', why: 'It is the fastest way to tell Greek Doric from every later order. That missing base is a whole aesthetic — the column as a growing thing, not a placed object.' },
-          { name: 'The plain cushion capital', body: 'The Doric capital is the plainest of all — a round cushion (the echinus) under a square slab (the abacus), with no scrolls and no leaves. The shaft below is fluted with shallow channels that meet in sharp ridges (arrises), with no flat band between them.', why: 'The capital is always the quickest identifier of an order, and Doric\'s is the one that is severe and bare. Plain cushion on top, knife-edged flutes below: Doric.' },
-          { name: 'Triglyphs and metopes', body: 'The Doric signature is its frieze: triglyphs — blocks with three vertical grooves — alternating with metopes, the panels between, often carved with battles or myths, with little peg-like guttae beneath. They are thought to remember, in stone, the beam-ends of the first timber temples.', why: 'It is the unmistakable Doric field-mark, and it reveals a deep habit of the tradition: turning the memory of older construction into ornament. The stone temple quietly quotes the wooden one it replaced.' },
-          { name: 'Refinements you are not meant to see', body: 'The Parthenon has almost no straight lines: columns lean slightly inward, swell at the middle (entasis), and the platform curves upward at the centre. These corrections counter the eye\'s tendency to read long straight lines as sagging.', why: 'It shows classical "perfection" is not rigid geometry but a subtle correction for how we actually see. The order lives in the adjustments, not the rule.' },
-          { name: 'Stocky by nature', body: 'The Renaissance rulebooks set the Doric column at about eight diameters high — but real archaic Greek Doric is far stubbier, often only four to six diameters, with swollen shafts and big capitals (as at Paestum). The neat figure is a later ideal, not what the first Doric looked like.', why: 'It is a useful honesty: the "correct" proportions are a Renaissance convention. Meet the heavy, primitive Doric of the early temples and you see the order before it was tidied up.' },
-          { name: 'The order of gravity and men', body: 'The ancients associated Doric with strength and the male body — Vitruvius derived its proportions from a man\'s. Sober, muscular and unornamented, it was used for temples to the sterner gods and, ever after, for buildings that wish to look grave and permanent.', why: 'It explains why banks, courts and war memorials so often choose Doric. The order carries a mood, and that mood is seriousness.' }
+          { name: 'No base, straight from the floor', image: 'assets/orders/doric.jpg', caption: 'Greek Doric rises straight from the platform with no base — the column as a growing thing, not a placed object.', body: 'The Greek Doric column stands directly on the temple platform without a base, its weight met by the flat stone. (The later Roman Doric adds a base and slims down.) This gives the Greek version a look of rooted, elemental strength found in no other order.', why: 'It is the fastest way to tell Greek Doric from every later order. That missing base is a whole aesthetic — the column as a growing thing, not a placed object.' },
+          { name: 'The plain cushion capital', image: 'assets/quiz/doric-capital.jpg', caption: 'The Doric capital: a round cushion (echinus) under a square slab (abacus), with knife-edged flutes below.', body: 'The Doric capital is the plainest of all — a round cushion (the echinus) under a square slab (the abacus), with no scrolls and no leaves. The shaft below is fluted with shallow channels that meet in sharp ridges (arrises), with no flat band between them.', why: 'The capital is always the quickest identifier of an order, and Doric\'s is the one that is severe and bare. Plain cushion on top, knife-edged flutes below: Doric.' },
+          { name: 'Triglyphs and metopes', image: 'assets/quiz/triglyph-frieze.jpg', caption: 'The Doric frieze: grooved triglyphs alternating with metope panels — the memory of timber beam-ends, in stone.', body: 'The Doric signature is its frieze: triglyphs — blocks with three vertical grooves — alternating with metopes, the panels between, often carved with battles or myths, with little peg-like guttae beneath. They are thought to remember, in stone, the beam-ends of the first timber temples.', why: 'It is the unmistakable Doric field-mark, and it reveals a deep habit of the tradition: turning the memory of older construction into ornament. The stone temple quietly quotes the wooden one it replaced.' },
+          { name: 'Refinements you are not meant to see', image: 'assets/detail/greek-entasis.jpg', caption: 'The gentle swelling of the shaft (entasis) — a correction for the eye you are not meant to notice.', body: 'The Parthenon has almost no straight lines: columns lean slightly inward, swell at the middle (entasis), and the platform curves upward at the centre. These corrections counter the eye\'s tendency to read long straight lines as sagging.', why: 'It shows classical "perfection" is not rigid geometry but a subtle correction for how we actually see. The order lives in the adjustments, not the rule.' },
+          { name: 'Stocky by nature', image: 'assets/detail/ord-paestum.jpg', caption: 'The heavy, primitive Doric of Paestum — the order before the rulebooks tidied its proportions.', body: 'The Renaissance rulebooks set the Doric column at about eight diameters high — but real archaic Greek Doric is far stubbier, often only four to six diameters, with swollen shafts and big capitals (as at Paestum). The neat figure is a later ideal, not what the first Doric looked like.', why: 'It is a useful honesty: the "correct" proportions are a Renaissance convention. Meet the heavy, primitive Doric of the early temples and you see the order before it was tidied up.' },
+          { name: 'The order of gravity and men', image: 'assets/styles/greek.jpg', caption: 'The Parthenon — sober, muscular, unornamented: the order chosen ever after for gravity and permanence.', body: 'The ancients associated Doric with strength and the male body — Vitruvius derived its proportions from a man\'s. Sober, muscular and unornamented, it was used for temples to the sterner gods and, ever after, for buildings that wish to look grave and permanent.', why: 'It explains why banks, courts and war memorials so often choose Doric. The order carries a mood, and that mood is seriousness.' }
         ]
       },
       'the-path': {
         title: 'Learning the Doric',
         intro: 'The Doric rewards close looking more than any order, because so much of it is in refinements you must train yourself to see.',
+        heroImage: 'assets/detail/greek-colonnade.jpg',
+        heroCaption: 'A Doric colonnade — the order that rewards close looking more than any other.',
         levels: [
           { stage: 'Beginner', items: [
             'Learn the parts: shaft, flutes, echinus, abacus, triglyph, metope.',
@@ -203,6 +211,8 @@ window.ARTS = [
       'reading': {
         title: 'Where to read',
         intro: 'Go to the ancient rulebooks, but for the Doric especially, look hard at good photographs and measured drawings.',
+        heroImage: 'assets/detail/greek-antiquities.jpg',
+        heroCaption: 'Measured drawings and good photographs teach the Doric better than any prose.',
         books: [
           { title: 'De Architectura, Book IV', author: 'Vitruvius', note: 'PRIMARY. The ancient account of the Doric and its frieze. Free online.' },
           { title: 'The Four Books of Architecture, Book I', author: 'Andrea Palladio', note: 'PRIMARY. Palladio\'s plates of the Doric, with his proportions. Free scans.' },
@@ -214,9 +224,12 @@ window.ARTS = [
         title: 'The names',
         intro: 'The Greek architects are mostly anonymous, but a few are known, and the order\'s revivers are not.',
         figures: [
-          { name: 'Iktinos and Kallikrates (5th c. BC)', what: 'The architects of the Parthenon, the supreme Doric temple, built under Pericles.' },
-          { name: 'The builders of Paestum (6th–5th c. BC)', what: 'Whose massive, early Doric temples in southern Italy survive almost complete.' },
-          { name: 'James "Athenian" Stuart (1713–1788)', what: 'Whose measured drawings of Athens launched the Greek Revival and put true Greek Doric into modern hands.' }
+          { name: 'Iktinos and Kallikrates (5th c. BC)', what: 'The architects of the Parthenon, the supreme Doric temple, built under Pericles.',
+            works: ['The Parthenon, Athens', 'The Temple of Apollo at Bassae (Iktinos)'], link: 'https://en.wikipedia.org/wiki/Ictinus' },
+          { name: 'The builders of Paestum (6th–5th c. BC)', what: 'Whose massive, early Doric temples in southern Italy survive almost complete.',
+            works: ['The Temple of Hera I ("the Basilica")', 'The Temple of Hera II ("of Neptune")'], link: 'https://en.wikipedia.org/wiki/Paestum' },
+          { name: 'James "Athenian" Stuart (1713–1788)', portrait: 'assets/detail/portrait-stuart.jpg', what: 'Whose measured drawings of Athens launched the Greek Revival and put true Greek Doric into modern hands.',
+            works: ['<i>The Antiquities of Athens</i> (with Revett)', 'The Doric temple at Hagley (1758)'], link: 'https://en.wikipedia.org/wiki/James_Stuart_(1713%E2%80%931788)' }
         ]
       }
     }
@@ -236,11 +249,11 @@ window.ARTS = [
         title: 'What the Ionic order is',
         intro: 'The Ionic has a slimmer, taller shaft than the Doric, cut with deeper flutes separated by small flat fillets, standing on a moulded base. Its capital is unmistakable: two scrolls (volutes) linked by a shallow cushion. Its frieze is continuous rather than divided, and it often carries a row of dentils in the cornice.',
         principles: [
-          { name: 'The volute', body: 'The scroll capital is the Ionic\'s signature — a pair of spirals, thought to derive from a rolled cushion, a ram\'s horns or a nautilus shell, linked by a shallow cushion. It turns the top of the column into something to look at, not just a plain support.', why: 'It is the single easiest capital to recognise. Spot the scrolls and you have named the order in one glance.' },
-          { name: 'A base, and filleted flutes', body: 'Unlike the Greek Doric, the Ionic always stands on a moulded base, and its slimmer shaft is cut with deeper flutes separated by small flat bands (fillets) rather than the sharp ridges of the Doric.', why: 'These are the confirming details below the capital. A based column with soft, fillet-separated flutes is reading as Ionic before you even reach the scrolls.' },
-          { name: 'Slenderness and grace', body: 'The Ionic is proportioned taller and thinner than the Doric — about nine diameters high in the rulebooks. The ancients gave it a mature, matronly female character; Vitruvius likened its fluting to the folds of a robe and its volutes to curled hair.', why: 'It shows the orders were understood as characters. To choose Ionic was to say "civilised, learned, graceful" — which is why it clothes so many libraries and universities.' },
-          { name: 'A continuous frieze and dentils', body: 'Where the Doric frieze is broken into triglyphs and metopes, the Ionic frieze runs as one unbroken band, ideal for a continuous carved procession, and its cornice characteristically carries a row of dentils — small tooth-like blocks.', why: 'It changes what ornament can do: a continuous band lets a story flow around the whole building. The row of dentils is another quiet Ionic tell in the cornice above.' },
-          { name: 'The order of the mind', body: 'From antiquity onward the Ionic was felt to suit places of thought and refinement rather than raw strength — temples to Apollo and Athena, and later the libraries, museums and schools of the modern world.', why: 'It is why so many places of learning are Ionic. The order was chosen to set a mood of cultivated calm before you had even read the name over the door.' }
+          { name: 'The volute', image: 'assets/quiz/ionic-capital.jpg', caption: 'The Ionic volute — a pair of scrolls; spot them and you have named the order in one glance.', body: 'The scroll capital is the Ionic\'s signature — a pair of spirals, thought to derive from a rolled cushion, a ram\'s horns or a nautilus shell, linked by a shallow cushion. It turns the top of the column into something to look at, not just a plain support.', why: 'It is the single easiest capital to recognise. Spot the scrolls and you have named the order in one glance.' },
+          { name: 'A base, and filleted flutes', image: 'assets/orders/ionic.jpg', caption: 'The Ionic stands on a moulded base, its slimmer shaft cut with flutes separated by small flat fillets.', body: 'Unlike the Greek Doric, the Ionic always stands on a moulded base, and its slimmer shaft is cut with deeper flutes separated by small flat bands (fillets) rather than the sharp ridges of the Doric.', why: 'These are the confirming details below the capital. A based column with soft, fillet-separated flutes is reading as Ionic before you even reach the scrolls.' },
+          { name: 'Slenderness and grace', image: 'assets/detail/ord-erechtheion.jpg', caption: 'The Erechtheion\'s Ionic porch — taller and thinner than the Doric, given a mature, graceful character.', body: 'The Ionic is proportioned taller and thinner than the Doric — about nine diameters high in the rulebooks. The ancients gave it a mature, matronly female character; Vitruvius likened its fluting to the folds of a robe and its volutes to curled hair.', why: 'It shows the orders were understood as characters. To choose Ionic was to say "civilised, learned, graceful" — which is why it clothes so many libraries and universities.' },
+          { name: 'A continuous frieze and dentils', image: 'assets/detail/ord-ionicfrieze.jpg', caption: 'The Ionic entablature: a continuous frieze for a flowing procession, with a row of tooth-like dentils above.', body: 'Where the Doric frieze is broken into triglyphs and metopes, the Ionic frieze runs as one unbroken band, ideal for a continuous carved procession, and its cornice characteristically carries a row of dentils — small tooth-like blocks.', why: 'It changes what ornament can do: a continuous band lets a story flow around the whole building. The row of dentils is another quiet Ionic tell in the cornice above.' },
+          { name: 'The order of the mind', image: 'assets/detail/gr-britishmuseum.jpg', caption: 'The British Museum\'s Ionic colonnade — the order chosen for libraries, museums and places of learning.', body: 'From antiquity onward the Ionic was felt to suit places of thought and refinement rather than raw strength — temples to Apollo and Athena, and later the libraries, museums and schools of the modern world.', why: 'It is why so many places of learning are Ionic. The order was chosen to set a mood of cultivated calm before you had even read the name over the door.' }
         ]
       },
       'practice': {
@@ -256,6 +269,8 @@ window.ARTS = [
       'reading': {
         title: 'Where to read',
         intro: 'The ancient sources plus one good look at the Erechtheion will teach the Ionic quickly.',
+        heroImage: 'assets/detail/greek-antiquities.jpg',
+        heroCaption: 'Stuart & Revett\'s measured plates gave Europe accurate Greek Ionic — the Erechtheion above all.',
         books: [
           { title: 'De Architectura, Books III–IV', author: 'Vitruvius', note: 'PRIMARY. The ancient rules for the Ionic and the famous story of the volute. Free online.' },
           { title: 'The Four Books of Architecture, Book I', author: 'Andrea Palladio', note: 'PRIMARY. Palladio\'s Ionic plates and proportions. Free scans.' },
@@ -267,10 +282,14 @@ window.ARTS = [
         title: 'The names',
         intro: 'Ionia gave the order its home; later builders gave it its afterlife.',
         figures: [
-          { name: 'The architects of the Erechtheion (5th c. BC)', what: 'Whose elegant Ionic temple on the Acropolis, with its Porch of the Maidens, is the order\'s masterpiece.' },
-          { name: 'Hermogenes (2nd c. BC)', what: 'The Hellenistic architect whose refined Ionic temples Vitruvius held up as models of correct proportion.' },
-          { name: 'Vincenzo Scamozzi (1548–1616)', what: 'Whose four-faced Ionic capital, with volutes turned out on every side, became a widely copied standard — "the Scamozzi Ionic".' },
-          { name: 'Nicholas Revett & James Stuart', what: 'Whose Antiquities of Athens brought accurate Greek Ionic to Britain and fuelled the Greek Revival.' }
+          { name: 'The architects of the Erechtheion (5th c. BC)', what: 'Whose elegant Ionic temple on the Acropolis, with its Porch of the Maidens, is the order\'s masterpiece.',
+            works: ['The Erechtheion, Acropolis, Athens'], link: 'https://en.wikipedia.org/wiki/Erechtheion' },
+          { name: 'Hermogenes (2nd c. BC)', what: 'The Hellenistic architect whose refined Ionic temples Vitruvius held up as models of correct proportion.',
+            works: ['The Temple of Artemis Leucophryene, Magnesia', 'The Temple of Dionysus, Teos'], link: 'https://en.wikipedia.org/wiki/Hermogenes_(architect)' },
+          { name: 'Vincenzo Scamozzi (1548–1616)', portrait: 'assets/detail/portrait-scamozzi.jpg', what: 'Whose four-faced Ionic capital, with volutes turned out on every side, became a widely copied standard — "the Scamozzi Ionic".',
+            works: ['<i>L\'idea della architettura universale</i>', 'The "Scamozzi Ionic" capital', 'Completion of the Teatro Olimpico, Vicenza'], link: 'https://en.wikipedia.org/wiki/Vincenzo_Scamozzi' },
+          { name: 'Nicholas Revett & James Stuart', portrait: 'assets/detail/portrait-stuart.jpg', what: 'Whose Antiquities of Athens brought accurate Greek Ionic to Britain and fuelled the Greek Revival.',
+            works: ['<i>The Antiquities of Athens</i>'], link: 'https://en.wikipedia.org/wiki/Nicholas_Revett' }
         ]
       }
     }
@@ -290,11 +309,11 @@ window.ARTS = [
         title: 'What the Corinthian order is',
         intro: 'The Corinthian shares the Ionic\'s slender, based, fluted column but replaces the scroll capital with a deep bell of acanthus leaves in two tiers, from which small volutes uncurl at the corners. It carries the richest entablature, and everything about it is tuned for display.',
         principles: [
-          { name: 'The acanthus capital', body: 'The defining feature is a tall bell wrapped in two tiers of carved acanthus leaves, with small scrolls uncurling at the corners — the richest, most three-dimensional capital of all. According to a story told by Vitruvius, the sculptor Callimachus invented it after seeing an acanthus plant grow up around a basket left on a girl\'s grave.', why: 'It is the order\'s fingerprint: leaves at the top of a column mean Corinthian. (Treat the basket tale as the charming legend Vitruvius meant it as — the order really grew up gradually.)' },
-          { name: 'The slenderest and richest', body: 'The Corinthian is the tallest and thinnest of the orders — about ten diameters high in the rulebooks — and carries the most ornate entablature, its cornice dense with both dentils and little scroll brackets called modillions.', why: 'It is the order tuned entirely for display. Height, slenderness and a deeply carved cornice all say the same thing: this is the rich, important part of the building.' },
-          { name: 'The order of splendour', body: 'Reserved for the grandest effect — wealth, magnificence, celebration — the Corinthian was likened by Vitruvius to a slender, richly adorned young girl, the daintiest and most decorated of the three Greek orders.', why: 'It explains why Corinthian clothes opera houses, palaces and the grandest civic rooms. The order itself signals "this is the splendid place".' },
-          { name: 'Rome\'s favourite', body: 'The Greeks used Corinthian sparingly — its first great outdoor showing was the little Choragic Monument of Lysicrates in Athens — but the Romans made it their signature, crowning the Pantheon\'s portico, the Temple of Olympian Zeus and countless imperial monuments.', why: 'It shows how a form can be adopted and transformed. The order became less Greek and more Roman — proof that the tradition is a conversation, not a fixed rule.' },
-          { name: 'Height without heaviness', body: 'Those slender proportions let the Corinthian rise tall and light, ideal for the many-columned interiors and lofty porticoes the Romans built at scale.', why: 'It pairs the tradition\'s love of ornament with its love of engineering — richness that also solves the problem of building high and open.' }
+          { name: 'The acanthus capital', image: 'assets/quiz/corinthian-capital.jpg', caption: 'The Corinthian capital: a tall bell wrapped in two tiers of carved acanthus leaves — the order\'s fingerprint.', body: 'The defining feature is a tall bell wrapped in two tiers of carved acanthus leaves, with small scrolls uncurling at the corners — the richest, most three-dimensional capital of all. According to a story told by Vitruvius, the sculptor Callimachus invented it after seeing an acanthus plant grow up around a basket left on a girl\'s grave.', why: 'It is the order\'s fingerprint: leaves at the top of a column mean Corinthian. (Treat the basket tale as the charming legend Vitruvius meant it as — the order really grew up gradually.)' },
+          { name: 'The slenderest and richest', image: 'assets/detail/ord-modillions.jpg', caption: 'The richest cornice of all, dense with dentils and little scroll brackets called modillions.', body: 'The Corinthian is the tallest and thinnest of the orders — about ten diameters high in the rulebooks — and carries the most ornate entablature, its cornice dense with both dentils and little scroll brackets called modillions.', why: 'It is the order tuned entirely for display. Height, slenderness and a deeply carved cornice all say the same thing: this is the rich, important part of the building.' },
+          { name: 'The order of splendour', image: 'assets/detail/ord-lysicrates.jpg', caption: 'The Choragic Monument of Lysicrates — the Corinthian\'s first great outdoor showing in Athens.', body: 'Reserved for the grandest effect — wealth, magnificence, celebration — the Corinthian was likened by Vitruvius to a slender, richly adorned young girl, the daintiest and most decorated of the three Greek orders.', why: 'It explains why Corinthian clothes opera houses, palaces and the grandest civic rooms. The order itself signals "this is the splendid place".' },
+          { name: 'Rome\'s favourite', image: 'assets/detail/ord-pantheon-portico.jpg', caption: 'The Pantheon\'s Corinthian portico — the order the Romans made their imperial signature.', body: 'The Greeks used Corinthian sparingly — its first great outdoor showing was the little Choragic Monument of Lysicrates in Athens — but the Romans made it their signature, crowning the Pantheon\'s portico, the Temple of Olympian Zeus and countless imperial monuments.', why: 'It shows how a form can be adopted and transformed. The order became less Greek and more Roman — proof that the tradition is a conversation, not a fixed rule.' },
+          { name: 'Height without heaviness', image: 'assets/detail/roman-pantheon-in.jpg', caption: 'Slender Corinthian columns let the Romans build tall, light and open, as inside the Pantheon.', body: 'Those slender proportions let the Corinthian rise tall and light, ideal for the many-columned interiors and lofty porticoes the Romans built at scale.', why: 'It pairs the tradition\'s love of ornament with its love of engineering — richness that also solves the problem of building high and open.' }
         ]
       },
       'practice': {
@@ -310,6 +329,8 @@ window.ARTS = [
       'reading': {
         title: 'Where to read',
         intro: 'The Roman remains are the great teachers here; read Vitruvius for the origin story.',
+        heroImage: 'assets/detail/roman-vitruvius.jpg',
+        heroCaption: 'Vitruvius tells the Corinthian\'s origin story; the Roman remains are its great teachers.',
         books: [
           { title: 'De Architectura, Book IV', author: 'Vitruvius', note: 'PRIMARY. The origin story of the Corinthian capital and Callimachus. Free online.' },
           { title: 'The Four Books of Architecture, Book I', author: 'Andrea Palladio', note: 'PRIMARY. Palladio\'s Corinthian, drawn from the Roman monuments he measured. Free scans.' },
@@ -321,9 +342,12 @@ window.ARTS = [
         title: 'The names',
         intro: 'A legendary inventor, and the Romans who made it their own.',
         figures: [
-          { name: 'Callimachus (5th c. BC)', what: 'The Greek sculptor to whom Vitruvius credits the invention of the acanthus capital.' },
-          { name: 'The builders of the Pantheon (2nd c. AD)', what: 'Whose vast Corinthian portico fronts the greatest surviving Roman interior.' },
-          { name: 'Roman imperial architects', what: 'Who spread the Corinthian across the empire as the standard order of magnificence.' }
+          { name: 'Callimachus (5th c. BC)', what: 'The Greek sculptor to whom Vitruvius credits the invention of the acanthus capital.',
+            works: ['The acanthus capital (by legend)'], link: 'https://en.wikipedia.org/wiki/Callimachus_(sculptor)' },
+          { name: 'The builders of the Pantheon (2nd c. AD)', what: 'Whose vast Corinthian portico fronts the greatest surviving Roman interior.',
+            works: ['The Pantheon, Rome'], link: 'https://en.wikipedia.org/wiki/Pantheon,_Rome' },
+          { name: 'Roman imperial architects', what: 'Who spread the Corinthian across the empire as the standard order of magnificence.',
+            works: ['The Temple of Olympian Zeus, Athens (completed under Hadrian)', 'The Temple of Mars Ultor, Rome'], link: 'https://en.wikipedia.org/wiki/Corinthian_order' }
         ]
       }
     }
@@ -343,11 +367,11 @@ window.ARTS = [
         title: 'What the Composite order is',
         intro: 'The Composite keeps the slender, based, fluted Corinthian column but crowns it with a hybrid capital: a full ring of acanthus leaves below, and prominent Ionic volutes above. It was used by the Romans on their grandest triumphal arches and, in the Renaissance, placed at the summit of the hierarchy of orders.',
         principles: [
-          { name: 'A deliberate fusion', body: 'The Composite is exactly what its name says — the large Ionic volutes set on top of the Corinthian\'s ring of acanthus leaves, in one capital richer than either alone. Big scrolls and foliage together.', why: 'It proves the "language" idea in the clearest way: a whole new order made by fusing two existing ones. The grammar is generative, not fixed.' },
-          { name: 'Rome\'s grand invention', body: 'Where Tuscan was Rome\'s plain native order, the Composite was Rome\'s magnificent one, developed in the late first century BC. Its oldest surviving example crowns the Arch of Titus in Rome — the order of victory and triumph.', why: 'It shows the Romans as inventors, not just inheritors, of the classical language. When a triumphal arch wanted to shout, it reached for the Composite.' },
-          { name: 'As tall and rich as Corinthian', body: 'The Composite keeps the slender, based, fluted Corinthian column — about ten diameters high — and carries an entablature as ornate as any, or richer. It is tuned for maximum splendour.', why: 'It sits with the Corinthian as the most attenuated and decorated of the five: the orders at their most lavish, where the building most wants to impress.' },
-          { name: 'Made the fifth order by the Renaissance', body: 'The Romans treated the Composite as merely a rich variant of the Corinthian, not a separate order. It was the Renaissance theorists — Alberti, Serlio, Vignola, Palladio, Scamozzi — who elevated it to a distinct fifth order and capped the canon with it.', why: 'It is the clearest proof that the tidy "five orders" is a Renaissance codification, not an ancient law. The fifth order was, in a sense, promoted into existence.' },
-          { name: 'The top of the hierarchy', body: 'The theorists arranged the orders as a rising scale of richness — Tuscan, Doric, Ionic, Corinthian, Composite — and set the Composite at the very summit, the most ornate and most honoured.', why: 'It completes the ladder from plain to rich, and gives a building its most magnificent possible crown when the top storey wants to sing.' }
+          { name: 'A deliberate fusion', image: 'assets/quiz/composite-capital.jpg', caption: 'The Composite: big Ionic volutes set on the Corinthian\'s ring of acanthus leaves — richer than either alone.', body: 'The Composite is exactly what its name says — the large Ionic volutes set on top of the Corinthian\'s ring of acanthus leaves, in one capital richer than either alone. Big scrolls and foliage together.', why: 'It proves the "language" idea in the clearest way: a whole new order made by fusing two existing ones. The grammar is generative, not fixed.' },
+          { name: 'Rome\'s grand invention', image: 'assets/detail/ord-archoftitus.jpg', caption: 'The Arch of Titus carries one of the oldest surviving uses of the Composite — the order of victory and triumph.', body: 'Where Tuscan was Rome\'s plain native order, the Composite was Rome\'s magnificent one, developed in the late first century BC. Its oldest surviving example crowns the Arch of Titus in Rome — the order of victory and triumph.', why: 'It shows the Romans as inventors, not just inheritors, of the classical language. When a triumphal arch wanted to shout, it reached for the Composite.' },
+          { name: 'As tall and rich as Corinthian', image: 'assets/orders/composite.jpg', caption: 'The Composite keeps the slender, based, fluted Corinthian column, tuned for maximum splendour.', body: 'The Composite keeps the slender, based, fluted Corinthian column — about ten diameters high — and carries an entablature as ornate as any, or richer. It is tuned for maximum splendour.', why: 'It sits with the Corinthian as the most attenuated and decorated of the five: the orders at their most lavish, where the building most wants to impress.' },
+          { name: 'Made the fifth order by the Renaissance', image: 'assets/detail/ord-fiveorders.jpg', caption: 'The Renaissance theorists elevated the Composite to a distinct fifth order and capped the canon with it.', body: 'The Romans treated the Composite as merely a rich variant of the Corinthian, not a separate order. It was the Renaissance theorists — Alberti, Serlio, Vignola, Palladio, Scamozzi — who elevated it to a distinct fifth order and capped the canon with it.', why: 'It is the clearest proof that the tidy "five orders" is a Renaissance codification, not an ancient law. The fifth order was, in a sense, promoted into existence.' },
+          { name: 'The top of the hierarchy', image: 'assets/detail/ord-septimius.jpg', caption: 'The Arch of Septimius Severus — the Composite set at the summit, a building\'s most magnificent crown.', body: 'The theorists arranged the orders as a rising scale of richness — Tuscan, Doric, Ionic, Corinthian, Composite — and set the Composite at the very summit, the most ornate and most honoured.', why: 'It completes the ladder from plain to rich, and gives a building its most magnificent possible crown when the top storey wants to sing.' }
         ]
       },
       'practice': {
@@ -362,6 +386,8 @@ window.ARTS = [
       'reading': {
         title: 'Where to read',
         intro: 'The Composite is a Renaissance codification of a Roman habit — read the theorists who fixed the five.',
+        heroImage: 'assets/detail/pall-plate.jpg',
+        heroCaption: 'Palladio and Vignola\'s plates fixed the five orders, the Composite included, for later builders.',
         books: [
           { title: 'The Four Books of Architecture, Book I', author: 'Andrea Palladio', note: 'PRIMARY. Palladio codifies the Composite as the fifth order. Free scans.' },
           { title: 'Regola delli cinque ordini', author: 'Vignola, 1562', note: 'PRIMARY. The rulebook that fixed all five orders, Composite included, for later builders.' },
@@ -372,9 +398,12 @@ window.ARTS = [
         title: 'The names',
         intro: 'An order of builders and theorists rather than one inventor.',
         figures: [
-          { name: 'The builders of the Arch of Titus (1st c. AD)', what: 'Whose triumphal arch carries one of the earliest grand uses of the Composite capital.' },
-          { name: 'Sebastiano Serlio (1475–1554)', what: 'Whose treatise helped fix the canon of five orders that placed the Composite at the summit.' },
-          { name: 'Andrea Palladio', what: 'Who drew and ranked the Composite as the fifth and richest order in his Four Books.' }
+          { name: 'The builders of the Arch of Titus (1st c. AD)', what: 'Whose triumphal arch carries one of the earliest grand uses of the Composite capital.',
+            works: ['The Arch of Titus, Roman Forum'], link: 'https://en.wikipedia.org/wiki/Arch_of_Titus' },
+          { name: 'Sebastiano Serlio (1475–1554)', portrait: 'assets/detail/portrait-serlio.jpg', what: 'Whose treatise helped fix the canon of five orders that placed the Composite at the summit.',
+            works: ['<i>Tutte l\'opere d\'architettura et prospetiva</i>'], link: 'https://en.wikipedia.org/wiki/Sebastiano_Serlio' },
+          { name: 'Andrea Palladio', portrait: 'assets/detail/portrait-palladio.jpg', what: 'Who drew and ranked the Composite as the fifth and richest order in his Four Books.',
+            works: ['<i>The Four Books of Architecture</i>', 'The Villa Rotonda, Vicenza', 'San Giorgio Maggiore, Venice'], link: 'https://en.wikipedia.org/wiki/Andrea_Palladio' }
         ]
       }
     }

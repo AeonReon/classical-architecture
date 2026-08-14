@@ -1,4 +1,4 @@
-const CACHE = 'classical-architecture-v26';
+const CACHE = 'classical-architecture-v27';
 const ASSETS = [
   './',
   './index.html',
@@ -130,6 +130,21 @@ const ASSETS = [
   './assets/detail/portrait-scott.jpg',
   './assets/detail/portrait-butterfield.jpg',
   './assets/detail/portrait-violletleduc.jpg',
+  './assets/detail/ord-fiveorders.jpg',
+  './assets/detail/ord-rustic.jpg',
+  './assets/detail/ord-paestum.jpg',
+  './assets/detail/ord-erechtheion.jpg',
+  './assets/detail/ord-lysicrates.jpg',
+  './assets/detail/ord-pantheon-portico.jpg',
+  './assets/detail/ord-modillions.jpg',
+  './assets/detail/ord-archoftitus.jpg',
+  './assets/detail/ord-septimius.jpg',
+  './assets/detail/ord-ionicfrieze.jpg',
+  './assets/detail/tus-covent.jpg',
+  './assets/detail/tus-arch.jpg',
+  './assets/detail/portrait-serlio.jpg',
+  './assets/detail/portrait-vignola.jpg',
+  './assets/detail/portrait-scamozzi.jpg',
   './quiz.html',
   './assets/quiz-data.js',
   './assets/quiz/doric-capital.jpg',
