@@ -65,6 +65,82 @@
       box-shadow:0 2px 7px rgba(0,0,0,.22); border:3px solid #fff; background:var(--m-soft,#eee); }
     .read-hero, .section-hero{ margin:0 0 16px; }
     .activity-card .actfig{ margin:2px 0 10px; }
+
+    /* ============================================================
+       Single-page "read it all here" profile (Wikipedia-style)
+       ============================================================ */
+    .wiki-hero{ margin:2px 0 6px; }
+    .wiki-hero .wh-eyebrow{ font:800 .68rem/1 var(--sans); letter-spacing:.12em; text-transform:uppercase; color:var(--m-deep,#7A360A); opacity:.9; }
+    .wiki-hero h1{ margin:.3em 0 0; font-weight:800; font-size:clamp(27px,7vw,38px); line-height:1.05; letter-spacing:-.02em; color:var(--ink); }
+    .wiki-hero .wh-essence{ margin:.55em 0 0; font-size:1.06em; line-height:1.5; color:var(--ink-soft); }
+    .wiki-banner{ position:relative; border-radius:18px; overflow:hidden; height:190px; margin:16px 0 6px; box-shadow:0 3px 8px rgba(60,45,20,.10),0 14px 32px rgba(60,45,20,.14); }
+    .wiki-banner img{ width:100%; height:100%; object-fit:cover; display:block; }
+    .wiki-banner figcaption{ position:absolute; left:0; right:0; bottom:0; padding:26px 15px 11px; font-size:.82em; line-height:1.4; color:#fff; background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.62)); }
+
+    /* Section label — matches the family accent rule */
+    .wiki-label{ font:800 .74rem/1 var(--sans); letter-spacing:.09em; text-transform:uppercase; color:var(--m-deep,#7A360A); margin:34px 0 14px; display:flex; align-items:center; gap:.6em; }
+    .wiki-label::after{ content:""; flex:1; height:1.5px; border-radius:2px; background:linear-gradient(90deg,color-mix(in srgb, var(--m-color,#B4560F) 50%, transparent),transparent); }
+
+    /* At a glance — quick-fact chips */
+    .wiki-glance{ display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:2px 0 2px; }
+    .wg-chip{ position:relative; background:#fff; border-radius:14px; padding:12px 14px; box-shadow:var(--shadow-sm); overflow:hidden; }
+    .wg-chip::before{ content:""; position:absolute; left:0; top:0; bottom:0; width:3.5px; background:linear-gradient(180deg,var(--m-color,#B4560F),var(--m-deep,#7A360A)); }
+    .wg-chip .wg-l{ font:800 .64rem/1 var(--sans); letter-spacing:.07em; text-transform:uppercase; color:var(--m-deep,#7A360A); opacity:.85; }
+    .wg-chip .wg-v{ margin-top:.4em; font-size:.94em; line-height:1.4; color:var(--ink); font-weight:600; }
+    @media (max-width:420px){ .wiki-glance{ grid-template-columns:1fr; } }
+
+    .wiki-prose p{ font-size:1.04em; line-height:1.66; color:var(--ink-soft); margin:0 0 .85em; }
+
+    /* Key features */
+    .wiki-feat{ display:flex; flex-direction:column; gap:14px; }
+    .wf-card{ background:#fff; border-radius:16px; overflow:hidden; box-shadow:var(--shadow-sm); }
+    .wf-card img{ display:block; width:100%; height:170px; object-fit:cover; }
+    .wf-body{ padding:14px 16px 16px; }
+    .wf-body h3{ margin:0 0 .35em; font-weight:800; font-size:1.1em; letter-spacing:-.01em; color:var(--ink); line-height:1.22; }
+    .wf-body p{ margin:0; font-size:.97em; line-height:1.56; color:var(--ink-soft); }
+    .wf-cap{ font-size:.82em; font-style:italic; color:var(--ink-mute); margin:0 0 .55em; }
+
+    /* How to spot it — checklist */
+    .wiki-spot{ background:linear-gradient(160deg,var(--m-soft,#F7E3D2),#FFFDF9); border-radius:16px; padding:6px 18px 8px; }
+    .wiki-spot li{ list-style:none; position:relative; padding:12px 0 12px 30px; font-size:1em; line-height:1.5; color:var(--ink-soft); border-bottom:1px solid color-mix(in srgb, var(--m-color,#B4560F) 18%, transparent); }
+    .wiki-spot li:last-child{ border-bottom:0; }
+    .wiki-spot ul{ margin:0; padding:0; }
+    .wiki-spot li::before{ content:"✓"; position:absolute; left:0; top:11px; font-weight:900; color:var(--m-deep,#7A360A); }
+    .wiki-spot u{ text-decoration:none; font-weight:700; color:var(--ink); border-bottom:2px solid color-mix(in srgb, var(--m-color,#B4560F) 55%, transparent); }
+
+    /* Memory aids */
+    .wiki-mem{ display:flex; flex-direction:column; gap:11px; }
+    .wm-card{ position:relative; background:#fff; border-radius:14px; padding:14px 16px 14px 18px; box-shadow:var(--shadow-sm); overflow:hidden; }
+    .wm-card::before{ content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:linear-gradient(180deg,var(--m-color,#B4560F),var(--m-deep,#7A360A)); }
+    .wm-kick{ font:800 .7rem/1 var(--sans); letter-spacing:.06em; text-transform:uppercase; color:var(--m-deep,#7A360A); margin-bottom:.4em; }
+    .wm-text{ font-size:1.0em; line-height:1.52; color:var(--ink); }
+
+    /* Famous buildings */
+    .wiki-ex{ display:flex; flex-direction:column; gap:14px; }
+    .we-card{ background:#fff; border-radius:16px; overflow:hidden; box-shadow:var(--shadow-sm); }
+    .we-card img{ display:block; width:100%; height:180px; object-fit:cover; }
+    .we-body{ padding:13px 16px 15px; }
+    .we-name{ font-weight:800; font-size:1.08em; color:var(--ink); line-height:1.2; }
+    .we-where{ margin:.25em 0 .5em; font:700 .8rem var(--sans); letter-spacing:.02em; text-transform:uppercase; color:var(--m-deep,#7A360A); opacity:.85; }
+    .we-note{ margin:0; font-size:.95em; line-height:1.5; color:var(--ink-soft); }
+
+    /* FAQ — tap-open drop-downs */
+    .wiki-faq details{ background:#fff; border-radius:14px; box-shadow:var(--shadow-sm); margin-bottom:10px; overflow:hidden; }
+    .wiki-faq summary{ list-style:none; cursor:pointer; padding:15px 44px 15px 16px; font-weight:700; font-size:1.01em; color:var(--ink); position:relative; }
+    .wiki-faq summary::-webkit-details-marker{ display:none; }
+    .wiki-faq summary::after{ content:"+"; position:absolute; right:16px; top:50%; transform:translateY(-50%); font:800 1.3em/1 var(--sans); color:var(--m-deep,#7A360A); transition:transform .2s ease; }
+    .wiki-faq details[open] summary::after{ content:"–"; }
+    .wiki-faq .fa-a{ padding:0 16px 16px; font-size:.98em; line-height:1.6; color:var(--ink-soft); }
+
+    /* Reading */
+    .wiki-books{ background:#fff; border-radius:16px; padding:6px 18px; box-shadow:var(--shadow-sm); }
+    .wiki-books ul{ margin:0; padding:0; }
+    .wiki-books li{ list-style:none; padding:14px 0; border-bottom:1px solid var(--rule); }
+    .wiki-books li:last-child{ border-bottom:0; }
+    .wiki-books .wb-title{ font-weight:800; color:var(--ink); }
+    .wiki-books .wb-auth{ color:var(--ink-mute); }
+    .wiki-books .wb-note{ display:block; margin-top:.3em; font-size:.9em; line-height:1.5; color:var(--ink-soft); }
+    .wiki-read{ display:inline-flex; align-items:center; gap:.5em; margin:30px 0 0; cursor:pointer; font:800 .95em var(--sans); color:var(--m-deep,#7A360A); background:#fff; border:1.6px solid currentColor; padding:.62em 1.2em; border-radius:999px; box-shadow:var(--shadow-sm); }
   </style>
 </head>
 <body class="method-page">
@@ -73,6 +149,7 @@
   <script src="assets/elements-data.js"></script>
   <script src="assets/styles-data.js"></script>
   <script src="assets/tryit-data.js"></script>
+  <script src="assets/profiles.js"></script>
   <script src="assets/app.js"></script>
   <script>
     const SUB_ICONS = {
@@ -130,9 +207,121 @@
       const sub = new URLSearchParams(location.search).get('s');
       if (sub && a.sections && a.sections[sub]) {
         renderSubSection(a, sub);
+      } else if (window.PROFILES && window.PROFILES[a.id]) {
+        renderProfilePage(a, window.PROFILES[a.id]);
       } else {
         renderArtLanding(a);
       }
+    }
+
+    function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+    // Single scrolling "read it all here" page, built from a PROFILE.
+    function renderProfilePage(a, p) {
+      const label = (t) => `<div class="wiki-label">${t}</div>`;
+
+      const glance = (p.atGlance && p.atGlance.length) ? `
+        ${label('At a glance')}
+        <div class="wiki-glance">
+          ${p.atGlance.map(g => `<div class="wg-chip"><div class="wg-l">${esc(g.label)}</div><div class="wg-v">${esc(g.value)}</div></div>`).join('')}
+        </div>` : '';
+
+      const overview = (p.overview && p.overview.length) ? `
+        ${label('What it is')}
+        <div class="wiki-prose">${p.overview.map(x => `<p>${esc(x)}</p>`).join('')}</div>
+        ${p.overviewImage ? `<figure class="wiki-banner"><img src="${esc(p.overviewImage.src)}" alt="" loading="lazy" onerror="this.closest('.wiki-banner').remove()">${p.overviewImage.caption ? `<figcaption>${esc(p.overviewImage.caption)}</figcaption>` : ''}</figure>` : ''}` : '';
+
+      const features = (p.features && p.features.length) ? `
+        ${label('Its key parts')}
+        <div class="wiki-feat">
+          ${p.features.map(f => `
+            <div class="wf-card">
+              ${f.image ? `<img src="${esc(f.image)}" alt="" loading="lazy" onerror="this.remove()">` : ''}
+              <div class="wf-body">
+                <h3>${esc(f.name)}</h3>
+                ${f.caption ? `<p class="wf-cap">${esc(f.caption)}</p>` : ''}
+                <p>${esc(f.body)}</p>
+              </div>
+            </div>`).join('')}
+        </div>` : '';
+
+      // spot bullets allow a whitelisted <u> for underlined key terms
+      const spot = (p.spot && p.spot.length) ? `
+        ${label('How to spot it')}
+        <div class="wiki-spot"><ul>${p.spot.map(s => `<li>${allowU(s)}</li>`).join('')}</ul></div>` : '';
+
+      const memory = (p.memory && p.memory.length) ? `
+        ${label('How to remember it')}
+        <div class="wiki-mem">
+          ${p.memory.map(m => `<div class="wm-card"><div class="wm-kick">${esc(m.kick)}</div><div class="wm-text">${esc(m.text)}</div></div>`).join('')}
+        </div>` : '';
+
+      const examples = (p.examples && p.examples.length) ? `
+        ${label('Famous examples')}
+        <div class="wiki-ex">
+          ${p.examples.map(e => `
+            <div class="we-card">
+              ${e.image ? `<img src="${esc(e.image)}" alt="" loading="lazy" onerror="this.remove()">` : ''}
+              <div class="we-body">
+                <div class="we-name">${esc(e.name)}</div>
+                ${e.where ? `<div class="we-where">${esc(e.where)}</div>` : ''}
+                <p class="we-note">${esc(e.note)}</p>
+              </div>
+            </div>`).join('')}
+        </div>` : '';
+
+      const architects = (p.architects && p.architects.length) ? `
+        ${label('The architects')}
+        ${p.architects.map(f => `
+          <div class="card master-card">
+            ${f.portrait
+              ? `<div class="master-head"><img class="master-avatar" src="${esc(f.portrait)}" alt="" loading="lazy" onerror="this.remove()"><h3>${esc(f.name)}</h3></div>`
+              : `<h3>${esc(f.name)}</h3>`}
+            <p>${esc(f.what)}</p>
+            ${f.works && f.works.length ? `<div class="master-works"><span class="mw-label">Key works</span><ul>${f.works.map(w => `<li>${w}</li>`).join('')}</ul></div>` : ''}
+            ${f.link ? `<a class="master-link" href="${esc(f.link)}" target="_blank" rel="noopener">Find out more →</a>` : ''}
+          </div>`).join('')}` : '';
+
+      const faq = (p.faq && p.faq.length) ? `
+        ${label('Questions')}
+        <div class="wiki-faq">
+          ${p.faq.map(f => `<details><summary>${esc(f.q)}</summary><div class="fa-a">${esc(f.a)}</div></details>`).join('')}
+        </div>` : '';
+
+      const books = (p.books && p.books.length) ? `
+        ${label('Where to read more')}
+        <div class="wiki-books"><ul>
+          ${p.books.map(b => `<li><span class="wb-title">${esc(b.title)}</span> <span class="wb-auth">— ${esc(b.author)}</span><span class="wb-note">${esc(b.note)}</span></li>`).join('')}
+        </ul></div>` : '';
+
+      root.innerHTML = `
+        <header class="wiki-hero">
+          <div class="wh-eyebrow">${esc(a.group)}</div>
+          <h1>${esc(a.name)}</h1>
+          ${p.essence ? `<p class="wh-essence">${esc(p.essence)}</p>` : ''}
+        </header>
+        ${glance}
+        ${overview}
+        ${features}
+        ${spot}
+        ${memory}
+        ${examples}
+        ${architects}
+        ${faq}
+        ${books}
+        <button class="wiki-read" id="wiki-read-btn">▶ Read this aloud</button>
+      `;
+      window.scrollTo(0, 0);
+      const rb = document.getElementById('wiki-read-btn');
+      if (rb) rb.addEventListener('click', () => {
+        if (window.Reader && window.Reader.speaking) { window.Reader.stop(); rb.textContent = '▶ Read this aloud'; }
+        else if (window.Reader) { window.Reader.readElement(root); rb.textContent = '⏹ Stop'; }
+      });
+    }
+
+    // Allow only <u>…</u> through; escape everything else.
+    function allowU(s) {
+      return esc(s).replace(/&lt;u&gt;/g, '<u>').replace(/&lt;\/u&gt;/g, '</u>');
     }
 
     function renderArtLanding(a) {
