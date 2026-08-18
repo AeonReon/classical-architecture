@@ -364,7 +364,7 @@
           cards.push(bar('do','🏛','One thing to notice today', d.name, d.body, () => openModal({
             type:'do', emoji:'🏛', kicker:'One thing to notice today', title:d.name,
             html:`<p>${esc(d.body)}</p><p class="cm-source">From ${esc(d.art)}</p>`
-              + `<a class="cm-morelink" href="art.html?id=${d.id}&s=practice">More from ${esc(d.art)} →</a>`
+              + `<a class="cm-morelink" href="art.html?id=${d.id}">More from ${esc(d.art)} →</a>`
           })));
         }
 
