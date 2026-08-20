@@ -141,6 +141,39 @@
     .wiki-books .wb-auth{ color:var(--ink-mute); }
     .wiki-books .wb-note{ display:block; margin-top:.3em; font-size:.9em; line-height:1.5; color:var(--ink-soft); }
     .wiki-read{ display:inline-flex; align-items:center; gap:.5em; margin:30px 0 0; cursor:pointer; font:800 .95em var(--sans); color:var(--m-deep,#7A360A); background:#fff; border:1.6px solid currentColor; padding:.62em 1.2em; border-radius:999px; box-shadow:var(--shadow-sm); }
+
+    /* ── Watch — one curated video per topic. Facade only: a thumbnail until
+       tapped, then the real player is injected, so nothing loads from YouTube
+       and no cookies are set on page load. The creator still gets the view.
+       `start` deep-links into a longer film (used by the five orders). ── */
+    .watch-sec{ margin:26px 0 8px; }
+    .watch-card{ border-radius:16px; overflow:hidden; background:#fff;
+      border:1.5px solid rgba(0,0,0,.09); box-shadow:0 2px 14px rgba(0,0,0,.06); }
+    .watch-play{ display:block; width:100%; padding:0; border:0; background:#0d0b12; cursor:pointer;
+      position:relative; aspect-ratio:16/9; line-height:0; }
+    .watch-play img{ width:100%; height:100%; object-fit:cover; opacity:.93;
+      transition:opacity .25s ease, transform .35s cubic-bezier(0.34,1.56,0.64,1); }
+    .watch-play:hover img{ opacity:1; transform:scale(1.03); }
+    .watch-btn{ position:absolute; inset:0; margin:auto; width:64px; height:64px; border-radius:50%;
+      background:linear-gradient(135deg,var(--c,#B07C3A),var(--cd,#2F4550));
+      box-shadow:0 6px 22px rgba(0,0,0,.38); display:flex; align-items:center; justify-content:center;
+      transition:transform .3s cubic-bezier(0.34,1.56,0.64,1); }
+    .watch-play:hover .watch-btn{ transform:scale(1.1); }
+    .watch-btn::after{ content:""; width:0; height:0; margin-left:5px;
+      border-left:19px solid #fff; border-top:12px solid transparent; border-bottom:12px solid transparent; }
+    .watch-len{ position:absolute; right:9px; bottom:9px; background:rgba(12,10,18,.82); color:#fff;
+      font:800 .78rem/1 -apple-system,system-ui,sans-serif; padding:5px 8px; border-radius:7px; }
+    .watch-card iframe{ display:block; width:100%; aspect-ratio:16/9; border:0; }
+    .watch-tt{ padding:14px 16px 15px; }
+    .watch-name{ font:800 1.04em/1.32 -apple-system,system-ui,sans-serif; letter-spacing:-.01em; }
+    .watch-meta{ margin-top:5px; font:700 .84em -apple-system,system-ui,sans-serif; color:var(--cd,#2F4550); }
+    .watch-meta span{ opacity:.6; font-weight:600; }
+    .watch-why{ margin:10px 0 0; font-size:.96em; line-height:1.6; }
+    .watch-note{ margin-top:11px; padding:10px 12px; border-radius:11px; background:rgba(0,0,0,.045);
+      font-size:.88em; line-height:1.55; }
+    .watch-note b{ color:var(--cd,#2F4550); }
+    .watch-out{ display:inline-block; margin-top:11px; font:700 .86em -apple-system,system-ui,sans-serif;
+      opacity:.6; text-decoration:none; color:inherit; }
   </style>
 </head>
 <body class="method-page">
@@ -148,6 +181,7 @@
 
   <script src="assets/elements-data.js"></script>
   <script src="assets/styles-data.js"></script>
+  <script src="assets/videos-data.js"></script>
   <script src="assets/tryit-data.js"></script>
   <script src="assets/profiles.js"></script>
   <script src="assets/app.js"></script>
@@ -339,6 +373,8 @@
         `;
       }).join('');
 
+      const watchHtml = watchBlock(a);
+
       root.innerHTML = `
         ${a.image ? `<div class="art-banner"><img src="${a.image}" alt="" onerror="this.parentNode.remove()"></div>` : ''}
         <header class="method-hero">
@@ -352,7 +388,9 @@
           <h2>Explore</h2>
           <div class="rtile-list">${subTiles}</div>
         </section>
+        ${watchHtml}
       `;
+      wireWatch(root);
     }
 
     function renderSubSection(a, key) {
@@ -458,6 +496,56 @@
         });
       }
       if (key === 'try-it') wireTryIt(s);
+    }
+
+    // ── Watch ──────────────────────────────────────────────────────────
+    // One curated video per topic (assets/videos-data.js). Rendered as a
+    // facade: a thumbnail with a play button, and only on tap do we inject the
+    // real player. Keeps every page fast and cookie-free until it is wanted.
+    function fmtViews(n){
+      n = Number(n) || 0;
+      if (n >= 1e6) return (n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, '') + 'M';
+      if (n >= 1e3) return Math.round(n / 1e3) + 'K';
+      return String(n);
+    }
+
+    function watchBlock(a){
+      const v = (window.VIDEOS || {})[a.id];
+      if (!v) return '';
+      const e = x => String(x == null ? '' : x).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+      const link = 'https://www.youtube.com/watch?v=' + e(v.id) + (v.start ? '&t=' + v.start : '');
+      return `
+        <section class="sub-tile-section watch-sec" style="--c:${a.color};--cd:${a.colorDeep};">
+          <h2>Watch</h2>
+          <div class="watch-card">
+            <button type="button" class="watch-play" data-vid="${e(v.id)}" data-start="${v.start || 0}" aria-label="Play: ${e(v.title)}">
+              <img src="https://i.ytimg.com/vi/${e(v.id)}/maxresdefault.jpg" alt="" loading="lazy"
+                   onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${e(v.id)}/hqdefault.jpg'">
+              <span class="watch-btn"></span>
+              ${v.mins ? `<span class="watch-len">${e(v.mins)}</span>` : ''}
+            </button>
+            <div class="watch-tt">
+              <div class="watch-name">${e(v.title)}</div>
+              <div class="watch-meta">${e(v.channel)}${v.views ? ` <span>· ${fmtViews(v.views)} views</span>` : ''}</div>
+              ${v.why ? `<p class="watch-why">${e(v.why)}</p>` : ''}
+              ${v.note ? `<div class="watch-note"><b>Worth knowing:</b> ${e(v.note)}</div>` : ''}
+              <a class="watch-out" href="${link}" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+            </div>
+          </div>
+        </section>`;
+    }
+
+    function wireWatch(scope){
+      scope.querySelectorAll('.watch-play').forEach(btn => btn.addEventListener('click', () => {
+        const start = Number(btn.dataset.start) || 0;
+        const f = document.createElement('iframe');
+        f.src = 'https://www.youtube-nocookie.com/embed/' + btn.dataset.vid
+              + '?autoplay=1&rel=0&modestbranding=1' + (start ? '&start=' + start : '');
+        f.title = btn.getAttribute('aria-label') || 'Video';
+        f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        f.allowFullscreen = true;
+        btn.replaceWith(f);
+      }));
     }
 
     function renderTryIt(s) {

@@ -1,4 +1,4 @@
-const CACHE = 'classical-architecture-v42';
+const CACHE = 'classical-architecture-v43';
 const ASSETS = [
   './',
   './index.html',
@@ -14,6 +14,7 @@ const ASSETS = [
   './assets/reader.js',
   './assets/elements-data.js',
   './assets/styles-data.js',
+  './assets/videos-data.js',
   './assets/tryit-data.js',
   './assets/profiles.js',
   './assets/daily-data.js',
