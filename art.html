@@ -341,10 +341,12 @@
         ${memory}
         ${examples}
         ${architects}
+        ${watchBlock(a)}
         ${faq}
         ${books}
         <button class="wiki-read" id="wiki-read-btn">▶ Read this aloud</button>
       `;
+      wireWatch(root);
       window.scrollTo(0, 0);
       const rb = document.getElementById('wiki-read-btn');
       if (rb) rb.addEventListener('click', () => {
@@ -373,8 +375,6 @@
         `;
       }).join('');
 
-      const watchHtml = watchBlock(a);
-
       root.innerHTML = `
         ${a.image ? `<div class="art-banner"><img src="${a.image}" alt="" onerror="this.parentNode.remove()"></div>` : ''}
         <header class="method-hero">
@@ -388,9 +388,7 @@
           <h2>Explore</h2>
           <div class="rtile-list">${subTiles}</div>
         </section>
-        ${watchHtml}
       `;
-      wireWatch(root);
     }
 
     function renderSubSection(a, key) {
